@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Patient History - Hospital Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Hospital Portal</h2>
+        <a href="/">Dashboard</a>
+        <a href="/patients">Patient Records</a>
+        <a href="/search" class="active">Search Patient</a>
+        <a href="/predict">Predict Stay</a>
+        <a href="/performance">Model Performance</a>
+    </div>
+
+    <div class="main-content">
+        <h1>Patient Medical History Search</h1>
+        <p class="subtitle">Look up any patient record to review complete clinical history, vital signs, and comorbidity indicators.</p>
+
+        <!-- Search Input Card -->
+        <div class="card" style="margin-bottom: 25px; max-width: 600px;">
+            <h3 style="margin-bottom: 15px;">Search Patient ID</h3>
+            <form method="POST">
+                <div style="display: flex; gap: 12px;">
+                    <input type="text" name="patient_id" placeholder="e.g. P0001" required style="flex: 1;">
+                    <button type="submit" class="btn-submit" style="padding: 14px 24px;">Search Records</button>
+                </div>
+            </form>
+
+            {% if error %}
+            <div style="margin-top: 15px; background: #fee2e2; color: #b91c1c; padding: 12px; border-radius: 8px; border-left: 4px solid #ef4444; font-size: 14px;">
+                {{ error }}
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Patient Clinical History Profile (All 17 Columns) -->
+        {% if patient %}
+        <div class="card" style="border-top: 4px solid #0284c7;">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 20px;">
+                <h3 style="margin: 0; color: #0f172a; font-size: 18px;">Patient Clinical Profile & Medical History</h3>
+                <span style="background: #d1fae5; color: #065f46; padding: 6px 14px; border-radius: 20px; font-weight: 600; font-size: 13px;">Record Found: {{ patient.Patient_ID }}</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px;">
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Patient ID</span>
+                    <strong style="color: #0284c7; font-size: 15px;">{{ patient.Patient_ID }}</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Age</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Age }} yrs</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Gender</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Gender }}</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Primary Disease</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Disease }}</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Condition Severity</span>
+                    <strong style="font-size: 15px; color: {% if patient.Severity == 'Severe' %}#b91c1c{% elif patient.Severity == 'Moderate' %}#b45309{% else %}#047857{% endif %};">{{ patient.Severity }}</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Admission Type</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Admission_Type }}</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Systolic BP</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Systolic_BP }} mmHg</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Diastolic BP</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Diastolic_BP }} mmHg</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Heart Rate</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Heart_Rate }} bpm</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Respiratory Rate</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Respiratory_Rate }} /min</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Temperature</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Temperature }} °F</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Oxygen Saturation</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Oxygen_Saturation }}%</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Diabetes Status</span>
+                    <strong style="font-size: 15px; color: {% if patient.Diabetes|lower in ['yes', '1', 'true'] %}#b91c1c{% else %}#047857{% endif %};">{{ patient.Diabetes }}</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Hypertension Status</span>
+                    <strong style="font-size: 15px; color: {% if patient.Hypertension|lower in ['yes', '1', 'true'] %}#b91c1c{% else %}#047857{% endif %};">{{ patient.Hypertension }}</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Previous Hospitalization</span>
+                    <strong style="color: #1e293b; font-size: 15px;">{{ patient.Previous_Hospitalization }}</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Length of Stay</span>
+                    <strong style="color: #0f172a; font-size: 15px;">{{ patient.Length_of_Stay_Days }} Days</strong>
+                </div>
+                <div style="background: #f8fafc; padding: 14px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600; text-transform: uppercase;">Long Stay Flag</span>
+                    <strong style="font-size: 15px; color: {% if patient.Long_Stay == 1 %}#d97706{% else %}#059669{% endif %};">{{ patient.Long_Stay }}</strong>
+                </div>
+            </div>
+
+            <!-- Clinical Safety Warning Box -->
+            <div style="margin-top: 20px; background: #fffbeb; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 8px;">
+                <h4 style="margin: 0 0 6px 0; color: #b45309; font-size: 14px;">Clinical Safety & Pre-Op Review</h4>
+                <p style="margin: 0; color: #92400e; font-size: 13px; line-height: 1.5;">
+                    Review all active comorbidity flags (Diabetes: <strong>{{ patient.Diabetes }}</strong>, Hypertension: <strong>{{ patient.Hypertension }}</strong>) and hemodynamic vitals prior to scheduling any surgical procedures or administering anesthesia.
+                </p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

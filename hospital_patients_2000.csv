@@ -1,0 +1,2001 @@
+Patient_ID,Age,Gender,Disease,Severity,Admission_Type,Systolic_BP,Diastolic_BP,Heart_Rate,Respiratory_Rate,Temperature,Oxygen_Saturation,Diabetes,Hypertension,Previous_Hospitalization,Length_of_Stay_Days,Long_Stay
+P0001,65,Male,Gastroenteritis,Severe,Emergency,123,84,83,20,37.9,93,No,No,No,6,1
+P0002,50,Female,Pneumonia,Severe,Emergency,112,70,88,18,38.1,91,No,No,Yes,13,1
+P0003,18,Male,Heart Disease,Mild,Scheduled,123,63,74,18,37.0,99,No,No,No,4,0
+P0004,37,Male,Heart Disease,Severe,Emergency,123,82,91,19,36.5,91,No,No,No,15,1
+P0005,54,Male,Pneumonia,Moderate,Emergency,114,73,65,19,36.8,94,No,No,No,5,0
+P0006,35,Female,Gastroenteritis,Mild,Scheduled,127,77,59,15,37.1,97,No,No,No,4,0
+P0007,95,Female,Pneumonia,Severe,Emergency,134,70,98,19,37.3,91,No,Yes,No,11,1
+P0008,74,Female,Pneumonia,Moderate,Scheduled,130,79,80,26,37.6,88,Yes,No,No,6,1
+P0009,65,Male,Pneumonia,Severe,Emergency,111,70,96,21,37.4,91,No,Yes,No,7,1
+P0010,83,Female,Diabetes,Moderate,Scheduled,141,79,84,16,37.9,98,Yes,No,Yes,10,1
+P0011,35,Female,Diabetes,Moderate,Emergency,137,77,82,16,36.6,94,Yes,No,No,5,0
+P0012,41,Female,Asthma,Moderate,Emergency,121,94,108,9,37.6,94,No,No,No,5,0
+P0013,18,Male,Gastroenteritis,Mild,Emergency,108,84,82,16,36.6,98,No,No,No,1,0
+P0014,81,Female,Diabetes,Mild,Emergency,145,70,59,19,36.3,98,Yes,Yes,No,3,0
+P0015,65,Male,Asthma,Mild,Scheduled,132,83,81,12,36.5,97,No,No,Yes,1,0
+P0016,52,Female,Diabetes,Moderate,Emergency,115,87,108,15,37.0,95,Yes,No,Yes,11,1
+P0017,55,Male,Asthma,Moderate,Scheduled,133,89,80,17,36.5,93,No,Yes,No,6,1
+P0018,40,Female,Gastroenteritis,Moderate,Scheduled,122,85,100,14,37.1,97,No,No,No,1,0
+P0019,61,Female,Appendicitis,Mild,Emergency,110,85,70,18,36.8,96,No,No,Yes,7,1
+P0020,74,Female,Gastroenteritis,Mild,Emergency,122,87,69,18,37.0,99,Yes,No,No,3,0
+P0021,68,Female,Diabetes,Moderate,Scheduled,130,77,63,17,37.6,94,Yes,Yes,Yes,8,1
+P0022,56,Male,Diabetes,Moderate,Scheduled,121,76,83,18,36.6,94,No,No,No,3,0
+P0023,18,Female,Kidney Disease,Moderate,Emergency,119,77,81,15,37.3,95,No,No,No,6,1
+P0024,49,Male,COPD,Severe,Scheduled,147,86,90,18,37.2,88,No,Yes,Yes,12,1
+P0025,44,Female,Pneumonia,Moderate,Emergency,139,73,76,14,37.4,92,No,No,No,6,1
+P0026,64,Female,Asthma,Mild,Scheduled,122,83,75,17,35.9,99,No,No,No,1,0
+P0027,48,Female,COPD,Severe,Scheduled,137,95,120,24,37.6,89,No,Yes,No,13,1
+P0028,50,Female,Kidney Disease,Mild,Scheduled,107,72,64,13,37.0,96,No,No,No,5,0
+P0029,54,Female,Diabetes,Severe,Scheduled,117,98,100,16,37.4,90,No,No,No,12,1
+P0030,85,Female,Diabetes,Severe,Emergency,146,69,104,22,37.8,93,Yes,No,Yes,12,1
+P0031,88,Male,Pneumonia,Mild,Scheduled,122,92,64,18,36.7,98,No,No,Yes,5,0
+P0032,39,Female,COPD,Severe,Emergency,119,86,77,21,37.5,88,No,No,No,9,1
+P0033,51,Female,Diabetes,Moderate,Emergency,114,69,88,15,36.6,97,Yes,No,No,6,1
+P0034,49,Female,Heart Disease,Moderate,Scheduled,119,81,92,20,36.8,95,No,Yes,No,8,1
+P0035,71,Female,Heart Disease,Severe,Emergency,122,76,96,15,37.3,91,No,Yes,Yes,11,1
+P0036,34,Female,Asthma,Moderate,Emergency,157,66,77,17,36.9,96,No,No,No,5,0
+P0037,24,Male,Heart Disease,Moderate,Emergency,127,81,79,18,36.7,92,No,No,No,8,1
+P0038,62,Male,Gastroenteritis,Mild,Scheduled,106,77,80,12,36.7,98,No,Yes,No,3,0
+P0039,77,Male,Asthma,Mild,Scheduled,126,76,73,15,37.4,95,No,No,No,3,0
+P0040,48,Female,Diabetes,Moderate,Emergency,118,73,107,16,36.4,94,No,No,Yes,5,0
+P0041,18,Female,Appendicitis,Severe,Emergency,137,83,91,23,38.0,91,No,Yes,No,8,1
+P0042,50,Male,Appendicitis,Moderate,Scheduled,153,79,99,20,36.2,96,No,No,Yes,7,1
+P0043,58,Male,Diabetes,Mild,Scheduled,102,80,45,12,36.9,96,Yes,No,No,7,1
+P0044,65,Female,COPD,Severe,Emergency,157,69,108,20,37.6,89,No,Yes,No,10,1
+P0045,65,Female,Heart Disease,Severe,Emergency,124,74,99,21,37.1,94,No,Yes,Yes,9,1
+P0046,56,Male,Pneumonia,Mild,Emergency,125,84,54,21,36.8,96,No,No,Yes,4,0
+P0047,59,Female,Pneumonia,Moderate,Scheduled,125,78,77,17,36.9,92,No,No,No,4,0
+P0048,34,Female,Gastroenteritis,Moderate,Emergency,111,63,100,19,36.4,99,No,Yes,No,4,0
+P0049,61,Male,Asthma,Moderate,Emergency,124,76,82,11,36.0,95,No,No,No,6,1
+P0050,55,Male,Kidney Disease,Severe,Emergency,105,67,105,18,36.7,91,No,No,No,6,1
+P0051,49,Female,Kidney Disease,Moderate,Emergency,123,73,84,17,36.5,95,No,No,No,8,1
+P0052,54,Female,Diabetes,Moderate,Scheduled,121,74,82,20,36.5,95,No,No,No,6,1
+P0053,43,Female,Heart Disease,Moderate,Scheduled,116,88,80,13,37.2,91,No,No,No,8,1
+P0054,43,Male,Heart Disease,Mild,Scheduled,125,84,60,12,36.6,95,No,No,Yes,7,1
+P0055,54,Male,Asthma,Severe,Emergency,131,84,109,19,36.8,95,No,No,Yes,8,1
+P0056,33,Female,COPD,Severe,Emergency,107,80,94,23,37.0,87,No,Yes,No,9,1
+P0057,45,Female,Heart Disease,Moderate,Scheduled,132,76,91,16,37.0,93,Yes,No,No,5,0
+P0058,18,Female,Gastroenteritis,Mild,Scheduled,86,65,76,14,36.7,98,No,No,No,4,0
+P0059,36,Female,Diabetes,Mild,Scheduled,118,83,59,16,36.4,94,No,No,Yes,5,0
+P0060,65,Female,Gastroenteritis,Moderate,Emergency,114,80,87,15,36.7,95,No,Yes,Yes,6,1
+P0061,35,Male,Kidney Disease,Severe,Emergency,123,76,78,20,37.9,94,No,No,No,10,1
+P0062,81,Male,Gastroenteritis,Moderate,Emergency,130,67,94,17,36.3,94,No,Yes,Yes,9,1
+P0063,23,Male,Kidney Disease,Severe,Emergency,108,77,89,16,36.9,93,No,Yes,No,8,1
+P0064,65,Male,Kidney Disease,Moderate,Emergency,91,72,78,12,38.0,95,No,Yes,Yes,7,1
+P0065,67,Female,Heart Disease,Moderate,Emergency,127,71,84,19,36.9,97,No,Yes,Yes,12,1
+P0066,44,Female,Asthma,Moderate,Emergency,121,69,88,17,36.7,92,No,No,No,5,0
+P0067,28,Female,COPD,Severe,Emergency,135,57,102,18,37.7,89,No,No,Yes,12,1
+P0068,72,Male,Appendicitis,Moderate,Emergency,133,78,84,18,36.9,95,Yes,No,Yes,7,1
+P0069,48,Male,Appendicitis,Mild,Scheduled,134,82,81,13,37.6,99,Yes,Yes,No,5,0
+P0070,33,Male,Kidney Disease,Mild,Scheduled,117,85,73,15,36.5,98,No,Yes,No,8,1
+P0071,44,Female,Pneumonia,Mild,Emergency,114,82,83,20,37.2,94,No,No,No,7,1
+P0072,57,Female,Kidney Disease,Mild,Scheduled,130,80,79,17,37.5,96,No,No,No,6,1
+P0073,32,Female,Pneumonia,Moderate,Emergency,115,80,82,16,38.0,94,No,No,No,4,0
+P0074,49,Male,Asthma,Mild,Scheduled,138,85,63,15,37.1,96,No,No,No,3,0
+P0075,53,Female,COPD,Moderate,Scheduled,90,77,89,17,37.4,93,No,No,No,5,0
+P0076,61,Female,Kidney Disease,Severe,Emergency,134,65,84,19,36.7,91,No,No,Yes,8,1
+P0077,28,Female,Heart Disease,Moderate,Emergency,137,78,119,23,36.8,95,No,No,No,6,1
+P0078,41,Female,Gastroenteritis,Mild,Scheduled,105,78,92,18,37.3,100,No,No,No,2,0
+P0079,41,Female,Pneumonia,Moderate,Scheduled,115,73,87,21,37.4,89,Yes,No,No,8,1
+P0080,45,Female,Asthma,Moderate,Scheduled,124,86,63,20,37.0,95,No,No,No,3,0
+P0081,18,Male,Pneumonia,Severe,Scheduled,98,90,95,19,37.9,92,No,No,Yes,12,1
+P0082,33,Male,Pneumonia,Severe,Scheduled,116,95,102,16,37.1,92,No,No,No,7,1
+P0083,48,Male,Heart Disease,Moderate,Emergency,120,79,92,16,36.1,95,No,No,No,4,0
+P0084,24,Male,Asthma,Severe,Emergency,109,83,81,22,36.5,91,No,No,No,8,1
+P0085,21,Female,Heart Disease,Severe,Emergency,136,88,85,18,38.0,93,No,Yes,No,8,1
+P0086,43,Male,Gastroenteritis,Mild,Scheduled,111,86,83,15,36.9,100,No,No,No,1,0
+P0087,79,Female,Heart Disease,Severe,Emergency,173,89,92,16,36.8,91,No,Yes,Yes,11,1
+P0088,39,Male,Appendicitis,Moderate,Scheduled,120,73,77,16,36.6,93,No,No,Yes,3,0
+P0089,19,Female,Pneumonia,Mild,Scheduled,117,71,79,18,36.6,99,No,No,No,1,0
+P0090,63,Female,Heart Disease,Severe,Scheduled,120,70,84,15,37.3,97,No,No,No,9,1
+P0091,50,Female,Asthma,Moderate,Scheduled,138,72,88,20,36.7,94,No,No,No,1,0
+P0092,58,Female,Pneumonia,Severe,Emergency,132,80,82,18,37.5,88,Yes,No,Yes,10,1
+P0093,63,Male,Pneumonia,Moderate,Scheduled,108,85,87,16,36.7,93,No,No,Yes,5,0
+P0094,61,Female,Gastroenteritis,Mild,Scheduled,118,71,82,8,36.3,97,No,No,No,3,0
+P0095,26,Male,Pneumonia,Moderate,Scheduled,119,87,93,18,37.0,93,No,No,No,7,1
+P0096,42,Male,Pneumonia,Moderate,Emergency,117,81,101,15,37.6,93,No,No,No,7,1
+P0097,30,Male,Diabetes,Severe,Emergency,102,78,100,24,37.0,91,No,No,Yes,7,1
+P0098,29,Female,Diabetes,Moderate,Emergency,118,83,99,16,38.0,95,No,No,No,9,1
+P0099,75,Male,Heart Disease,Moderate,Emergency,115,62,89,14,37.4,93,No,No,No,10,1
+P0100,18,Female,Diabetes,Moderate,Scheduled,118,71,83,17,36.9,96,Yes,No,No,2,0
+P0101,39,Female,Asthma,Moderate,Scheduled,111,89,82,18,37.0,93,No,Yes,No,4,0
+P0102,40,Male,Pneumonia,Mild,Emergency,125,78,65,11,37.9,96,No,No,No,5,0
+P0103,51,Female,Heart Disease,Severe,Emergency,107,73,88,15,37.0,92,No,Yes,No,9,1
+P0104,57,Female,Gastroenteritis,Mild,Scheduled,127,70,80,19,37.5,98,No,No,No,2,0
+P0105,36,Male,Gastroenteritis,Mild,Scheduled,126,77,74,18,37.1,95,No,No,No,3,0
+P0106,45,Male,Diabetes,Severe,Emergency,118,77,110,15,37.9,93,No,No,No,11,1
+P0107,54,Male,Asthma,Mild,Emergency,139,74,55,15,37.0,96,Yes,No,No,7,1
+P0108,54,Male,Pneumonia,Severe,Emergency,126,71,88,19,37.5,90,No,No,No,10,1
+P0109,53,Male,Kidney Disease,Severe,Scheduled,134,77,88,19,36.5,93,No,No,No,7,1
+P0110,65,Female,Kidney Disease,Mild,Emergency,145,71,84,17,36.2,95,No,Yes,No,5,0
+P0111,37,Female,Gastroenteritis,Moderate,Emergency,116,84,90,16,37.0,97,No,No,No,4,0
+P0112,33,Male,Heart Disease,Moderate,Emergency,125,79,60,20,36.9,95,No,No,No,7,1
+P0113,37,Male,Heart Disease,Severe,Emergency,128,84,101,23,37.5,93,No,No,No,14,1
+P0114,67,Female,Diabetes,Mild,Emergency,106,81,81,13,36.6,96,No,No,No,5,0
+P0115,81,Female,Asthma,Mild,Scheduled,107,71,69,15,37.2,97,Yes,No,No,4,0
+P0116,51,Female,Gastroenteritis,Moderate,Scheduled,89,82,97,22,37.2,95,No,No,No,1,0
+P0117,18,Female,Asthma,Mild,Emergency,128,76,65,17,36.7,99,No,No,No,8,1
+P0118,36,Male,Gastroenteritis,Mild,Scheduled,118,88,80,9,37.2,97,No,No,No,1,0
+P0119,50,Female,Gastroenteritis,Moderate,Scheduled,120,70,81,16,37.1,97,No,No,No,2,0
+P0120,55,Female,Pneumonia,Moderate,Scheduled,129,75,82,23,37.1,90,No,No,No,5,0
+P0121,33,Male,Diabetes,Moderate,Scheduled,113,67,85,19,37.3,92,Yes,No,No,6,1
+P0122,21,Female,Heart Disease,Severe,Emergency,119,79,121,21,38.0,93,No,No,No,10,1
+P0123,59,Male,Pneumonia,Mild,Emergency,136,86,66,12,38.0,94,No,No,No,4,0
+P0124,46,Female,Pneumonia,Mild,Scheduled,120,80,80,15,36.7,94,No,No,No,6,1
+P0125,41,Female,Appendicitis,Severe,Scheduled,128,85,103,21,36.6,91,No,No,No,4,0
+P0126,53,Male,Kidney Disease,Severe,Emergency,120,86,100,25,37.3,94,No,Yes,Yes,14,1
+P0127,60,Female,Kidney Disease,Mild,Scheduled,127,73,69,22,36.8,99,No,No,Yes,4,0
+P0128,33,Male,Diabetes,Mild,Emergency,120,97,68,17,36.8,96,No,Yes,Yes,7,1
+P0129,49,Male,Appendicitis,Mild,Emergency,110,70,73,18,37.2,97,Yes,No,No,6,1
+P0130,57,Male,Appendicitis,Mild,Emergency,119,67,88,15,37.0,98,No,No,No,4,0
+P0131,71,Male,Kidney Disease,Moderate,Emergency,124,82,96,18,36.7,94,No,No,Yes,7,1
+P0132,53,Female,Gastroenteritis,Mild,Emergency,114,83,87,17,36.5,99,No,No,No,3,0
+P0133,37,Female,COPD,Severe,Scheduled,138,99,102,17,37.3,92,Yes,Yes,No,12,1
+P0134,18,Female,Kidney Disease,Mild,Scheduled,143,106,81,12,37.4,96,No,No,No,3,0
+P0135,25,Male,Asthma,Mild,Emergency,117,61,92,20,36.4,97,No,No,No,5,0
+P0136,63,Male,Gastroenteritis,Moderate,Scheduled,94,69,67,18,37.1,91,No,Yes,Yes,8,1
+P0137,66,Male,Diabetes,Severe,Emergency,126,86,101,18,37.9,94,Yes,No,Yes,9,1
+P0138,48,Female,Diabetes,Moderate,Scheduled,136,82,82,21,37.1,93,No,No,No,4,0
+P0139,61,Female,Appendicitis,Moderate,Scheduled,129,78,94,13,36.6,99,No,Yes,No,5,0
+P0140,59,Male,Appendicitis,Moderate,Scheduled,106,83,71,12,36.5,97,No,No,Yes,8,1
+P0141,57,Female,COPD,Moderate,Scheduled,116,76,83,16,36.9,95,No,No,No,6,1
+P0142,95,Female,Appendicitis,Severe,Emergency,110,70,75,25,37.4,90,No,No,No,10,1
+P0143,75,Male,Pneumonia,Moderate,Emergency,114,74,76,13,37.1,94,No,No,Yes,9,1
+P0144,24,Female,Appendicitis,Mild,Scheduled,125,76,81,17,36.7,96,No,No,Yes,2,0
+P0145,48,Female,Heart Disease,Moderate,Emergency,132,78,87,15,37.1,98,No,No,Yes,5,0
+P0146,39,Female,Heart Disease,Moderate,Scheduled,113,78,82,12,36.8,95,No,Yes,Yes,11,1
+P0147,68,Female,Asthma,Severe,Emergency,120,96,79,18,37.6,93,No,No,No,8,1
+P0148,68,Female,Diabetes,Mild,Scheduled,119,83,59,15,37.2,95,Yes,No,Yes,6,1
+P0149,39,Male,Appendicitis,Severe,Emergency,117,102,107,23,37.2,92,No,No,Yes,9,1
+P0150,67,Male,Pneumonia,Moderate,Scheduled,103,70,60,17,36.9,95,No,Yes,No,8,1
+P0151,71,Female,Pneumonia,Moderate,Scheduled,135,83,95,17,37.1,91,Yes,No,No,13,1
+P0152,72,Female,COPD,Moderate,Emergency,128,98,93,16,36.8,93,No,No,No,8,1
+P0153,94,Female,Asthma,Mild,Scheduled,119,79,94,16,37.1,98,Yes,Yes,No,4,0
+P0154,27,Male,Pneumonia,Severe,Emergency,114,77,83,22,37.6,90,Yes,No,Yes,13,1
+P0155,69,Male,Diabetes,Moderate,Scheduled,124,79,97,14,37.8,95,Yes,Yes,No,4,0
+P0156,46,Male,Pneumonia,Moderate,Emergency,132,83,73,14,36.9,91,Yes,No,No,7,1
+P0157,35,Male,Diabetes,Mild,Scheduled,125,67,80,15,37.1,98,No,No,Yes,3,0
+P0158,63,Male,Kidney Disease,Severe,Emergency,138,77,74,16,36.8,95,No,No,No,7,1
+P0159,72,Female,Pneumonia,Severe,Scheduled,142,69,91,23,36.9,94,No,Yes,No,5,0
+P0160,69,Female,Asthma,Mild,Emergency,111,71,61,15,37.0,96,No,No,No,4,0
+P0161,30,Female,Appendicitis,Severe,Emergency,130,64,96,19,37.8,92,No,Yes,Yes,9,1
+P0162,88,Female,Diabetes,Moderate,Emergency,132,86,83,20,37.0,98,No,No,No,8,1
+P0163,69,Male,COPD,Mild,Scheduled,121,87,72,15,37.1,94,No,No,Yes,6,1
+P0164,61,Female,COPD,Moderate,Emergency,140,79,103,19,36.8,95,No,No,No,6,1
+P0165,26,Female,Asthma,Moderate,Scheduled,119,72,92,17,36.1,94,No,Yes,No,5,0
+P0166,37,Male,Asthma,Moderate,Emergency,128,78,72,20,36.7,96,Yes,Yes,No,5,0
+P0167,42,Female,Kidney Disease,Moderate,Emergency,156,75,78,22,36.5,93,No,No,No,9,1
+P0168,40,Female,Appendicitis,Moderate,Scheduled,132,67,89,17,36.8,95,No,No,Yes,5,0
+P0169,54,Female,Heart Disease,Mild,Scheduled,94,78,91,12,36.1,99,No,No,No,2,0
+P0170,55,Male,Asthma,Mild,Scheduled,138,64,74,14,37.1,97,No,No,No,1,0
+P0171,61,Female,Gastroenteritis,Moderate,Emergency,137,76,79,12,36.6,96,No,Yes,No,6,1
+P0172,69,Female,Asthma,Moderate,Emergency,112,70,102,23,36.8,92,Yes,No,No,4,0
+P0173,41,Male,Diabetes,Mild,Scheduled,92,64,87,20,36.9,99,Yes,No,No,3,0
+P0174,47,Male,Pneumonia,Severe,Emergency,115,86,101,21,38.1,88,No,Yes,No,9,1
+P0175,27,Female,Pneumonia,Moderate,Emergency,126,72,102,21,37.4,96,No,No,No,7,1
+P0176,29,Female,Appendicitis,Mild,Scheduled,123,78,95,19,36.6,97,No,No,No,5,0
+P0177,51,Male,Diabetes,Moderate,Scheduled,130,85,95,17,37.2,97,No,No,No,3,0
+P0178,43,Female,Pneumonia,Mild,Scheduled,109,85,86,12,37.8,94,No,No,Yes,4,0
+P0179,18,Female,COPD,Severe,Emergency,119,85,77,16,37.8,89,No,No,No,11,1
+P0180,48,Male,Asthma,Moderate,Emergency,88,64,79,16,36.8,93,No,No,Yes,2,0
+P0181,25,Female,Diabetes,Mild,Emergency,137,93,95,19,36.6,96,No,Yes,No,1,0
+P0182,59,Female,Appendicitis,Moderate,Scheduled,138,77,103,18,36.8,94,No,No,Yes,3,0
+P0183,69,Male,Pneumonia,Severe,Emergency,108,87,103,18,37.1,90,Yes,No,No,10,1
+P0184,42,Male,Diabetes,Mild,Scheduled,126,80,76,17,37.3,97,No,No,No,3,0
+P0185,53,Female,Pneumonia,Mild,Scheduled,130,62,72,13,36.7,96,No,No,No,2,0
+P0186,29,Female,Kidney Disease,Moderate,Emergency,110,71,90,16,36.7,95,No,No,No,7,1
+P0187,36,Male,Heart Disease,Severe,Scheduled,147,81,100,21,36.8,95,No,Yes,No,9,1
+P0188,77,Male,Pneumonia,Severe,Emergency,138,71,94,22,36.9,88,No,Yes,No,11,1
+P0189,38,Male,Gastroenteritis,Moderate,Scheduled,102,82,103,18,37.4,96,No,No,No,5,0
+P0190,57,Female,Asthma,Mild,Scheduled,153,70,98,18,36.3,99,Yes,No,No,6,1
+P0191,44,Female,Asthma,Mild,Scheduled,123,82,80,16,37.1,96,No,No,No,1,0
+P0192,57,Male,Gastroenteritis,Moderate,Emergency,158,69,75,19,36.5,96,No,No,No,5,0
+P0193,58,Male,COPD,Severe,Scheduled,148,95,108,21,37.0,92,No,No,No,11,1
+P0194,18,Female,Gastroenteritis,Mild,Emergency,118,83,90,16,36.8,98,No,No,No,3,0
+P0195,67,Male,Pneumonia,Severe,Emergency,100,78,97,20,38.0,91,No,Yes,Yes,9,1
+P0196,52,Female,Pneumonia,Moderate,Scheduled,115,71,89,16,37.1,96,Yes,No,No,7,1
+P0197,37,Female,Asthma,Severe,Emergency,120,81,114,22,37.2,91,No,No,No,8,1
+P0198,27,Female,Asthma,Mild,Emergency,137,63,75,12,36.8,96,No,No,Yes,5,0
+P0199,42,Female,COPD,Mild,Scheduled,118,76,74,14,36.4,96,No,No,No,5,0
+P0200,56,Male,Kidney Disease,Severe,Emergency,140,81,100,22,37.8,93,No,No,Yes,10,1
+P0201,37,Female,COPD,Severe,Emergency,125,70,100,22,37.7,90,No,No,No,11,1
+P0202,18,Female,Asthma,Mild,Emergency,100,95,68,16,37.0,97,No,No,No,2,0
+P0203,73,Male,Appendicitis,Severe,Emergency,128,91,87,16,36.9,91,No,Yes,Yes,10,1
+P0204,60,Female,Asthma,Severe,Emergency,124,79,84,16,37.0,95,Yes,Yes,Yes,10,1
+P0205,31,Male,COPD,Severe,Scheduled,135,88,96,18,37.1,90,No,No,No,9,1
+P0206,88,Female,Pneumonia,Moderate,Scheduled,118,66,85,20,37.2,94,No,No,No,8,1
+P0207,18,Female,Pneumonia,Moderate,Emergency,118,81,72,16,37.1,95,No,No,No,6,1
+P0208,69,Female,Appendicitis,Moderate,Emergency,130,94,89,17,36.8,93,No,Yes,Yes,6,1
+P0209,82,Male,Diabetes,Mild,Scheduled,135,86,76,14,36.6,100,No,Yes,No,3,0
+P0210,77,Female,Pneumonia,Moderate,Scheduled,119,75,89,12,36.0,90,No,No,No,11,1
+P0211,67,Female,Heart Disease,Moderate,Emergency,112,56,89,13,37.5,95,No,No,No,5,0
+P0212,18,Female,Diabetes,Severe,Emergency,116,82,114,21,37.8,89,No,No,No,7,1
+P0213,35,Male,Heart Disease,Severe,Emergency,109,73,100,19,36.8,90,No,Yes,No,8,1
+P0214,79,Female,Kidney Disease,Severe,Emergency,155,81,103,16,36.9,90,Yes,No,Yes,13,1
+P0215,53,Male,Pneumonia,Moderate,Emergency,137,88,93,16,36.2,95,No,No,No,10,1
+P0216,78,Male,Gastroenteritis,Moderate,Scheduled,136,79,89,23,37.5,97,No,No,No,5,0
+P0217,18,Female,Diabetes,Severe,Emergency,141,74,91,17,37.3,90,Yes,No,Yes,9,1
+P0218,82,Female,Diabetes,Severe,Emergency,151,72,83,23,37.5,94,Yes,No,No,10,1
+P0219,73,Female,Gastroenteritis,Mild,Scheduled,146,86,57,17,36.1,98,No,Yes,No,5,0
+P0220,29,Female,Appendicitis,Severe,Emergency,115,57,111,20,37.8,91,No,No,No,6,1
+P0221,65,Male,Pneumonia,Severe,Emergency,129,71,108,18,37.6,87,No,Yes,Yes,14,1
+P0222,67,Female,COPD,Moderate,Scheduled,120,72,102,19,37.6,96,No,Yes,No,5,0
+P0223,34,Male,Asthma,Severe,Scheduled,136,73,123,17,37.2,91,No,No,No,8,1
+P0224,39,Male,Diabetes,Mild,Emergency,116,92,67,16,37.6,95,No,No,No,4,0
+P0225,26,Female,Asthma,Severe,Emergency,105,85,92,15,37.5,91,No,No,No,8,1
+P0226,55,Female,Diabetes,Moderate,Scheduled,154,71,76,19,37.5,97,No,No,No,3,0
+P0227,40,Male,Heart Disease,Moderate,Scheduled,136,75,97,20,37.6,96,No,No,No,5,0
+P0228,59,Male,Gastroenteritis,Mild,Emergency,93,81,82,19,36.4,96,No,No,No,3,0
+P0229,30,Male,Kidney Disease,Moderate,Emergency,123,99,83,16,37.1,96,No,No,No,7,1
+P0230,18,Female,Appendicitis,Moderate,Emergency,125,89,84,14,36.8,93,No,No,No,4,0
+P0231,34,Male,Asthma,Moderate,Emergency,108,82,68,20,36.8,94,No,No,No,4,0
+P0232,19,Female,Kidney Disease,Moderate,Emergency,128,86,95,17,36.6,96,No,No,No,6,1
+P0233,66,Male,Asthma,Mild,Scheduled,103,65,65,14,36.5,98,No,No,No,4,0
+P0234,85,Female,Pneumonia,Moderate,Scheduled,120,76,83,17,38.1,92,Yes,Yes,Yes,8,1
+P0235,46,Male,Diabetes,Severe,Emergency,95,78,94,19,37.1,93,Yes,Yes,No,10,1
+P0236,45,Female,Gastroenteritis,Moderate,Emergency,145,62,100,19,37.1,95,No,No,No,6,1
+P0237,73,Male,COPD,Severe,Emergency,128,68,111,17,37.5,88,Yes,No,No,13,1
+P0238,39,Female,Diabetes,Moderate,Scheduled,97,88,86,12,36.6,100,No,No,No,2,0
+P0239,69,Female,Kidney Disease,Moderate,Scheduled,123,93,84,17,36.9,94,No,Yes,No,10,1
+P0240,54,Male,COPD,Severe,Emergency,111,84,85,18,37.0,91,No,No,No,9,1
+P0241,32,Male,Kidney Disease,Severe,Emergency,147,79,90,15,37.0,92,No,No,No,8,1
+P0242,49,Male,Pneumonia,Moderate,Scheduled,142,79,78,19,37.3,94,No,No,Yes,6,1
+P0243,79,Female,Asthma,Mild,Scheduled,122,72,80,14,36.3,97,Yes,Yes,No,6,1
+P0244,66,Female,Kidney Disease,Moderate,Emergency,132,82,98,18,36.7,96,No,Yes,No,6,1
+P0245,24,Female,Diabetes,Moderate,Emergency,125,87,76,19,37.2,96,Yes,No,Yes,7,1
+P0246,45,Male,Heart Disease,Severe,Emergency,117,73,93,18,36.8,92,No,Yes,No,11,1
+P0247,57,Male,Gastroenteritis,Mild,Scheduled,114,69,74,19,36.8,95,No,No,No,2,0
+P0248,67,Female,Heart Disease,Moderate,Scheduled,111,94,82,16,36.5,97,No,No,No,6,1
+P0249,72,Male,Pneumonia,Mild,Scheduled,138,80,73,13,37.2,95,Yes,Yes,No,9,1
+P0250,55,Male,Pneumonia,Mild,Scheduled,144,72,77,10,37.5,94,Yes,No,No,4,0
+P0251,59,Female,Pneumonia,Mild,Emergency,128,73,86,14,37.9,95,No,No,No,9,1
+P0252,49,Female,Kidney Disease,Moderate,Scheduled,139,77,88,12,36.7,94,No,No,No,6,1
+P0253,49,Female,Gastroenteritis,Moderate,Emergency,120,84,80,25,37.1,95,No,No,No,3,0
+P0254,42,Male,Pneumonia,Mild,Emergency,120,81,79,11,37.7,96,No,Yes,No,8,1
+P0255,58,Male,Gastroenteritis,Moderate,Scheduled,101,92,85,17,37.4,97,No,No,No,5,0
+P0256,61,Male,Asthma,Mild,Scheduled,134,85,77,14,36.6,98,No,No,Yes,2,0
+P0257,33,Female,Kidney Disease,Moderate,Scheduled,108,76,75,17,37.3,93,No,No,No,10,1
+P0258,35,Female,Asthma,Moderate,Emergency,137,87,89,21,37.2,95,No,No,Yes,5,0
+P0259,19,Male,Appendicitis,Moderate,Emergency,117,92,79,15,36.2,93,No,No,No,4,0
+P0260,34,Male,Kidney Disease,Severe,Emergency,100,75,90,15,36.6,91,No,No,No,10,1
+P0261,18,Male,Pneumonia,Severe,Emergency,131,88,90,12,37.2,89,No,No,No,8,1
+P0262,40,Male,Pneumonia,Moderate,Emergency,111,82,87,12,37.4,90,No,No,No,5,0
+P0263,43,Male,Gastroenteritis,Mild,Scheduled,140,66,74,19,37.5,97,No,No,Yes,2,0
+P0264,42,Male,Heart Disease,Severe,Emergency,112,74,75,16,37.0,92,No,No,No,10,1
+P0265,66,Male,Pneumonia,Mild,Scheduled,131,80,66,15,37.8,96,Yes,No,No,6,1
+P0266,49,Male,Diabetes,Mild,Emergency,128,77,81,20,37.1,96,Yes,No,Yes,7,1
+P0267,48,Female,Gastroenteritis,Mild,Emergency,122,84,66,18,37.6,99,No,No,Yes,1,0
+P0268,32,Female,Pneumonia,Moderate,Emergency,125,77,73,20,37.3,92,No,No,No,8,1
+P0269,48,Female,Pneumonia,Moderate,Scheduled,119,79,59,20,36.4,94,No,No,No,5,0
+P0270,57,Male,Diabetes,Moderate,Scheduled,153,76,84,13,36.8,92,Yes,No,No,5,0
+P0271,28,Male,Kidney Disease,Moderate,Emergency,110,76,105,21,37.0,99,No,No,Yes,10,1
+P0272,95,Male,Diabetes,Moderate,Emergency,153,87,78,22,37.1,94,No,No,No,10,1
+P0273,42,Male,Gastroenteritis,Moderate,Scheduled,111,65,82,19,36.6,95,No,Yes,No,8,1
+P0274,43,Male,Diabetes,Mild,Emergency,96,84,98,22,36.9,98,Yes,No,No,9,1
+P0275,43,Male,Heart Disease,Moderate,Emergency,128,81,89,21,36.8,93,No,No,No,5,0
+P0276,20,Female,Appendicitis,Severe,Emergency,136,94,89,24,36.6,91,No,Yes,Yes,10,1
+P0277,48,Female,COPD,Mild,Emergency,107,65,69,18,37.6,93,No,No,No,1,0
+P0278,64,Male,Pneumonia,Mild,Emergency,124,75,84,19,37.4,96,No,No,No,6,1
+P0279,60,Female,Pneumonia,Severe,Emergency,108,98,97,22,37.0,91,No,Yes,No,10,1
+P0280,39,Female,Kidney Disease,Severe,Emergency,113,79,74,17,37.9,91,No,No,Yes,11,1
+P0281,58,Female,Diabetes,Mild,Scheduled,130,69,68,13,35.6,96,No,Yes,No,1,0
+P0282,28,Male,Kidney Disease,Mild,Scheduled,138,89,80,17,37.3,96,No,No,No,5,0
+P0283,80,Male,Pneumonia,Moderate,Emergency,127,62,87,19,37.8,91,Yes,Yes,Yes,10,1
+P0284,45,Male,Kidney Disease,Mild,Scheduled,128,83,75,14,36.8,97,Yes,No,No,5,0
+P0285,38,Female,Diabetes,Moderate,Emergency,150,62,93,20,37.2,94,Yes,No,No,6,1
+P0286,52,Male,Heart Disease,Moderate,Emergency,116,85,78,14,36.1,96,No,No,No,7,1
+P0287,42,Female,Heart Disease,Severe,Emergency,138,86,95,14,37.0,91,No,No,No,13,1
+P0288,55,Male,Pneumonia,Severe,Emergency,100,74,94,16,37.5,88,No,No,No,12,1
+P0289,18,Female,Asthma,Moderate,Scheduled,120,85,85,19,37.9,97,No,No,No,2,0
+P0290,62,Male,COPD,Severe,Emergency,103,75,108,21,37.6,88,No,No,Yes,14,1
+P0291,59,Male,Diabetes,Severe,Emergency,121,71,101,16,38.1,92,No,No,No,9,1
+P0292,46,Female,Asthma,Mild,Scheduled,106,68,72,17,37.3,99,No,No,No,4,0
+P0293,59,Male,Heart Disease,Severe,Emergency,123,76,102,20,37.5,92,No,No,No,8,1
+P0294,32,Female,Appendicitis,Moderate,Emergency,130,78,60,8,36.7,96,No,No,No,6,1
+P0295,66,Male,Asthma,Moderate,Scheduled,124,79,80,13,37.4,97,No,Yes,Yes,6,1
+P0296,57,Female,Pneumonia,Moderate,Emergency,131,74,85,18,36.9,90,No,No,No,9,1
+P0297,44,Male,Heart Disease,Severe,Emergency,135,74,95,14,38.2,92,No,No,No,12,1
+P0298,60,Male,Asthma,Moderate,Emergency,85,70,89,14,37.2,93,No,No,Yes,5,0
+P0299,35,Male,Appendicitis,Moderate,Scheduled,139,77,58,21,36.8,94,No,No,No,5,0
+P0300,48,Male,Gastroenteritis,Mild,Scheduled,118,96,80,16,36.5,98,No,No,No,1,0
+P0301,50,Male,Asthma,Mild,Scheduled,99,78,67,13,36.6,95,Yes,No,No,3,0
+P0302,52,Female,Pneumonia,Moderate,Emergency,128,74,95,13,37.7,91,Yes,No,No,9,1
+P0303,43,Male,Gastroenteritis,Moderate,Scheduled,118,93,100,17,38.2,95,No,No,No,2,0
+P0304,18,Female,Pneumonia,Severe,Emergency,112,86,73,17,37.5,90,No,No,No,7,1
+P0305,69,Male,Asthma,Mild,Scheduled,116,69,64,23,36.5,97,No,No,Yes,2,0
+P0306,69,Female,Kidney Disease,Severe,Scheduled,102,80,92,19,37.5,93,No,No,Yes,10,1
+P0307,38,Male,Kidney Disease,Moderate,Emergency,104,74,102,14,36.8,95,Yes,No,No,7,1
+P0308,39,Female,Gastroenteritis,Mild,Emergency,131,65,78,18,36.4,98,No,No,Yes,1,0
+P0309,44,Male,Heart Disease,Moderate,Emergency,121,95,88,20,37.3,94,No,No,Yes,6,1
+P0310,36,Male,Diabetes,Moderate,Scheduled,134,98,85,14,36.6,93,No,Yes,Yes,6,1
+P0311,37,Female,Diabetes,Mild,Scheduled,121,78,78,13,37.2,96,Yes,No,No,1,0
+P0312,66,Male,Gastroenteritis,Mild,Scheduled,122,72,69,14,36.4,96,No,Yes,No,2,0
+P0313,51,Female,Heart Disease,Moderate,Scheduled,142,85,98,16,36.9,96,No,No,No,8,1
+P0314,30,Female,Diabetes,Moderate,Emergency,119,70,88,20,37.4,93,No,No,No,5,0
+P0315,54,Male,Heart Disease,Severe,Emergency,146,84,78,21,37.7,93,No,No,No,12,1
+P0316,44,Female,Pneumonia,Moderate,Emergency,102,90,84,15,36.9,90,No,No,No,6,1
+P0317,27,Male,Appendicitis,Moderate,Emergency,130,70,87,19,36.7,97,No,No,Yes,5,0
+P0318,41,Female,Appendicitis,Moderate,Scheduled,125,71,105,17,36.4,97,No,No,No,1,0
+P0319,28,Male,Heart Disease,Mild,Scheduled,119,97,82,20,36.2,99,No,Yes,No,4,0
+P0320,32,Male,Heart Disease,Severe,Scheduled,97,80,88,14,36.6,92,No,No,Yes,10,1
+P0321,69,Male,COPD,Severe,Emergency,136,91,95,18,36.4,90,No,No,Yes,11,1
+P0322,49,Male,Pneumonia,Severe,Emergency,127,87,94,19,37.1,86,No,No,Yes,13,1
+P0323,39,Female,Gastroenteritis,Mild,Scheduled,132,59,70,14,37.0,95,Yes,No,No,5,0
+P0324,18,Female,Pneumonia,Severe,Emergency,131,78,112,12,37.9,90,Yes,No,No,9,1
+P0325,30,Male,COPD,Severe,Emergency,144,84,91,17,36.7,94,Yes,No,Yes,12,1
+P0326,18,Female,COPD,Moderate,Emergency,104,77,87,18,36.8,95,No,No,No,7,1
+P0327,46,Female,Pneumonia,Severe,Scheduled,125,75,82,18,38.1,90,No,Yes,No,10,1
+P0328,36,Male,Pneumonia,Moderate,Emergency,119,85,72,18,37.7,93,No,No,No,7,1
+P0329,22,Male,Appendicitis,Mild,Emergency,91,79,80,8,35.8,98,No,No,No,5,0
+P0330,38,Female,Asthma,Mild,Scheduled,86,85,50,17,37.2,98,No,No,No,3,0
+P0331,82,Male,Pneumonia,Moderate,Emergency,129,81,95,20,37.8,93,No,Yes,Yes,12,1
+P0332,36,Male,Pneumonia,Moderate,Emergency,118,64,55,14,37.2,94,No,No,Yes,8,1
+P0333,46,Male,Kidney Disease,Mild,Emergency,139,77,59,11,36.9,100,No,No,No,6,1
+P0334,66,Male,Appendicitis,Mild,Scheduled,122,85,73,18,37.0,98,Yes,No,No,4,0
+P0335,55,Female,Pneumonia,Moderate,Emergency,127,101,93,17,37.1,94,No,Yes,No,10,1
+P0336,37,Female,COPD,Severe,Emergency,120,76,101,19,36.4,90,No,Yes,No,12,1
+P0337,68,Male,Heart Disease,Moderate,Emergency,95,86,83,13,37.2,93,No,Yes,No,8,1
+P0338,42,Female,Asthma,Moderate,Emergency,138,70,86,17,37.4,94,No,No,No,4,0
+P0339,72,Male,Heart Disease,Severe,Emergency,117,86,91,19,36.7,90,No,Yes,Yes,9,1
+P0340,51,Female,Diabetes,Mild,Scheduled,116,76,58,16,37.1,94,Yes,No,No,4,0
+P0341,18,Male,Pneumonia,Moderate,Scheduled,138,75,65,17,37.4,93,No,No,No,7,1
+P0342,57,Male,Pneumonia,Moderate,Emergency,129,79,98,15,36.7,91,No,No,No,9,1
+P0343,75,Female,Kidney Disease,Moderate,Scheduled,119,79,89,16,36.7,97,Yes,No,No,7,1
+P0344,34,Male,Asthma,Severe,Emergency,118,74,96,23,37.3,95,Yes,No,No,7,1
+P0345,36,Male,Gastroenteritis,Moderate,Scheduled,122,65,71,14,37.5,97,No,No,Yes,5,0
+P0346,53,Male,Pneumonia,Moderate,Emergency,101,78,87,19,37.2,94,No,No,No,8,1
+P0347,44,Male,Kidney Disease,Moderate,Scheduled,114,78,88,23,37.0,93,Yes,No,No,9,1
+P0348,45,Male,Appendicitis,Mild,Emergency,118,88,98,15,37.1,93,No,No,No,4,0
+P0349,32,Male,Diabetes,Moderate,Scheduled,123,67,103,17,37.6,92,No,No,No,4,0
+P0350,49,Female,Asthma,Severe,Emergency,117,90,86,21,36.8,92,No,No,No,10,1
+P0351,29,Female,Pneumonia,Severe,Emergency,128,59,92,20,37.9,89,No,No,No,9,1
+P0352,38,Male,Pneumonia,Moderate,Emergency,139,79,91,19,37.3,95,No,No,No,5,0
+P0353,31,Male,Pneumonia,Moderate,Emergency,134,79,84,17,36.4,92,No,Yes,No,7,1
+P0354,43,Male,COPD,Severe,Emergency,127,72,93,20,37.2,89,No,No,No,9,1
+P0355,58,Male,Pneumonia,Moderate,Emergency,115,82,93,23,37.6,92,No,No,No,4,0
+P0356,65,Male,Diabetes,Moderate,Scheduled,115,81,82,18,36.3,94,Yes,Yes,No,7,1
+P0357,39,Male,Appendicitis,Moderate,Emergency,136,76,88,18,36.2,93,No,No,No,6,1
+P0358,89,Female,COPD,Severe,Emergency,171,77,99,28,37.3,92,No,Yes,No,13,1
+P0359,18,Female,Diabetes,Moderate,Scheduled,118,94,79,16,36.2,96,Yes,No,No,5,0
+P0360,65,Male,Heart Disease,Moderate,Emergency,144,87,87,12,36.6,95,No,No,No,8,1
+P0361,44,Female,Heart Disease,Moderate,Emergency,135,85,91,12,36.8,93,No,No,No,8,1
+P0362,46,Female,Diabetes,Severe,Scheduled,140,91,85,25,37.3,92,Yes,No,No,11,1
+P0363,48,Female,Pneumonia,Moderate,Scheduled,132,78,100,23,38.2,94,No,No,Yes,4,0
+P0364,91,Male,Heart Disease,Severe,Scheduled,126,62,97,20,37.5,93,No,Yes,No,10,1
+P0365,24,Male,COPD,Severe,Emergency,115,77,104,18,36.6,89,No,No,No,12,1
+P0366,66,Male,Diabetes,Moderate,Scheduled,130,67,67,17,36.9,94,No,Yes,Yes,4,0
+P0367,32,Female,Pneumonia,Mild,Scheduled,130,60,75,15,37.5,98,No,No,No,4,0
+P0368,45,Female,Pneumonia,Severe,Emergency,141,77,105,21,36.9,92,No,No,Yes,10,1
+P0369,50,Female,Kidney Disease,Mild,Scheduled,142,96,59,14,36.5,98,Yes,Yes,No,7,1
+P0370,30,Male,Pneumonia,Mild,Emergency,126,89,92,11,37.6,97,No,No,Yes,6,1
+P0371,78,Female,Pneumonia,Moderate,Emergency,155,77,92,20,37.6,94,No,Yes,No,7,1
+P0372,46,Male,Gastroenteritis,Moderate,Emergency,108,71,118,17,37.0,95,Yes,No,No,5,0
+P0373,74,Male,COPD,Severe,Emergency,130,93,114,22,37.1,88,No,No,Yes,13,1
+P0374,44,Female,COPD,Severe,Emergency,114,93,103,18,37.3,93,No,No,No,9,1
+P0375,51,Female,Asthma,Mild,Emergency,107,72,81,17,37.1,100,No,No,No,6,1
+P0376,30,Female,Gastroenteritis,Mild,Scheduled,118,79,74,13,36.3,98,No,Yes,No,5,0
+P0377,76,Male,Heart Disease,Severe,Emergency,152,66,115,23,37.0,91,No,Yes,No,12,1
+P0378,84,Male,COPD,Moderate,Emergency,127,65,66,20,36.1,92,No,No,Yes,11,1
+P0379,44,Female,Pneumonia,Moderate,Emergency,132,77,92,18,37.9,93,No,No,No,6,1
+P0380,27,Male,Gastroenteritis,Severe,Emergency,141,95,90,22,37.0,94,No,No,No,8,1
+P0381,47,Male,Gastroenteritis,Mild,Emergency,123,69,86,18,37.1,99,No,No,No,3,0
+P0382,84,Male,Gastroenteritis,Severe,Emergency,130,80,96,17,36.8,91,No,Yes,Yes,11,1
+P0383,33,Female,Pneumonia,Moderate,Emergency,117,73,80,17,37.2,93,No,No,No,11,1
+P0384,39,Female,Heart Disease,Moderate,Emergency,139,93,95,19,38.1,97,No,No,Yes,8,1
+P0385,68,Male,Pneumonia,Moderate,Emergency,123,79,68,16,38.6,93,No,No,No,5,0
+P0386,49,Female,Gastroenteritis,Moderate,Emergency,92,74,92,18,36.6,96,Yes,Yes,No,4,0
+P0387,47,Female,Heart Disease,Severe,Emergency,116,79,99,19,37.8,88,No,No,No,12,1
+P0388,47,Male,Pneumonia,Moderate,Emergency,117,88,80,21,37.0,93,No,No,Yes,8,1
+P0389,57,Male,Appendicitis,Mild,Scheduled,143,64,76,16,36.7,97,No,No,Yes,1,0
+P0390,33,Female,Gastroenteritis,Mild,Emergency,120,85,73,17,36.8,100,No,No,No,2,0
+P0391,18,Male,Heart Disease,Moderate,Emergency,127,68,73,18,36.2,94,No,No,Yes,8,1
+P0392,50,Female,Diabetes,Severe,Emergency,126,104,81,21,37.8,92,No,No,No,7,1
+P0393,65,Female,Pneumonia,Severe,Emergency,126,78,82,18,36.9,91,No,Yes,Yes,12,1
+P0394,51,Male,Pneumonia,Moderate,Emergency,121,77,107,15,37.9,94,No,No,Yes,8,1
+P0395,48,Female,Heart Disease,Severe,Emergency,137,66,109,18,37.5,90,No,Yes,No,11,1
+P0396,26,Female,Heart Disease,Moderate,Emergency,124,78,66,23,36.9,94,No,Yes,No,7,1
+P0397,39,Female,Appendicitis,Severe,Scheduled,117,66,85,19,36.8,93,No,No,No,8,1
+P0398,60,Female,Heart Disease,Moderate,Scheduled,155,89,75,15,37.2,95,No,Yes,No,10,1
+P0399,37,Female,Pneumonia,Moderate,Scheduled,140,103,77,14,37.2,94,No,No,No,6,1
+P0400,18,Male,Diabetes,Moderate,Emergency,106,76,94,23,36.8,94,No,No,No,2,0
+P0401,45,Male,COPD,Moderate,Scheduled,101,82,82,21,35.9,92,No,No,No,10,1
+P0402,67,Female,Diabetes,Moderate,Emergency,135,81,85,17,36.6,96,Yes,No,No,3,0
+P0403,60,Male,Gastroenteritis,Severe,Emergency,107,72,84,26,36.9,90,No,No,No,8,1
+P0404,41,Female,Asthma,Severe,Emergency,134,80,97,17,36.8,95,No,Yes,No,10,1
+P0405,45,Male,Kidney Disease,Moderate,Scheduled,127,61,74,17,37.1,95,No,No,No,7,1
+P0406,59,Female,Pneumonia,Severe,Emergency,129,71,98,14,38.0,91,No,No,No,10,1
+P0407,47,Female,Pneumonia,Mild,Emergency,129,77,84,15,36.6,94,No,Yes,Yes,4,0
+P0408,65,Female,Kidney Disease,Severe,Emergency,132,78,91,21,37.1,94,No,Yes,Yes,11,1
+P0409,50,Male,Pneumonia,Moderate,Emergency,142,87,82,20,37.2,90,No,No,Yes,7,1
+P0410,26,Female,Asthma,Mild,Scheduled,122,74,75,17,36.3,99,No,No,No,1,0
+P0411,65,Female,Heart Disease,Mild,Scheduled,106,76,85,20,37.4,98,Yes,Yes,Yes,8,1
+P0412,61,Female,Gastroenteritis,Mild,Emergency,132,74,100,16,36.0,97,No,Yes,Yes,4,0
+P0413,37,Male,Diabetes,Moderate,Scheduled,120,68,104,19,36.6,94,Yes,No,Yes,7,1
+P0414,59,Male,Pneumonia,Severe,Emergency,122,78,94,21,37.0,89,No,No,No,7,1
+P0415,70,Male,Diabetes,Mild,Emergency,120,66,49,14,36.9,99,No,No,Yes,5,0
+P0416,33,Male,Kidney Disease,Moderate,Emergency,107,70,81,17,36.7,97,No,No,No,7,1
+P0417,24,Female,Pneumonia,Mild,Scheduled,123,77,84,17,37.0,92,No,No,No,1,0
+P0418,55,Female,Gastroenteritis,Moderate,Scheduled,130,77,84,14,36.7,96,No,No,Yes,6,1
+P0419,78,Female,Pneumonia,Mild,Scheduled,125,84,81,15,37.3,96,Yes,No,Yes,7,1
+P0420,37,Male,Gastroenteritis,Moderate,Scheduled,112,85,84,20,36.6,98,No,No,Yes,1,0
+P0421,64,Female,Kidney Disease,Moderate,Emergency,146,90,84,17,37.0,94,No,No,Yes,11,1
+P0422,69,Female,Kidney Disease,Severe,Emergency,125,84,88,16,36.9,94,No,No,No,10,1
+P0423,38,Female,COPD,Severe,Emergency,139,84,106,15,37.4,89,No,No,No,6,1
+P0424,23,Female,Asthma,Moderate,Emergency,116,72,88,17,36.9,96,No,No,Yes,5,0
+P0425,69,Male,Heart Disease,Severe,Emergency,127,87,102,18,37.4,92,No,No,Yes,11,1
+P0426,31,Female,Asthma,Severe,Emergency,122,87,91,22,37.6,93,No,No,No,7,1
+P0427,63,Male,Diabetes,Moderate,Scheduled,126,78,108,18,37.4,98,Yes,Yes,No,5,0
+P0428,83,Female,COPD,Mild,Scheduled,108,66,62,16,37.2,95,No,No,Yes,8,1
+P0429,50,Male,Diabetes,Moderate,Emergency,138,83,82,19,36.6,95,Yes,No,No,7,1
+P0430,32,Female,Appendicitis,Mild,Scheduled,101,65,67,19,36.7,95,No,No,No,4,0
+P0431,75,Male,Pneumonia,Severe,Emergency,108,78,98,21,37.0,92,No,Yes,Yes,10,1
+P0432,50,Male,Diabetes,Mild,Scheduled,128,90,66,14,36.7,98,Yes,No,No,3,0
+P0433,33,Male,Asthma,Moderate,Emergency,116,76,99,19,37.2,95,No,No,No,6,1
+P0434,45,Male,Heart Disease,Mild,Scheduled,144,81,55,17,36.3,97,No,Yes,No,4,0
+P0435,28,Female,Diabetes,Moderate,Emergency,128,87,75,12,36.6,94,No,No,No,4,0
+P0436,27,Female,Heart Disease,Moderate,Emergency,117,77,77,24,36.8,97,No,No,Yes,7,1
+P0437,49,Female,COPD,Severe,Emergency,140,91,105,15,36.8,92,No,No,No,10,1
+P0438,37,Male,Pneumonia,Severe,Emergency,114,107,111,17,36.5,91,No,No,No,10,1
+P0439,49,Male,Appendicitis,Moderate,Scheduled,102,73,97,20,37.1,94,No,No,Yes,8,1
+P0440,63,Male,Heart Disease,Moderate,Emergency,108,85,66,11,37.0,95,No,Yes,No,7,1
+P0441,74,Male,COPD,Moderate,Scheduled,122,93,94,21,36.3,88,Yes,No,Yes,12,1
+P0442,66,Male,Heart Disease,Mild,Scheduled,131,72,75,16,36.4,97,No,Yes,No,5,0
+P0443,18,Female,Gastroenteritis,Moderate,Emergency,158,64,94,16,37.5,91,No,No,No,6,1
+P0444,60,Male,Heart Disease,Moderate,Scheduled,125,88,82,20,36.5,92,No,Yes,Yes,8,1
+P0445,45,Female,Heart Disease,Mild,Scheduled,127,81,66,17,36.8,93,No,No,No,6,1
+P0446,25,Female,Appendicitis,Severe,Scheduled,123,69,98,22,37.5,92,No,Yes,No,7,1
+P0447,80,Female,Kidney Disease,Moderate,Emergency,128,80,67,16,37.3,95,No,No,Yes,9,1
+P0448,42,Male,Asthma,Moderate,Scheduled,122,83,89,8,37.3,93,Yes,No,No,2,0
+P0449,74,Female,Pneumonia,Moderate,Emergency,131,76,97,15,36.6,92,No,Yes,Yes,9,1
+P0450,61,Male,COPD,Severe,Emergency,125,89,114,21,36.7,91,No,No,Yes,8,1
+P0451,25,Male,Pneumonia,Moderate,Emergency,103,57,86,17,36.4,91,No,Yes,No,6,1
+P0452,50,Male,Gastroenteritis,Mild,Scheduled,97,76,61,14,36.2,99,No,No,No,1,0
+P0453,66,Male,Asthma,Moderate,Emergency,132,90,79,12,37.4,96,No,No,Yes,6,1
+P0454,61,Male,COPD,Moderate,Scheduled,98,82,82,19,36.7,95,Yes,No,Yes,7,1
+P0455,33,Male,Pneumonia,Severe,Emergency,139,80,78,15,37.3,90,No,No,No,8,1
+P0456,95,Male,Pneumonia,Moderate,Emergency,118,79,101,11,36.4,96,No,Yes,No,8,1
+P0457,51,Male,Kidney Disease,Mild,Scheduled,135,68,75,15,36.4,100,No,No,Yes,4,0
+P0458,88,Male,Pneumonia,Severe,Emergency,133,89,96,16,37.1,91,No,No,Yes,11,1
+P0459,61,Male,Heart Disease,Severe,Emergency,124,78,96,16,37.8,91,No,No,Yes,11,1
+P0460,40,Female,Diabetes,Moderate,Emergency,158,76,100,19,37.1,96,No,No,No,3,0
+P0461,39,Male,Kidney Disease,Mild,Scheduled,118,75,86,10,36.5,99,No,Yes,Yes,2,0
+P0462,39,Male,Diabetes,Severe,Scheduled,113,69,96,24,37.3,90,Yes,No,No,8,1
+P0463,53,Female,Gastroenteritis,Severe,Emergency,123,79,88,24,37.3,91,No,No,No,6,1
+P0464,48,Male,COPD,Mild,Scheduled,123,75,88,16,37.1,98,Yes,No,No,4,0
+P0465,54,Female,Gastroenteritis,Moderate,Scheduled,131,94,76,20,37.5,93,Yes,No,No,4,0
+P0466,55,Female,COPD,Moderate,Scheduled,114,81,91,17,36.4,94,No,No,No,7,1
+P0467,53,Female,Pneumonia,Moderate,Emergency,134,75,80,15,36.8,94,No,No,No,7,1
+P0468,67,Male,Asthma,Moderate,Scheduled,114,79,74,14,37.5,94,No,Yes,No,3,0
+P0469,61,Female,Kidney Disease,Moderate,Scheduled,135,84,85,18,36.7,96,Yes,Yes,No,10,1
+P0470,74,Male,Pneumonia,Severe,Emergency,112,76,88,20,37.7,88,No,No,Yes,15,1
+P0471,51,Male,Heart Disease,Moderate,Scheduled,130,97,79,17,36.7,95,No,Yes,Yes,10,1
+P0472,59,Male,Appendicitis,Mild,Emergency,115,68,70,14,36.6,99,No,No,No,1,0
+P0473,30,Male,Gastroenteritis,Severe,Emergency,113,77,104,17,36.8,90,No,No,No,6,1
+P0474,18,Female,Gastroenteritis,Mild,Emergency,123,74,67,16,37.0,95,No,No,No,3,0
+P0475,33,Male,Pneumonia,Mild,Scheduled,126,78,82,15,36.6,96,No,Yes,No,4,0
+P0476,81,Male,Kidney Disease,Severe,Emergency,124,85,93,19,37.2,92,Yes,No,No,13,1
+P0477,66,Male,Pneumonia,Moderate,Scheduled,122,81,87,12,37.8,95,No,No,Yes,6,1
+P0478,52,Female,Pneumonia,Severe,Emergency,119,88,98,16,37.4,91,No,No,Yes,7,1
+P0479,55,Male,Pneumonia,Mild,Scheduled,134,77,74,14,37.8,92,Yes,No,No,9,1
+P0480,58,Male,Asthma,Mild,Scheduled,97,74,77,18,36.9,100,No,No,Yes,5,0
+P0481,35,Female,Kidney Disease,Moderate,Emergency,106,76,65,19,37.6,93,Yes,No,No,10,1
+P0482,18,Male,Asthma,Moderate,Emergency,107,73,83,19,36.7,95,No,No,No,4,0
+P0483,41,Female,Diabetes,Severe,Emergency,124,102,83,18,37.3,94,No,Yes,No,6,1
+P0484,45,Female,Heart Disease,Moderate,Scheduled,125,96,78,20,36.3,96,No,No,No,8,1
+P0485,92,Male,COPD,Moderate,Emergency,126,61,83,19,37.7,94,No,No,Yes,11,1
+P0486,50,Female,Appendicitis,Mild,Scheduled,120,71,84,16,36.3,98,No,No,No,4,0
+P0487,46,Male,Appendicitis,Severe,Emergency,123,74,94,19,37.9,92,No,Yes,No,7,1
+P0488,18,Female,COPD,Moderate,Scheduled,112,75,103,16,36.8,92,No,No,Yes,10,1
+P0489,90,Male,Pneumonia,Mild,Emergency,142,86,70,14,37.0,96,No,No,Yes,5,0
+P0490,83,Female,Gastroenteritis,Mild,Scheduled,104,89,52,13,36.4,100,No,No,Yes,5,0
+P0491,79,Male,Appendicitis,Mild,Scheduled,114,73,71,15,36.3,99,Yes,Yes,Yes,4,0
+P0492,80,Male,Gastroenteritis,Moderate,Emergency,128,80,65,12,37.5,93,Yes,Yes,No,9,1
+P0493,29,Female,Gastroenteritis,Mild,Scheduled,126,76,84,11,36.7,95,No,No,No,2,0
+P0494,66,Male,Kidney Disease,Moderate,Scheduled,154,59,77,16,36.6,97,No,No,Yes,10,1
+P0495,18,Female,Asthma,Moderate,Emergency,117,78,79,14,37.2,96,No,No,No,2,0
+P0496,71,Female,Gastroenteritis,Mild,Emergency,110,79,90,15,36.6,94,No,Yes,No,3,0
+P0497,72,Male,Gastroenteritis,Moderate,Emergency,131,87,82,16,36.5,96,No,Yes,Yes,6,1
+P0498,53,Male,Asthma,Moderate,Emergency,90,74,88,19,37.2,95,No,No,No,5,0
+P0499,50,Female,Diabetes,Severe,Emergency,132,82,98,21,37.5,93,No,No,No,8,1
+P0500,38,Female,COPD,Severe,Emergency,142,85,100,22,37.0,88,No,No,No,9,1
+P0501,64,Female,Heart Disease,Severe,Scheduled,119,77,82,14,37.2,93,No,Yes,No,10,1
+P0502,40,Male,Diabetes,Moderate,Scheduled,99,90,85,18,36.3,92,No,No,No,3,0
+P0503,41,Male,Gastroenteritis,Mild,Scheduled,110,94,88,13,36.2,95,No,No,No,3,0
+P0504,48,Male,Diabetes,Mild,Scheduled,102,88,83,17,36.5,95,No,No,No,4,0
+P0505,49,Male,Heart Disease,Severe,Emergency,138,74,88,17,36.7,90,No,No,Yes,12,1
+P0506,63,Male,Pneumonia,Mild,Scheduled,131,82,75,12,37.5,95,Yes,Yes,Yes,5,0
+P0507,35,Female,Kidney Disease,Severe,Emergency,146,76,107,22,38.0,89,No,No,Yes,11,1
+P0508,45,Female,Diabetes,Moderate,Emergency,112,104,84,18,37.0,96,No,Yes,No,8,1
+P0509,59,Female,Pneumonia,Mild,Scheduled,128,91,61,15,36.9,97,No,No,No,5,0
+P0510,62,Female,Heart Disease,Moderate,Emergency,139,71,74,22,37.4,94,No,Yes,No,8,1
+P0511,40,Male,Pneumonia,Mild,Scheduled,113,72,74,13,37.6,97,No,No,Yes,2,0
+P0512,47,Male,Kidney Disease,Moderate,Scheduled,123,75,80,17,37.2,92,No,No,Yes,8,1
+P0513,67,Male,Diabetes,Moderate,Emergency,141,76,87,21,36.0,93,Yes,No,No,6,1
+P0514,47,Female,COPD,Moderate,Emergency,117,88,89,19,36.7,96,No,No,No,7,1
+P0515,29,Female,COPD,Moderate,Emergency,129,74,94,19,36.1,92,No,No,Yes,9,1
+P0516,78,Female,COPD,Moderate,Emergency,142,84,75,19,36.1,91,Yes,Yes,No,8,1
+P0517,43,Female,Diabetes,Severe,Emergency,121,88,89,13,37.3,94,Yes,No,No,8,1
+P0518,75,Female,Heart Disease,Moderate,Scheduled,153,82,85,11,36.7,92,Yes,Yes,No,8,1
+P0519,57,Female,Asthma,Mild,Scheduled,137,87,67,15,36.8,99,No,No,No,5,0
+P0520,74,Female,Pneumonia,Moderate,Emergency,133,108,75,19,36.2,93,No,No,Yes,12,1
+P0521,68,Male,Pneumonia,Severe,Emergency,134,96,88,18,37.5,92,No,Yes,Yes,13,1
+P0522,43,Male,Appendicitis,Severe,Emergency,129,62,99,22,37.2,89,No,No,No,6,1
+P0523,61,Female,Pneumonia,Severe,Scheduled,127,77,80,17,36.8,91,No,No,No,10,1
+P0524,77,Female,Diabetes,Severe,Emergency,136,70,93,17,37.1,94,No,No,Yes,10,1
+P0525,51,Male,Kidney Disease,Severe,Emergency,132,81,93,16,37.6,89,No,No,No,10,1
+P0526,30,Male,COPD,Moderate,Scheduled,98,69,86,20,37.5,93,No,Yes,No,9,1
+P0527,59,Male,Heart Disease,Moderate,Emergency,120,86,98,11,37.3,92,No,No,No,9,1
+P0528,59,Male,Kidney Disease,Severe,Scheduled,111,84,107,22,37.2,89,Yes,No,Yes,12,1
+P0529,76,Male,Appendicitis,Moderate,Emergency,129,82,80,19,36.5,92,No,No,No,6,1
+P0530,68,Male,Appendicitis,Moderate,Scheduled,123,85,73,17,37.3,97,No,No,Yes,6,1
+P0531,20,Female,Diabetes,Severe,Emergency,111,80,91,20,37.2,92,No,No,Yes,9,1
+P0532,76,Male,Gastroenteritis,Mild,Scheduled,121,71,62,17,37.1,96,No,Yes,Yes,4,0
+P0533,18,Female,Heart Disease,Severe,Scheduled,114,78,92,24,36.4,94,No,No,No,10,1
+P0534,56,Male,Pneumonia,Severe,Scheduled,104,86,72,17,37.0,89,No,No,No,11,1
+P0535,46,Female,Gastroenteritis,Mild,Emergency,130,88,84,12,37.3,96,No,No,Yes,5,0
+P0536,70,Male,Gastroenteritis,Mild,Scheduled,123,79,66,17,37.2,97,No,No,No,2,0
+P0537,50,Female,Pneumonia,Moderate,Emergency,121,79,74,12,37.7,92,No,No,No,8,1
+P0538,52,Female,Asthma,Moderate,Scheduled,119,75,79,23,36.9,94,No,No,Yes,3,0
+P0539,43,Male,Asthma,Mild,Scheduled,132,92,67,12,36.8,97,No,No,No,5,0
+P0540,43,Female,Asthma,Severe,Emergency,135,83,92,18,37.0,95,No,No,No,4,0
+P0541,54,Female,Diabetes,Mild,Scheduled,130,87,80,18,37.1,97,No,Yes,No,2,0
+P0542,48,Male,Kidney Disease,Moderate,Emergency,87,87,74,18,36.6,93,No,No,No,6,1
+P0543,45,Male,Pneumonia,Moderate,Emergency,136,75,98,23,36.5,91,No,Yes,No,8,1
+P0544,45,Male,Heart Disease,Mild,Scheduled,125,78,56,16,36.7,97,No,No,No,6,1
+P0545,43,Male,Heart Disease,Moderate,Emergency,117,89,75,16,36.9,92,No,No,Yes,11,1
+P0546,37,Female,Asthma,Mild,Scheduled,150,94,75,15,36.4,96,No,No,No,5,0
+P0547,23,Female,Pneumonia,Severe,Emergency,104,77,95,17,37.9,89,No,No,No,13,1
+P0548,21,Male,Appendicitis,Mild,Scheduled,137,83,71,17,36.0,100,No,No,No,4,0
+P0549,54,Female,Kidney Disease,Mild,Scheduled,112,74,75,14,37.2,95,No,No,No,4,0
+P0550,56,Female,Kidney Disease,Severe,Emergency,137,83,75,18,38.3,90,Yes,Yes,No,12,1
+P0551,39,Female,Appendicitis,Severe,Emergency,136,71,93,16,37.5,93,No,No,Yes,8,1
+P0552,62,Female,Pneumonia,Mild,Emergency,129,91,100,13,36.9,94,No,No,No,5,0
+P0553,72,Female,Pneumonia,Moderate,Scheduled,130,75,93,19,36.7,95,No,Yes,Yes,7,1
+P0554,18,Female,Gastroenteritis,Moderate,Emergency,134,79,85,13,37.6,97,No,No,No,6,1
+P0555,46,Male,Asthma,Moderate,Scheduled,106,83,63,21,36.4,96,No,No,No,5,0
+P0556,50,Female,COPD,Severe,Emergency,130,87,107,15,36.6,88,Yes,No,No,10,1
+P0557,53,Male,Heart Disease,Mild,Scheduled,136,67,54,19,36.6,99,Yes,No,No,7,1
+P0558,42,Male,Pneumonia,Mild,Scheduled,122,84,86,13,37.2,95,No,No,No,4,0
+P0559,66,Male,Gastroenteritis,Mild,Emergency,155,73,68,16,37.4,94,Yes,No,No,7,1
+P0560,39,Female,Appendicitis,Moderate,Emergency,106,76,80,21,37.1,93,No,No,No,4,0
+P0561,46,Male,COPD,Moderate,Scheduled,124,75,79,15,36.5,92,No,No,No,7,1
+P0562,34,Female,Pneumonia,Mild,Scheduled,109,88,73,21,36.7,96,No,No,No,5,0
+P0563,80,Female,Gastroenteritis,Mild,Scheduled,147,81,80,14,36.5,95,No,No,No,1,0
+P0564,66,Male,COPD,Moderate,Emergency,140,90,93,20,37.3,91,No,Yes,No,9,1
+P0565,43,Female,Kidney Disease,Moderate,Scheduled,140,65,91,15,36.5,94,No,No,No,4,0
+P0566,30,Male,Diabetes,Mild,Scheduled,110,58,83,14,36.9,97,No,No,No,4,0
+P0567,38,Female,Pneumonia,Moderate,Scheduled,115,78,79,15,36.9,92,Yes,No,No,8,1
+P0568,71,Female,Pneumonia,Moderate,Emergency,120,64,91,18,37.1,93,No,No,No,5,0
+P0569,49,Female,Pneumonia,Severe,Emergency,132,75,99,18,36.7,89,No,No,Yes,14,1
+P0570,58,Male,Asthma,Moderate,Emergency,126,82,96,10,37.3,98,Yes,No,No,6,1
+P0571,18,Female,Pneumonia,Severe,Emergency,126,83,87,23,37.0,89,No,No,No,7,1
+P0572,31,Male,Pneumonia,Mild,Scheduled,119,71,80,15,37.3,96,No,No,No,1,0
+P0573,59,Male,Kidney Disease,Moderate,Scheduled,136,79,95,15,37.0,95,No,No,Yes,6,1
+P0574,50,Male,Kidney Disease,Severe,Emergency,126,83,97,22,36.9,94,No,No,No,7,1
+P0575,77,Male,Diabetes,Severe,Emergency,147,71,92,17,37.6,93,Yes,No,Yes,10,1
+P0576,69,Male,Diabetes,Mild,Scheduled,100,85,60,16,36.4,99,No,No,No,3,0
+P0577,60,Female,Kidney Disease,Moderate,Scheduled,129,88,87,14,37.0,96,No,Yes,No,5,0
+P0578,46,Male,Kidney Disease,Mild,Scheduled,111,72,84,14,37.2,100,No,No,No,7,1
+P0579,67,Male,Kidney Disease,Severe,Emergency,118,77,106,28,37.4,91,No,No,No,12,1
+P0580,55,Female,Asthma,Moderate,Scheduled,127,82,100,19,36.9,94,No,No,No,1,0
+P0581,43,Male,COPD,Moderate,Scheduled,131,77,84,21,36.9,93,No,No,No,8,1
+P0582,75,Female,Kidney Disease,Moderate,Scheduled,122,79,103,18,36.4,98,No,Yes,No,9,1
+P0583,40,Female,Pneumonia,Moderate,Emergency,123,82,77,19,37.3,92,No,No,No,8,1
+P0584,43,Female,Asthma,Severe,Scheduled,96,87,99,18,37.0,88,No,No,No,8,1
+P0585,46,Female,Gastroenteritis,Mild,Scheduled,108,71,67,18,36.8,100,No,No,No,2,0
+P0586,39,Male,Gastroenteritis,Mild,Scheduled,113,81,91,14,36.7,97,No,No,No,2,0
+P0587,62,Male,Gastroenteritis,Moderate,Scheduled,104,70,98,21,36.7,99,Yes,Yes,No,8,1
+P0588,28,Male,Gastroenteritis,Severe,Scheduled,156,78,94,19,36.8,93,No,Yes,No,7,1
+P0589,38,Male,COPD,Severe,Emergency,129,82,93,20,37.5,86,No,No,No,7,1
+P0590,75,Female,Asthma,Mild,Scheduled,114,79,91,12,37.4,96,Yes,No,No,2,0
+P0591,59,Female,Diabetes,Moderate,Scheduled,136,69,99,24,36.6,96,Yes,No,Yes,5,0
+P0592,44,Male,Appendicitis,Moderate,Scheduled,127,68,79,15,37.0,93,No,No,No,3,0
+P0593,46,Female,Diabetes,Moderate,Emergency,122,72,72,17,36.8,95,Yes,No,No,5,0
+P0594,18,Female,Gastroenteritis,Moderate,Scheduled,117,87,91,17,37.4,97,No,No,No,3,0
+P0595,47,Male,Appendicitis,Severe,Emergency,108,77,99,17,36.6,93,No,Yes,Yes,7,1
+P0596,46,Male,Diabetes,Moderate,Scheduled,140,85,66,17,36.7,95,No,No,No,4,0
+P0597,45,Male,COPD,Severe,Emergency,123,93,80,16,37.4,89,No,No,No,10,1
+P0598,48,Female,Diabetes,Severe,Scheduled,124,87,106,19,37.3,94,Yes,No,Yes,7,1
+P0599,69,Female,Appendicitis,Moderate,Scheduled,117,76,86,16,37.1,96,No,No,Yes,5,0
+P0600,40,Female,Appendicitis,Severe,Emergency,154,75,90,15,36.9,92,No,No,Yes,8,1
+P0601,47,Male,Kidney Disease,Moderate,Scheduled,136,87,88,14,37.5,94,No,No,No,6,1
+P0602,65,Female,COPD,Moderate,Scheduled,142,93,88,15,36.8,95,Yes,No,Yes,7,1
+P0603,57,Male,COPD,Moderate,Emergency,92,74,78,17,37.0,91,No,No,No,7,1
+P0604,25,Male,Kidney Disease,Moderate,Scheduled,116,84,84,21,37.4,93,No,No,No,9,1
+P0605,24,Female,Diabetes,Moderate,Emergency,108,91,81,14,36.6,94,No,No,No,6,1
+P0606,31,Female,Heart Disease,Severe,Emergency,142,81,92,23,37.5,89,No,Yes,Yes,9,1
+P0607,46,Male,Gastroenteritis,Mild,Emergency,139,67,68,16,36.6,97,No,No,No,2,0
+P0608,44,Male,Heart Disease,Mild,Scheduled,107,59,55,16,36.9,99,No,No,No,4,0
+P0609,51,Female,Kidney Disease,Severe,Emergency,130,72,85,23,37.1,90,No,No,No,11,1
+P0610,55,Male,Asthma,Mild,Emergency,134,86,74,20,36.7,97,No,No,No,3,0
+P0611,79,Male,Pneumonia,Mild,Scheduled,139,70,73,15,36.7,94,No,Yes,Yes,6,1
+P0612,20,Female,Pneumonia,Moderate,Scheduled,128,84,71,15,37.0,90,No,Yes,No,6,1
+P0613,21,Male,Kidney Disease,Moderate,Emergency,108,81,69,13,36.9,92,No,No,No,6,1
+P0614,42,Male,Diabetes,Moderate,Scheduled,123,78,102,16,36.2,94,Yes,No,No,7,1
+P0615,74,Female,Asthma,Moderate,Scheduled,124,83,85,15,36.5,95,Yes,No,No,5,0
+P0616,34,Male,Pneumonia,Severe,Emergency,140,83,93,24,37.6,89,Yes,No,No,8,1
+P0617,23,Male,Diabetes,Moderate,Emergency,114,69,82,16,37.1,95,No,No,No,5,0
+P0618,24,Female,Diabetes,Mild,Scheduled,102,73,64,19,37.0,100,Yes,No,No,4,0
+P0619,52,Female,COPD,Moderate,Emergency,139,67,83,21,36.6,94,No,No,No,8,1
+P0620,51,Female,Heart Disease,Moderate,Scheduled,127,99,99,17,37.1,96,No,Yes,Yes,8,1
+P0621,41,Female,Appendicitis,Mild,Scheduled,104,61,82,12,37.0,99,No,No,No,4,0
+P0622,57,Male,Kidney Disease,Moderate,Scheduled,122,80,81,13,36.7,98,No,No,No,3,0
+P0623,53,Female,COPD,Moderate,Scheduled,130,90,57,16,36.9,94,No,No,No,7,1
+P0624,79,Male,Heart Disease,Moderate,Scheduled,120,65,90,19,35.9,95,No,No,No,7,1
+P0625,37,Female,Pneumonia,Moderate,Emergency,119,56,83,19,37.4,92,No,Yes,Yes,8,1
+P0626,61,Female,Heart Disease,Moderate,Emergency,133,72,77,15,37.0,91,No,Yes,No,6,1
+P0627,38,Female,Diabetes,Moderate,Scheduled,116,78,85,14,36.2,97,Yes,No,No,5,0
+P0628,67,Female,Gastroenteritis,Moderate,Emergency,136,56,80,14,37.4,97,Yes,No,No,5,0
+P0629,53,Male,Pneumonia,Severe,Emergency,118,70,103,19,37.7,90,No,No,No,10,1
+P0630,29,Female,Diabetes,Severe,Emergency,127,67,79,18,36.3,92,Yes,No,Yes,6,1
+P0631,51,Female,Heart Disease,Severe,Emergency,139,88,99,19,37.1,93,No,No,No,8,1
+P0632,78,Female,Heart Disease,Moderate,Scheduled,111,68,74,13,37.4,99,Yes,No,No,9,1
+P0633,29,Male,Pneumonia,Moderate,Scheduled,88,70,102,15,37.5,92,No,No,Yes,8,1
+P0634,58,Male,Kidney Disease,Severe,Emergency,141,73,106,20,36.2,92,Yes,No,No,10,1
+P0635,35,Female,Asthma,Moderate,Emergency,110,82,49,16,37.1,91,No,No,No,7,1
+P0636,30,Male,Heart Disease,Severe,Emergency,124,82,86,16,37.6,93,No,No,Yes,11,1
+P0637,62,Male,Appendicitis,Mild,Scheduled,110,91,61,13,36.7,96,No,No,Yes,4,0
+P0638,67,Male,Diabetes,Severe,Emergency,112,74,96,21,36.8,93,No,No,No,8,1
+P0639,85,Female,Kidney Disease,Severe,Emergency,119,80,94,21,36.9,94,No,Yes,No,12,1
+P0640,28,Male,Gastroenteritis,Moderate,Emergency,114,80,88,16,37.0,94,No,No,Yes,3,0
+P0641,40,Male,Heart Disease,Mild,Emergency,85,81,89,18,36.9,97,No,Yes,No,6,1
+P0642,21,Male,Kidney Disease,Mild,Emergency,117,73,79,22,37.5,100,No,No,No,3,0
+P0643,63,Male,Pneumonia,Severe,Emergency,116,86,82,22,36.7,91,No,No,Yes,10,1
+P0644,54,Male,COPD,Mild,Scheduled,140,69,63,17,36.0,96,Yes,No,No,7,1
+P0645,32,Male,Heart Disease,Moderate,Scheduled,140,77,88,15,37.1,93,No,Yes,Yes,10,1
+P0646,19,Male,Heart Disease,Moderate,Scheduled,139,75,88,13,37.4,97,No,Yes,No,8,1
+P0647,53,Female,Diabetes,Moderate,Scheduled,111,80,84,12,37.8,97,No,No,No,5,0
+P0648,56,Female,Appendicitis,Severe,Emergency,133,89,72,18,36.5,93,No,No,No,7,1
+P0649,23,Female,Gastroenteritis,Mild,Scheduled,131,83,83,16,37.3,97,No,No,Yes,3,0
+P0650,36,Female,Gastroenteritis,Mild,Scheduled,113,86,71,13,36.7,95,No,No,No,4,0
+P0651,63,Female,Heart Disease,Moderate,Emergency,146,90,76,20,36.3,96,No,No,No,6,1
+P0652,35,Female,Pneumonia,Moderate,Emergency,126,71,110,24,38.0,94,No,No,No,6,1
+P0653,43,Female,Diabetes,Moderate,Emergency,128,77,99,18,37.4,95,Yes,No,Yes,6,1
+P0654,40,Male,Asthma,Severe,Emergency,109,70,95,20,37.6,94,No,No,No,9,1
+P0655,34,Male,Heart Disease,Moderate,Scheduled,128,64,88,24,37.2,95,No,Yes,No,6,1
+P0656,47,Male,Pneumonia,Severe,Emergency,91,77,96,18,37.9,88,No,No,Yes,9,1
+P0657,56,Male,Appendicitis,Severe,Emergency,141,77,96,22,37.0,94,No,No,No,9,1
+P0658,68,Female,Diabetes,Moderate,Scheduled,135,80,65,19,37.0,96,No,Yes,No,4,0
+P0659,52,Female,COPD,Severe,Emergency,136,86,100,18,37.9,91,No,Yes,No,12,1
+P0660,43,Male,Asthma,Mild,Emergency,147,81,60,12,36.9,99,No,No,No,2,0
+P0661,39,Male,Appendicitis,Mild,Emergency,126,73,76,20,36.9,97,No,No,Yes,4,0
+P0662,53,Male,Appendicitis,Moderate,Emergency,126,80,79,19,37.5,96,No,No,No,6,1
+P0663,18,Male,Heart Disease,Moderate,Scheduled,85,81,99,21,36.2,95,No,No,No,4,0
+P0664,63,Male,Asthma,Mild,Scheduled,133,79,68,14,36.4,98,No,Yes,No,4,0
+P0665,80,Male,Diabetes,Moderate,Scheduled,140,85,72,21,37.1,92,Yes,No,No,10,1
+P0666,43,Male,Pneumonia,Severe,Emergency,126,71,105,18,38.2,90,No,No,No,13,1
+P0667,53,Female,Pneumonia,Mild,Scheduled,112,74,81,16,38.1,95,Yes,Yes,Yes,8,1
+P0668,51,Female,Kidney Disease,Moderate,Scheduled,120,97,71,14,36.8,94,No,No,No,8,1
+P0669,25,Female,Pneumonia,Moderate,Emergency,113,76,69,16,37.5,93,No,No,No,7,1
+P0670,23,Male,Diabetes,Moderate,Scheduled,110,77,91,16,36.6,92,Yes,No,No,5,0
+P0671,67,Female,COPD,Moderate,Scheduled,127,72,88,17,37.1,94,No,Yes,No,9,1
+P0672,84,Male,Pneumonia,Severe,Emergency,160,98,103,11,38.0,91,No,No,No,12,1
+P0673,69,Female,Appendicitis,Mild,Scheduled,135,66,79,18,37.3,100,No,No,Yes,2,0
+P0674,18,Female,Gastroenteritis,Mild,Emergency,97,61,62,18,36.6,99,No,No,No,5,0
+P0675,34,Male,Kidney Disease,Severe,Emergency,128,95,89,26,36.1,92,No,No,No,12,1
+P0676,51,Male,Kidney Disease,Severe,Scheduled,128,88,79,19,37.1,91,No,No,No,7,1
+P0677,63,Male,Diabetes,Moderate,Emergency,130,63,83,22,36.5,96,No,No,Yes,7,1
+P0678,72,Male,Heart Disease,Mild,Scheduled,128,62,95,12,36.6,95,Yes,No,No,6,1
+P0679,56,Female,Heart Disease,Moderate,Scheduled,121,87,80,23,36.4,97,Yes,No,No,6,1
+P0680,30,Male,Pneumonia,Mild,Scheduled,113,86,70,16,37.6,95,No,No,No,3,0
+P0681,66,Female,Diabetes,Moderate,Emergency,135,81,98,18,36.4,91,Yes,No,Yes,8,1
+P0682,34,Male,Heart Disease,Moderate,Emergency,160,79,80,18,37.1,96,No,Yes,No,7,1
+P0683,41,Female,Kidney Disease,Moderate,Scheduled,87,78,75,15,36.6,96,No,No,No,7,1
+P0684,50,Male,Pneumonia,Moderate,Emergency,127,68,88,16,37.5,96,No,No,No,6,1
+P0685,18,Female,Heart Disease,Severe,Emergency,120,76,88,22,37.4,93,Yes,No,Yes,14,1
+P0686,55,Male,Heart Disease,Severe,Emergency,157,85,92,24,36.9,93,No,No,No,9,1
+P0687,75,Male,Appendicitis,Moderate,Emergency,103,81,85,17,37.2,96,No,No,No,4,0
+P0688,39,Male,Diabetes,Moderate,Scheduled,98,85,85,17,37.2,95,No,Yes,Yes,7,1
+P0689,39,Female,Appendicitis,Mild,Emergency,113,66,71,16,36.0,99,No,No,No,6,1
+P0690,46,Female,Heart Disease,Moderate,Emergency,127,67,83,18,37.0,92,No,No,No,8,1
+P0691,43,Male,Asthma,Mild,Emergency,119,75,86,16,36.8,97,No,No,Yes,5,0
+P0692,83,Female,Heart Disease,Moderate,Emergency,120,71,81,20,37.3,93,No,Yes,No,7,1
+P0693,62,Female,Kidney Disease,Moderate,Emergency,101,80,83,15,37.8,96,No,No,Yes,9,1
+P0694,71,Female,COPD,Moderate,Emergency,115,81,68,22,37.2,94,No,No,No,6,1
+P0695,27,Female,Pneumonia,Mild,Emergency,154,95,77,14,36.6,94,No,No,Yes,6,1
+P0696,23,Female,Heart Disease,Severe,Emergency,134,92,108,19,37.2,90,No,No,Yes,15,1
+P0697,30,Male,Asthma,Mild,Emergency,90,62,77,16,36.5,96,No,No,No,3,0
+P0698,18,Female,Diabetes,Moderate,Emergency,114,82,105,18,36.7,93,No,No,No,9,1
+P0699,60,Female,Diabetes,Severe,Emergency,132,65,88,22,37.0,92,No,Yes,No,11,1
+P0700,72,Male,Pneumonia,Mild,Scheduled,133,78,65,10,36.9,97,Yes,Yes,No,6,1
+P0701,42,Female,Pneumonia,Mild,Scheduled,135,79,79,13,36.6,98,No,No,No,5,0
+P0702,71,Male,Asthma,Severe,Emergency,149,81,99,20,37.4,92,No,Yes,No,7,1
+P0703,23,Female,COPD,Severe,Emergency,129,78,96,19,37.0,90,No,No,No,11,1
+P0704,39,Male,Pneumonia,Moderate,Scheduled,104,71,73,14,37.0,93,No,No,No,6,1
+P0705,60,Male,COPD,Moderate,Emergency,157,95,77,15,36.7,93,No,No,Yes,7,1
+P0706,67,Male,Gastroenteritis,Moderate,Scheduled,147,86,78,19,36.1,95,No,No,Yes,2,0
+P0707,50,Female,Heart Disease,Mild,Scheduled,117,77,75,11,37.2,100,No,No,No,8,1
+P0708,42,Male,Kidney Disease,Moderate,Scheduled,118,94,70,18,37.8,96,No,No,No,6,1
+P0709,50,Female,Diabetes,Moderate,Scheduled,133,88,68,16,37.1,94,Yes,No,No,7,1
+P0710,77,Male,Kidney Disease,Moderate,Emergency,124,77,79,18,36.5,92,No,Yes,No,11,1
+P0711,39,Female,Asthma,Moderate,Scheduled,111,85,99,20,37.2,95,No,No,No,3,0
+P0712,29,Female,Diabetes,Severe,Emergency,120,74,89,24,37.2,90,Yes,No,No,9,1
+P0713,66,Female,Kidney Disease,Severe,Scheduled,128,78,104,23,36.9,89,Yes,No,No,8,1
+P0714,18,Male,Diabetes,Mild,Scheduled,120,65,85,14,37.3,96,No,No,No,4,0
+P0715,31,Male,Diabetes,Severe,Emergency,123,82,94,18,37.3,92,No,No,Yes,9,1
+P0716,58,Male,Heart Disease,Severe,Emergency,137,72,63,20,37.0,91,No,No,Yes,7,1
+P0717,53,Male,Pneumonia,Severe,Emergency,132,78,94,22,37.3,93,No,No,Yes,9,1
+P0718,39,Male,Asthma,Mild,Emergency,121,79,55,14,37.2,97,No,No,No,3,0
+P0719,44,Female,Appendicitis,Mild,Scheduled,114,81,72,17,36.7,95,No,Yes,Yes,2,0
+P0720,73,Female,Asthma,Moderate,Emergency,119,79,93,16,36.8,96,No,No,Yes,6,1
+P0721,58,Male,Asthma,Moderate,Scheduled,119,82,88,13,36.5,100,No,No,No,5,0
+P0722,46,Male,COPD,Moderate,Scheduled,99,80,96,15,37.9,93,Yes,Yes,No,9,1
+P0723,57,Male,Diabetes,Moderate,Emergency,123,69,95,18,37.2,93,No,No,No,7,1
+P0724,33,Male,Pneumonia,Moderate,Emergency,139,79,83,17,37.4,92,No,No,Yes,10,1
+P0725,51,Male,Kidney Disease,Moderate,Scheduled,118,79,76,17,37.2,96,No,No,No,6,1
+P0726,39,Male,Asthma,Moderate,Emergency,127,83,89,18,37.4,98,No,No,No,3,0
+P0727,37,Male,Gastroenteritis,Mild,Scheduled,115,71,66,12,37.1,98,No,No,No,1,0
+P0728,44,Female,Gastroenteritis,Moderate,Emergency,111,72,84,20,36.8,94,No,No,No,5,0
+P0729,40,Male,Diabetes,Mild,Scheduled,100,66,79,19,36.9,100,No,Yes,No,5,0
+P0730,85,Female,Pneumonia,Moderate,Scheduled,132,80,79,23,37.0,93,Yes,Yes,No,6,1
+P0731,18,Male,Pneumonia,Moderate,Emergency,104,79,87,19,37.9,89,No,No,No,8,1
+P0732,34,Male,Heart Disease,Severe,Emergency,132,84,105,19,37.4,98,No,Yes,No,7,1
+P0733,23,Female,Pneumonia,Mild,Scheduled,89,98,94,17,36.9,95,No,No,No,5,0
+P0734,54,Female,COPD,Severe,Emergency,129,93,87,24,37.3,92,No,No,No,11,1
+P0735,85,Male,COPD,Mild,Scheduled,132,95,76,17,35.9,94,No,No,No,4,0
+P0736,49,Male,Appendicitis,Moderate,Scheduled,121,71,74,20,37.2,96,No,No,No,5,0
+P0737,50,Male,Pneumonia,Moderate,Scheduled,144,66,80,14,37.0,95,No,No,No,4,0
+P0738,49,Male,Diabetes,Moderate,Scheduled,139,80,68,18,37.3,93,No,No,No,9,1
+P0739,70,Male,Heart Disease,Moderate,Emergency,135,81,83,16,36.6,94,No,No,No,8,1
+P0740,18,Female,Heart Disease,Moderate,Emergency,86,81,73,16,36.7,93,No,No,No,5,0
+P0741,18,Female,Asthma,Moderate,Scheduled,120,80,77,18,37.1,96,No,No,No,1,0
+P0742,71,Male,Diabetes,Mild,Scheduled,85,58,97,11,36.8,99,Yes,Yes,No,6,1
+P0743,35,Male,Heart Disease,Severe,Emergency,137,71,81,15,36.8,92,No,No,No,10,1
+P0744,35,Male,Heart Disease,Mild,Scheduled,118,80,61,19,37.2,97,No,No,No,6,1
+P0745,66,Male,Kidney Disease,Moderate,Emergency,125,79,79,20,37.2,92,No,Yes,No,7,1
+P0746,53,Female,Diabetes,Moderate,Emergency,113,71,78,18,37.0,96,No,No,No,4,0
+P0747,55,Male,Appendicitis,Mild,Scheduled,123,71,71,18,36.3,97,No,Yes,No,8,1
+P0748,30,Female,Asthma,Mild,Scheduled,103,86,75,16,36.5,100,No,No,No,4,0
+P0749,51,Male,Diabetes,Moderate,Emergency,120,68,81,15,37.4,100,No,No,Yes,9,1
+P0750,46,Female,Asthma,Mild,Emergency,103,74,85,15,36.3,95,No,No,No,4,0
+P0751,39,Male,Diabetes,Mild,Scheduled,108,80,67,20,35.7,100,No,No,No,4,0
+P0752,52,Male,Pneumonia,Severe,Emergency,126,85,87,22,37.4,89,No,No,Yes,11,1
+P0753,62,Male,Kidney Disease,Severe,Emergency,150,81,101,22,36.2,90,Yes,No,Yes,12,1
+P0754,55,Female,Heart Disease,Mild,Scheduled,105,86,80,19,37.1,97,No,No,Yes,5,0
+P0755,57,Female,Diabetes,Moderate,Scheduled,126,70,82,19,37.3,95,No,No,No,4,0
+P0756,64,Female,COPD,Severe,Emergency,150,92,103,21,36.9,89,Yes,No,Yes,12,1
+P0757,48,Female,Asthma,Mild,Scheduled,93,87,75,18,36.9,100,No,No,No,1,0
+P0758,37,Female,Kidney Disease,Severe,Emergency,131,67,112,19,37.4,96,No,No,No,7,1
+P0759,50,Female,COPD,Severe,Emergency,150,75,81,19,37.8,86,No,No,Yes,12,1
+P0760,52,Female,Gastroenteritis,Mild,Emergency,122,78,76,13,36.5,97,No,No,No,1,0
+P0761,50,Female,COPD,Mild,Scheduled,125,90,80,16,37.1,94,No,No,No,1,0
+P0762,57,Female,Heart Disease,Moderate,Emergency,119,89,116,15,37.0,95,No,No,No,7,1
+P0763,63,Male,Kidney Disease,Severe,Emergency,135,80,96,22,36.1,94,No,No,Yes,8,1
+P0764,52,Female,Asthma,Mild,Scheduled,122,87,87,16,37.2,98,No,No,No,1,0
+P0765,45,Male,Asthma,Mild,Scheduled,97,71,79,16,37.0,97,Yes,No,No,4,0
+P0766,35,Male,Asthma,Moderate,Emergency,110,81,87,18,36.8,92,No,Yes,No,6,1
+P0767,45,Male,Heart Disease,Moderate,Emergency,123,77,86,18,36.5,93,No,No,No,6,1
+P0768,23,Female,Kidney Disease,Severe,Emergency,102,82,87,18,36.8,90,No,No,No,8,1
+P0769,65,Female,Pneumonia,Moderate,Scheduled,114,70,84,19,37.3,92,No,No,Yes,8,1
+P0770,50,Male,Pneumonia,Moderate,Emergency,129,68,92,21,37.1,93,No,No,No,6,1
+P0771,52,Male,Pneumonia,Moderate,Emergency,130,75,69,15,37.8,92,No,No,No,10,1
+P0772,55,Male,COPD,Moderate,Scheduled,143,74,82,15,36.5,92,No,No,No,10,1
+P0773,69,Male,Appendicitis,Mild,Scheduled,121,90,85,20,36.0,97,No,Yes,No,1,0
+P0774,49,Male,Asthma,Severe,Emergency,155,81,101,18,37.1,92,No,Yes,Yes,10,1
+P0775,60,Female,Pneumonia,Moderate,Scheduled,134,71,82,16,37.5,93,No,Yes,No,7,1
+P0776,44,Female,Pneumonia,Severe,Emergency,140,77,97,22,37.5,91,No,No,No,9,1
+P0777,95,Female,Heart Disease,Moderate,Emergency,109,80,77,16,37.1,91,No,No,Yes,11,1
+P0778,31,Female,Asthma,Moderate,Emergency,103,83,101,22,36.3,95,No,No,No,1,0
+P0779,37,Female,Diabetes,Moderate,Scheduled,123,66,79,18,37.5,97,No,No,No,1,0
+P0780,76,Female,Gastroenteritis,Mild,Scheduled,135,66,91,13,37.5,97,Yes,No,No,6,1
+P0781,18,Male,Pneumonia,Moderate,Emergency,111,65,85,16,37.2,93,No,No,No,5,0
+P0782,86,Male,Diabetes,Severe,Emergency,126,86,87,16,37.4,94,Yes,No,Yes,6,1
+P0783,35,Male,Pneumonia,Moderate,Scheduled,147,79,63,17,37.0,90,No,No,Yes,5,0
+P0784,27,Female,Asthma,Mild,Scheduled,97,57,68,13,36.3,97,No,No,No,5,0
+P0785,62,Female,Diabetes,Moderate,Scheduled,104,86,60,17,37.3,93,No,No,Yes,9,1
+P0786,53,Male,Heart Disease,Moderate,Scheduled,121,78,92,18,36.9,97,No,No,No,4,0
+P0787,18,Male,Pneumonia,Mild,Emergency,127,81,90,19,37.3,96,No,No,Yes,5,0
+P0788,24,Female,COPD,Moderate,Scheduled,138,96,102,19,36.3,95,No,No,No,9,1
+P0789,18,Male,Asthma,Mild,Scheduled,117,89,89,15,37.3,99,No,No,No,1,0
+P0790,87,Female,Asthma,Moderate,Scheduled,127,87,83,14,36.7,93,No,No,Yes,6,1
+P0791,34,Male,Diabetes,Mild,Emergency,121,87,74,9,36.8,96,No,Yes,No,6,1
+P0792,40,Female,Kidney Disease,Moderate,Scheduled,113,76,75,23,37.1,94,No,No,No,8,1
+P0793,60,Female,Pneumonia,Severe,Emergency,116,85,94,17,37.2,89,No,No,Yes,14,1
+P0794,63,Male,Appendicitis,Moderate,Emergency,106,70,81,13,36.7,98,No,No,No,4,0
+P0795,73,Male,Asthma,Moderate,Emergency,120,87,86,18,35.9,93,No,No,No,5,0
+P0796,65,Male,Gastroenteritis,Moderate,Emergency,114,89,79,19,36.8,93,Yes,No,No,6,1
+P0797,31,Female,Appendicitis,Moderate,Emergency,128,70,96,11,36.6,97,No,No,No,5,0
+P0798,64,Female,Asthma,Mild,Emergency,114,62,69,21,37.0,99,No,No,No,4,0
+P0799,40,Male,Pneumonia,Severe,Emergency,137,65,95,21,37.5,92,No,No,Yes,10,1
+P0800,40,Female,Kidney Disease,Severe,Scheduled,125,87,105,19,37.0,92,No,No,No,8,1
+P0801,23,Male,Pneumonia,Moderate,Emergency,108,95,72,18,37.9,93,No,No,No,4,0
+P0802,32,Female,COPD,Severe,Scheduled,130,80,87,25,37.4,90,No,No,No,10,1
+P0803,33,Female,Pneumonia,Moderate,Scheduled,137,78,86,17,36.1,94,No,No,No,6,1
+P0804,69,Male,Asthma,Mild,Scheduled,99,70,73,23,36.5,95,No,No,No,4,0
+P0805,53,Male,Asthma,Severe,Emergency,125,85,88,24,36.9,91,Yes,No,Yes,9,1
+P0806,62,Male,Pneumonia,Moderate,Emergency,145,71,101,16,37.2,94,No,No,No,5,0
+P0807,49,Female,Pneumonia,Moderate,Emergency,117,74,82,25,36.9,93,No,Yes,Yes,10,1
+P0808,33,Male,COPD,Severe,Scheduled,138,75,101,19,37.6,88,No,No,No,9,1
+P0809,38,Male,COPD,Severe,Emergency,147,72,85,15,37.2,89,No,No,Yes,9,1
+P0810,18,Male,Diabetes,Mild,Scheduled,101,85,76,16,37.0,97,Yes,No,Yes,4,0
+P0811,35,Female,Heart Disease,Moderate,Scheduled,129,74,71,17,36.8,93,No,No,No,7,1
+P0812,22,Female,Heart Disease,Severe,Emergency,132,80,86,18,36.6,88,No,No,Yes,13,1
+P0813,78,Male,Asthma,Mild,Emergency,131,93,72,19,36.8,97,No,No,Yes,7,1
+P0814,34,Female,Pneumonia,Moderate,Emergency,131,91,94,18,37.2,92,No,No,No,9,1
+P0815,48,Male,Pneumonia,Mild,Scheduled,114,90,73,8,37.1,95,Yes,No,No,6,1
+P0816,38,Female,Gastroenteritis,Moderate,Scheduled,133,79,90,17,36.6,93,No,No,No,5,0
+P0817,95,Female,Appendicitis,Moderate,Emergency,150,64,79,19,37.1,93,No,Yes,Yes,8,1
+P0818,46,Female,COPD,Severe,Emergency,120,90,98,18,37.2,90,No,No,Yes,11,1
+P0819,60,Female,Kidney Disease,Moderate,Emergency,127,82,86,18,36.9,98,No,No,No,7,1
+P0820,67,Male,Kidney Disease,Moderate,Scheduled,144,64,80,17,36.6,97,No,No,No,6,1
+P0821,95,Male,Appendicitis,Mild,Scheduled,138,85,68,16,36.9,98,Yes,Yes,No,1,0
+P0822,67,Male,Pneumonia,Moderate,Emergency,102,75,91,15,37.3,93,No,Yes,Yes,8,1
+P0823,33,Female,Kidney Disease,Severe,Emergency,116,72,93,16,37.2,91,No,No,Yes,12,1
+P0824,26,Female,Appendicitis,Moderate,Emergency,118,76,83,23,37.0,93,No,No,No,6,1
+P0825,49,Male,Gastroenteritis,Mild,Emergency,105,84,71,15,36.6,97,No,No,No,2,0
+P0826,65,Female,Heart Disease,Moderate,Emergency,113,84,78,13,37.1,96,No,Yes,Yes,9,1
+P0827,18,Female,Diabetes,Severe,Emergency,114,74,90,15,37.4,92,No,No,No,8,1
+P0828,42,Female,Asthma,Mild,Scheduled,126,74,76,11,36.9,94,No,No,Yes,4,0
+P0829,74,Male,COPD,Moderate,Emergency,144,84,80,26,37.1,93,No,No,Yes,6,1
+P0830,32,Female,Pneumonia,Moderate,Scheduled,117,71,85,14,37.2,94,No,No,No,6,1
+P0831,45,Female,Diabetes,Mild,Scheduled,137,77,87,13,36.5,94,Yes,Yes,No,5,0
+P0832,77,Female,Gastroenteritis,Mild,Scheduled,132,69,81,15,36.6,99,No,No,No,1,0
+P0833,48,Male,Pneumonia,Severe,Emergency,142,80,83,22,36.8,87,No,No,Yes,14,1
+P0834,69,Male,Heart Disease,Severe,Emergency,136,85,110,21,37.6,94,No,No,Yes,11,1
+P0835,34,Female,Heart Disease,Severe,Emergency,122,86,86,19,36.9,92,Yes,No,No,8,1
+P0836,18,Male,Appendicitis,Severe,Emergency,126,69,85,23,37.6,93,No,No,No,6,1
+P0837,61,Female,Gastroenteritis,Severe,Emergency,127,83,93,18,37.2,92,No,No,Yes,6,1
+P0838,60,Male,Appendicitis,Mild,Scheduled,119,68,73,19,36.7,97,Yes,Yes,No,1,0
+P0839,28,Female,Gastroenteritis,Moderate,Scheduled,128,81,79,20,37.2,92,No,No,No,4,0
+P0840,43,Male,Heart Disease,Moderate,Emergency,117,77,79,14,37.1,97,Yes,Yes,Yes,10,1
+P0841,37,Female,COPD,Moderate,Scheduled,106,88,95,12,36.5,91,No,No,No,6,1
+P0842,26,Female,Diabetes,Moderate,Scheduled,103,88,85,15,36.0,96,Yes,No,No,5,0
+P0843,87,Male,Diabetes,Moderate,Emergency,153,82,89,17,36.9,93,No,No,Yes,7,1
+P0844,38,Female,Diabetes,Mild,Scheduled,133,84,54,19,37.5,96,No,No,No,5,0
+P0845,91,Female,Pneumonia,Severe,Emergency,130,73,98,21,37.8,88,No,No,Yes,12,1
+P0846,90,Male,COPD,Moderate,Emergency,140,84,78,19,36.7,94,No,No,Yes,11,1
+P0847,40,Female,Pneumonia,Moderate,Scheduled,127,65,102,13,36.7,92,No,No,Yes,8,1
+P0848,48,Male,Kidney Disease,Severe,Emergency,124,72,89,20,37.1,94,No,Yes,No,10,1
+P0849,83,Male,Pneumonia,Mild,Emergency,148,97,87,21,37.3,96,Yes,No,Yes,8,1
+P0850,48,Male,Gastroenteritis,Mild,Emergency,97,59,61,19,37.0,96,No,No,No,2,0
+P0851,48,Female,Pneumonia,Moderate,Emergency,126,86,82,15,36.9,89,No,No,No,11,1
+P0852,21,Female,Pneumonia,Moderate,Scheduled,141,71,93,20,37.6,94,Yes,No,No,5,0
+P0853,25,Female,Pneumonia,Moderate,Emergency,95,76,105,18,37.9,92,No,No,No,11,1
+P0854,42,Male,Asthma,Severe,Emergency,147,65,85,19,37.9,93,No,No,No,9,1
+P0855,51,Female,Asthma,Mild,Scheduled,109,90,80,18,36.7,98,No,No,No,4,0
+P0856,40,Male,Asthma,Mild,Scheduled,118,92,90,18,36.9,98,No,No,No,1,0
+P0857,54,Female,Gastroenteritis,Mild,Emergency,118,66,68,13,37.3,99,No,No,Yes,2,0
+P0858,25,Female,Gastroenteritis,Moderate,Emergency,141,96,70,17,37.3,95,No,No,No,3,0
+P0859,18,Female,Kidney Disease,Moderate,Scheduled,139,87,87,23,36.9,93,No,No,No,7,1
+P0860,63,Female,Pneumonia,Moderate,Scheduled,123,86,81,17,36.8,91,Yes,Yes,Yes,7,1
+P0861,67,Female,Gastroenteritis,Moderate,Scheduled,159,97,73,16,36.6,94,No,Yes,No,5,0
+P0862,43,Male,Gastroenteritis,Mild,Scheduled,135,79,67,14,36.4,100,No,No,No,1,0
+P0863,32,Male,Kidney Disease,Moderate,Emergency,125,63,95,19,37.1,96,No,No,No,5,0
+P0864,29,Female,COPD,Mild,Scheduled,107,63,79,19,37.1,97,No,No,No,3,0
+P0865,91,Female,Pneumonia,Severe,Scheduled,152,72,110,18,37.5,89,No,No,No,12,1
+P0866,42,Female,Asthma,Mild,Emergency,125,84,63,21,36.9,99,No,No,No,4,0
+P0867,18,Female,Pneumonia,Moderate,Scheduled,104,86,103,18,37.0,91,No,No,No,7,1
+P0868,61,Male,Appendicitis,Severe,Emergency,148,81,98,21,37.3,89,No,No,No,7,1
+P0869,44,Male,Diabetes,Moderate,Emergency,133,84,92,19,36.7,98,No,No,No,6,1
+P0870,64,Male,Asthma,Severe,Emergency,125,81,106,16,36.7,92,No,Yes,Yes,13,1
+P0871,39,Female,COPD,Severe,Emergency,132,73,97,26,37.2,90,No,No,Yes,8,1
+P0872,21,Female,Asthma,Moderate,Emergency,129,86,80,19,36.9,95,No,No,No,6,1
+P0873,46,Male,Asthma,Mild,Scheduled,113,91,80,14,36.4,96,No,No,No,3,0
+P0874,76,Female,COPD,Severe,Emergency,119,82,102,16,37.0,91,No,No,Yes,13,1
+P0875,69,Male,Kidney Disease,Mild,Scheduled,118,81,63,12,37.4,100,No,No,No,6,1
+P0876,31,Male,Pneumonia,Moderate,Scheduled,109,72,79,23,37.1,92,No,No,No,9,1
+P0877,64,Female,Pneumonia,Severe,Emergency,135,91,89,20,37.0,92,No,Yes,No,15,1
+P0878,39,Female,Pneumonia,Severe,Emergency,136,82,100,23,38.0,88,No,No,No,9,1
+P0879,57,Female,Diabetes,Mild,Scheduled,142,60,72,17,36.7,94,Yes,Yes,No,4,0
+P0880,29,Female,Pneumonia,Moderate,Emergency,147,85,76,18,36.9,93,No,No,No,10,1
+P0881,46,Female,COPD,Moderate,Scheduled,112,68,86,21,36.8,94,No,No,Yes,7,1
+P0882,77,Female,Pneumonia,Moderate,Emergency,116,88,92,20,37.7,91,Yes,Yes,Yes,10,1
+P0883,57,Female,Asthma,Moderate,Emergency,122,77,72,20,36.1,94,No,No,No,5,0
+P0884,67,Female,Gastroenteritis,Mild,Scheduled,106,84,60,11,36.9,99,Yes,No,Yes,2,0
+P0885,66,Female,Diabetes,Moderate,Emergency,112,79,90,21,37.1,92,Yes,No,Yes,8,1
+P0886,39,Male,Diabetes,Moderate,Emergency,122,71,74,18,36.2,93,No,No,No,6,1
+P0887,18,Female,Heart Disease,Moderate,Emergency,101,82,92,16,36.6,94,No,Yes,No,7,1
+P0888,45,Male,Appendicitis,Mild,Scheduled,102,87,74,11,36.3,96,No,No,No,2,0
+P0889,27,Male,Kidney Disease,Moderate,Emergency,106,87,97,16,37.6,96,No,No,No,7,1
+P0890,49,Male,Heart Disease,Moderate,Emergency,139,75,105,17,36.7,99,No,Yes,No,11,1
+P0891,56,Female,Pneumonia,Mild,Emergency,136,99,91,14,37.0,99,No,No,No,5,0
+P0892,26,Male,Diabetes,Mild,Emergency,118,94,57,11,36.7,96,Yes,No,No,5,0
+P0893,70,Female,Pneumonia,Moderate,Scheduled,145,91,87,18,38.0,93,No,Yes,Yes,8,1
+P0894,42,Male,Asthma,Severe,Scheduled,117,87,76,19,36.9,91,No,No,No,8,1
+P0895,52,Female,Gastroenteritis,Moderate,Emergency,128,61,83,24,37.2,98,No,No,No,4,0
+P0896,18,Male,Appendicitis,Mild,Scheduled,106,77,67,16,36.8,99,No,No,No,3,0
+P0897,82,Male,Pneumonia,Moderate,Emergency,142,73,78,14,36.7,91,No,No,Yes,8,1
+P0898,48,Female,Asthma,Mild,Scheduled,165,77,77,18,36.8,97,No,No,No,2,0
+P0899,26,Female,Asthma,Moderate,Emergency,104,72,85,19,36.7,93,No,No,No,4,0
+P0900,66,Male,Gastroenteritis,Mild,Scheduled,113,75,67,16,36.9,97,Yes,No,No,1,0
+P0901,53,Female,Pneumonia,Severe,Emergency,149,69,104,17,37.0,89,No,No,No,10,1
+P0902,51,Female,Pneumonia,Mild,Scheduled,93,54,87,16,37.2,94,Yes,No,Yes,6,1
+P0903,34,Male,Diabetes,Moderate,Emergency,110,69,91,17,36.3,96,No,No,No,6,1
+P0904,46,Female,Gastroenteritis,Moderate,Emergency,145,81,71,13,36.7,92,No,No,No,5,0
+P0905,24,Female,Gastroenteritis,Mild,Scheduled,100,78,66,17,36.0,96,No,No,No,1,0
+P0906,45,Male,Heart Disease,Severe,Scheduled,131,76,116,18,37.6,90,No,No,No,10,1
+P0907,68,Female,Kidney Disease,Moderate,Emergency,119,63,73,15,36.5,95,No,No,No,6,1
+P0908,83,Male,Diabetes,Severe,Emergency,107,69,91,19,37.5,91,No,Yes,No,10,1
+P0909,66,Male,Pneumonia,Mild,Scheduled,111,94,74,18,37.2,93,No,Yes,No,8,1
+P0910,79,Female,Pneumonia,Severe,Emergency,154,71,82,20,37.8,92,No,Yes,Yes,14,1
+P0911,33,Male,Pneumonia,Severe,Emergency,114,74,91,21,37.0,88,No,No,No,10,1
+P0912,18,Male,COPD,Moderate,Scheduled,134,82,97,23,36.3,93,Yes,Yes,Yes,9,1
+P0913,42,Male,Gastroenteritis,Moderate,Scheduled,107,64,100,21,36.7,92,No,No,No,3,0
+P0914,27,Male,Asthma,Severe,Emergency,119,76,102,23,37.1,90,No,No,Yes,6,1
+P0915,65,Male,Appendicitis,Moderate,Emergency,135,64,96,17,35.8,97,No,No,Yes,5,0
+P0916,33,Male,Pneumonia,Moderate,Scheduled,116,79,79,16,37.1,92,No,No,No,6,1
+P0917,70,Female,Pneumonia,Moderate,Emergency,128,67,75,14,37.3,89,No,Yes,No,6,1
+P0918,61,Female,Asthma,Mild,Scheduled,145,71,83,16,36.1,95,No,No,Yes,2,0
+P0919,63,Male,Asthma,Mild,Scheduled,149,84,73,10,36.8,95,Yes,No,No,4,0
+P0920,41,Female,Heart Disease,Moderate,Scheduled,136,76,93,18,36.5,91,No,Yes,No,8,1
+P0921,60,Male,Appendicitis,Moderate,Scheduled,121,83,101,17,36.7,95,Yes,Yes,Yes,7,1
+P0922,36,Male,Kidney Disease,Moderate,Emergency,118,73,86,17,37.1,93,Yes,No,Yes,10,1
+P0923,46,Male,Asthma,Mild,Emergency,123,78,74,17,36.7,100,No,No,Yes,4,0
+P0924,50,Female,Heart Disease,Severe,Emergency,156,75,104,21,36.5,92,No,No,No,12,1
+P0925,39,Male,COPD,Severe,Emergency,137,77,99,15,37.1,88,No,Yes,No,11,1
+P0926,37,Male,Asthma,Mild,Scheduled,112,78,64,14,36.8,96,No,Yes,No,4,0
+P0927,56,Female,Diabetes,Mild,Scheduled,114,73,72,14,36.3,100,No,No,No,1,0
+P0928,29,Male,Kidney Disease,Moderate,Scheduled,137,91,78,14,36.1,92,No,No,No,8,1
+P0929,39,Female,Gastroenteritis,Severe,Emergency,124,65,92,25,36.6,89,Yes,No,No,10,1
+P0930,52,Male,Kidney Disease,Severe,Emergency,130,86,80,24,37.1,92,No,No,Yes,9,1
+P0931,20,Female,Pneumonia,Severe,Emergency,134,86,103,23,37.3,87,No,No,Yes,11,1
+P0932,51,Female,Diabetes,Mild,Scheduled,137,71,53,13,36.6,97,Yes,No,No,4,0
+P0933,48,Male,Pneumonia,Mild,Scheduled,157,75,58,17,37.4,96,No,No,No,5,0
+P0934,42,Male,Asthma,Mild,Emergency,112,75,56,20,36.7,95,No,No,No,3,0
+P0935,18,Female,Diabetes,Mild,Emergency,168,74,77,13,37.1,100,Yes,No,Yes,7,1
+P0936,18,Female,Pneumonia,Severe,Emergency,106,72,90,25,37.7,88,No,No,No,9,1
+P0937,67,Female,Kidney Disease,Moderate,Emergency,154,79,77,17,36.3,94,No,Yes,Yes,8,1
+P0938,56,Male,Kidney Disease,Severe,Emergency,124,69,96,16,37.6,91,No,No,No,8,1
+P0939,68,Female,Heart Disease,Mild,Scheduled,99,89,80,15,36.8,99,No,Yes,Yes,4,0
+P0940,58,Female,Gastroenteritis,Moderate,Scheduled,114,78,79,20,36.5,92,No,Yes,No,5,0
+P0941,55,Female,Asthma,Mild,Emergency,132,59,82,15,36.8,96,No,No,No,4,0
+P0942,38,Male,Kidney Disease,Moderate,Scheduled,119,71,78,13,36.2,93,No,Yes,No,5,0
+P0943,54,Male,Asthma,Mild,Scheduled,127,75,67,18,36.6,99,No,No,Yes,4,0
+P0944,55,Female,Asthma,Moderate,Emergency,130,87,87,20,37.3,98,No,No,No,4,0
+P0945,64,Female,Heart Disease,Mild,Scheduled,136,82,84,16,36.7,98,No,Yes,Yes,7,1
+P0946,32,Male,Kidney Disease,Severe,Emergency,139,74,102,16,37.4,91,No,No,No,7,1
+P0947,37,Female,Diabetes,Severe,Scheduled,111,81,109,17,36.9,91,No,Yes,No,11,1
+P0948,83,Female,Diabetes,Mild,Scheduled,118,85,107,17,36.5,97,No,No,Yes,7,1
+P0949,18,Male,Heart Disease,Moderate,Emergency,107,74,77,22,37.0,94,Yes,No,No,12,1
+P0950,69,Male,Heart Disease,Severe,Emergency,137,71,85,27,37.8,93,No,Yes,No,11,1
+P0951,35,Male,Gastroenteritis,Moderate,Scheduled,134,81,95,16,35.9,91,No,No,No,3,0
+P0952,33,Female,Heart Disease,Severe,Emergency,104,66,91,20,36.3,91,No,Yes,Yes,10,1
+P0953,51,Male,Heart Disease,Severe,Emergency,124,72,88,18,36.3,90,No,No,Yes,13,1
+P0954,88,Male,Diabetes,Mild,Scheduled,121,86,84,18,36.4,100,No,No,No,4,0
+P0955,29,Female,Gastroenteritis,Moderate,Scheduled,119,84,74,20,37.2,95,Yes,No,No,4,0
+P0956,61,Female,Diabetes,Moderate,Scheduled,94,90,115,15,36.7,95,No,No,No,7,1
+P0957,60,Female,Heart Disease,Severe,Scheduled,135,79,107,15,37.8,91,No,No,Yes,9,1
+P0958,20,Female,Appendicitis,Mild,Scheduled,148,91,79,14,37.3,99,No,No,No,3,0
+P0959,53,Female,Kidney Disease,Moderate,Emergency,129,73,97,13,36.0,91,No,No,No,5,0
+P0960,54,Female,COPD,Severe,Emergency,95,88,69,17,36.9,91,No,No,Yes,9,1
+P0961,36,Male,Pneumonia,Mild,Scheduled,134,60,74,15,36.7,95,No,No,Yes,7,1
+P0962,36,Female,Diabetes,Mild,Scheduled,99,73,74,24,36.9,96,No,No,No,4,0
+P0963,76,Male,COPD,Severe,Scheduled,129,93,99,19,37.2,89,No,No,Yes,15,1
+P0964,35,Female,Pneumonia,Moderate,Scheduled,117,72,86,16,37.0,91,No,No,Yes,6,1
+P0965,20,Female,Heart Disease,Mild,Emergency,113,59,85,10,36.6,99,No,No,Yes,2,0
+P0966,35,Female,Diabetes,Mild,Scheduled,113,71,74,17,37.0,98,No,No,No,4,0
+P0967,28,Female,Pneumonia,Mild,Emergency,92,85,81,14,37.5,98,No,No,Yes,4,0
+P0968,22,Male,Pneumonia,Mild,Scheduled,107,75,85,18,36.1,93,No,No,No,5,0
+P0969,55,Male,Heart Disease,Severe,Emergency,139,80,103,18,38.3,92,No,No,Yes,11,1
+P0970,58,Female,Kidney Disease,Moderate,Emergency,119,78,76,19,37.0,95,No,No,No,6,1
+P0971,26,Male,Diabetes,Moderate,Scheduled,111,76,85,20,37.3,94,No,No,Yes,6,1
+P0972,21,Male,Gastroenteritis,Moderate,Scheduled,113,97,96,12,36.8,95,No,Yes,No,4,0
+P0973,54,Male,Diabetes,Mild,Emergency,131,85,77,16,36.5,99,No,No,No,3,0
+P0974,18,Male,Kidney Disease,Moderate,Emergency,118,75,97,18,36.6,93,No,No,Yes,10,1
+P0975,39,Male,Asthma,Moderate,Scheduled,122,71,72,13,37.3,94,Yes,No,No,3,0
+P0976,46,Female,Heart Disease,Severe,Emergency,119,82,83,19,36.7,93,No,Yes,Yes,11,1
+P0977,50,Female,Pneumonia,Severe,Emergency,122,72,105,23,37.1,88,No,No,No,8,1
+P0978,54,Female,Pneumonia,Moderate,Scheduled,124,81,71,18,37.5,92,No,No,No,5,0
+P0979,25,Female,Diabetes,Moderate,Emergency,125,76,99,20,36.8,95,No,Yes,No,8,1
+P0980,35,Male,Appendicitis,Moderate,Emergency,122,94,100,12,36.7,93,No,No,Yes,9,1
+P0981,44,Female,Appendicitis,Severe,Emergency,150,81,108,21,37.6,93,No,No,Yes,12,1
+P0982,58,Male,Heart Disease,Mild,Emergency,108,78,85,13,37.4,100,No,Yes,No,7,1
+P0983,33,Male,Diabetes,Moderate,Scheduled,127,68,84,16,37.1,95,No,No,No,7,1
+P0984,54,Male,Heart Disease,Severe,Emergency,146,87,87,17,37.6,91,No,Yes,Yes,13,1
+P0985,50,Male,Heart Disease,Severe,Emergency,120,104,105,19,37.6,95,No,No,No,9,1
+P0986,75,Male,COPD,Mild,Scheduled,104,75,72,16,36.7,95,No,No,No,5,0
+P0987,65,Female,COPD,Moderate,Emergency,127,92,72,18,37.2,96,No,Yes,Yes,6,1
+P0988,37,Male,COPD,Moderate,Emergency,136,58,77,14,37.2,91,No,No,No,6,1
+P0989,31,Male,Asthma,Moderate,Emergency,134,80,85,17,37.2,96,Yes,No,Yes,4,0
+P0990,67,Male,Gastroenteritis,Mild,Emergency,127,103,99,20,36.8,96,No,No,Yes,6,1
+P0991,52,Male,Pneumonia,Moderate,Scheduled,125,98,84,15,37.5,97,No,No,No,2,0
+P0992,86,Male,Gastroenteritis,Moderate,Emergency,146,95,77,13,37.1,95,No,No,No,11,1
+P0993,27,Male,Heart Disease,Severe,Emergency,135,77,89,25,37.5,89,No,No,No,8,1
+P0994,40,Male,Diabetes,Mild,Scheduled,124,75,84,12,37.3,98,No,No,No,4,0
+P0995,35,Male,Pneumonia,Severe,Emergency,135,76,113,17,36.8,90,No,No,Yes,9,1
+P0996,80,Male,Pneumonia,Severe,Emergency,122,90,94,11,36.8,90,No,No,No,10,1
+P0997,70,Female,Diabetes,Mild,Scheduled,125,82,93,17,35.6,95,No,Yes,No,4,0
+P0998,18,Female,Pneumonia,Moderate,Scheduled,116,69,89,18,38.2,96,No,No,No,6,1
+P0999,35,Male,Diabetes,Moderate,Scheduled,119,59,74,14,35.9,93,Yes,No,No,4,0
+P1000,26,Male,Asthma,Moderate,Emergency,153,89,94,21,36.9,99,No,No,No,4,0
+P1001,63,Female,Appendicitis,Moderate,Scheduled,135,90,96,14,36.9,92,No,No,No,8,1
+P1002,22,Female,Gastroenteritis,Severe,Emergency,114,89,108,21,36.9,96,No,No,Yes,6,1
+P1003,45,Male,Diabetes,Moderate,Scheduled,138,80,79,24,37.2,95,Yes,No,Yes,9,1
+P1004,34,Female,Pneumonia,Moderate,Scheduled,125,85,78,17,37.3,91,No,No,No,4,0
+P1005,73,Female,Gastroenteritis,Mild,Scheduled,131,83,69,21,37.2,96,No,No,No,3,0
+P1006,52,Male,Asthma,Severe,Emergency,153,74,109,25,37.5,93,No,No,No,5,0
+P1007,57,Female,Heart Disease,Mild,Scheduled,140,68,81,13,37.4,95,No,Yes,No,4,0
+P1008,60,Female,Diabetes,Severe,Emergency,123,73,105,15,37.7,92,Yes,Yes,No,14,1
+P1009,73,Female,Appendicitis,Moderate,Scheduled,85,72,105,17,36.4,96,No,No,No,9,1
+P1010,53,Female,Diabetes,Moderate,Scheduled,148,83,84,16,36.5,98,No,Yes,No,5,0
+P1011,21,Male,Asthma,Moderate,Scheduled,122,75,87,20,36.7,95,No,No,No,6,1
+P1012,87,Male,Gastroenteritis,Mild,Scheduled,121,80,49,14,36.7,99,No,No,No,3,0
+P1013,54,Male,Kidney Disease,Mild,Scheduled,119,79,74,12,37.0,97,No,No,Yes,4,0
+P1014,73,Male,Pneumonia,Moderate,Scheduled,127,71,88,17,37.2,91,Yes,No,Yes,8,1
+P1015,79,Female,Asthma,Mild,Emergency,132,67,66,15,36.7,99,Yes,Yes,No,6,1
+P1016,68,Female,Diabetes,Moderate,Scheduled,151,62,96,17,36.6,93,Yes,Yes,No,7,1
+P1017,68,Female,Diabetes,Moderate,Scheduled,137,82,79,17,37.0,99,Yes,No,No,6,1
+P1018,39,Male,Diabetes,Mild,Scheduled,114,79,73,16,36.6,98,No,No,Yes,3,0
+P1019,40,Male,Pneumonia,Moderate,Emergency,118,95,81,13,36.9,94,No,No,No,8,1
+P1020,27,Female,Pneumonia,Moderate,Scheduled,111,69,86,17,37.4,92,No,No,No,3,0
+P1021,46,Female,Appendicitis,Moderate,Emergency,141,81,92,19,36.5,95,No,Yes,No,5,0
+P1022,32,Male,Diabetes,Moderate,Emergency,133,86,66,15,37.3,95,No,No,No,9,1
+P1023,70,Male,Heart Disease,Moderate,Emergency,135,80,80,15,36.3,97,Yes,Yes,No,8,1
+P1024,18,Female,COPD,Moderate,Scheduled,132,72,80,18,37.0,94,No,No,No,7,1
+P1025,38,Male,Pneumonia,Moderate,Emergency,124,80,71,15,36.7,96,No,No,No,9,1
+P1026,55,Female,Asthma,Moderate,Emergency,115,84,58,12,36.9,95,No,No,Yes,3,0
+P1027,29,Female,Heart Disease,Moderate,Emergency,105,75,79,16,37.1,91,No,Yes,No,10,1
+P1028,41,Female,Asthma,Moderate,Scheduled,90,88,92,18,37.1,96,No,No,No,1,0
+P1029,71,Male,Asthma,Mild,Emergency,130,77,68,14,37.8,94,No,Yes,No,2,0
+P1030,18,Male,Gastroenteritis,Mild,Scheduled,97,77,89,17,37.3,99,No,No,Yes,1,0
+P1031,19,Female,Heart Disease,Severe,Emergency,151,87,113,22,37.2,91,No,No,No,7,1
+P1032,52,Male,Pneumonia,Moderate,Emergency,105,83,73,13,36.8,94,No,No,No,5,0
+P1033,21,Female,Diabetes,Severe,Emergency,132,96,90,20,37.2,98,No,Yes,No,7,1
+P1034,34,Male,Heart Disease,Moderate,Scheduled,98,74,100,26,36.7,97,No,No,No,4,0
+P1035,42,Female,COPD,Moderate,Scheduled,97,66,76,19,36.9,93,No,Yes,No,8,1
+P1036,81,Female,Pneumonia,Severe,Scheduled,128,93,85,20,37.6,86,Yes,No,No,10,1
+P1037,65,Male,Pneumonia,Mild,Scheduled,118,64,79,16,38.0,95,Yes,Yes,Yes,6,1
+P1038,62,Male,COPD,Moderate,Scheduled,123,80,76,16,36.5,91,No,No,Yes,10,1
+P1039,70,Female,Heart Disease,Mild,Emergency,99,82,79,14,37.6,97,No,Yes,No,9,1
+P1040,18,Female,Gastroenteritis,Mild,Scheduled,130,95,63,15,36.4,100,No,No,Yes,8,1
+P1041,50,Female,Asthma,Mild,Scheduled,95,88,71,15,37.0,97,No,No,No,1,0
+P1042,42,Female,COPD,Moderate,Emergency,150,63,49,11,37.6,93,No,No,Yes,7,1
+P1043,52,Female,Pneumonia,Mild,Scheduled,111,72,76,13,37.4,95,No,Yes,No,4,0
+P1044,46,Female,Pneumonia,Severe,Emergency,109,96,98,20,38.6,90,No,No,No,8,1
+P1045,67,Female,Pneumonia,Severe,Emergency,138,69,106,15,37.9,86,No,No,Yes,13,1
+P1046,46,Female,Kidney Disease,Moderate,Scheduled,110,94,73,18,37.6,92,No,Yes,No,8,1
+P1047,32,Female,COPD,Severe,Emergency,129,86,77,22,37.2,90,No,No,No,11,1
+P1048,22,Male,Diabetes,Moderate,Scheduled,114,67,98,18,37.5,95,No,No,No,5,0
+P1049,55,Male,Asthma,Mild,Scheduled,128,81,98,20,37.1,96,No,No,No,1,0
+P1050,60,Female,Diabetes,Severe,Scheduled,133,91,107,18,37.6,92,No,No,No,7,1
+P1051,59,Female,Pneumonia,Severe,Emergency,133,65,76,23,37.4,91,No,No,No,8,1
+P1052,53,Male,Kidney Disease,Moderate,Scheduled,130,89,78,16,36.3,97,No,No,Yes,4,0
+P1053,61,Female,Diabetes,Severe,Scheduled,125,84,90,15,37.9,92,No,Yes,No,8,1
+P1054,38,Female,Diabetes,Moderate,Emergency,121,70,82,18,37.3,98,No,No,No,6,1
+P1055,18,Female,Asthma,Mild,Emergency,128,62,85,12,36.9,97,No,No,No,1,0
+P1056,60,Male,Kidney Disease,Severe,Emergency,134,71,91,20,37.7,90,Yes,No,No,10,1
+P1057,54,Female,Pneumonia,Mild,Scheduled,154,73,66,20,37.4,96,No,No,No,1,0
+P1058,36,Female,COPD,Mild,Emergency,126,93,69,13,37.1,94,Yes,Yes,No,8,1
+P1059,70,Male,Gastroenteritis,Mild,Emergency,115,71,62,17,37.2,98,Yes,No,Yes,7,1
+P1060,39,Female,COPD,Severe,Emergency,99,61,96,20,37.3,90,No,No,Yes,11,1
+P1061,35,Male,Gastroenteritis,Mild,Scheduled,112,71,81,20,37.2,97,No,No,No,2,0
+P1062,51,Female,Pneumonia,Severe,Emergency,128,89,90,17,37.9,89,No,No,No,12,1
+P1063,33,Male,Pneumonia,Moderate,Scheduled,106,82,109,18,36.6,95,No,No,No,9,1
+P1064,60,Male,Gastroenteritis,Mild,Scheduled,114,69,84,15,36.4,100,No,No,No,1,0
+P1065,54,Male,Kidney Disease,Moderate,Scheduled,125,69,81,20,36.6,97,No,No,No,7,1
+P1066,76,Female,Diabetes,Moderate,Emergency,111,64,89,17,36.7,96,Yes,No,Yes,8,1
+P1067,60,Female,Gastroenteritis,Moderate,Emergency,113,90,83,21,37.5,93,No,No,Yes,7,1
+P1068,41,Male,Kidney Disease,Moderate,Scheduled,110,85,91,17,36.4,95,No,No,No,9,1
+P1069,42,Male,Diabetes,Moderate,Emergency,111,75,80,13,37.4,96,Yes,Yes,No,8,1
+P1070,47,Female,Kidney Disease,Moderate,Scheduled,140,79,91,18,36.7,93,No,No,Yes,7,1
+P1071,70,Female,Pneumonia,Moderate,Scheduled,116,84,78,14,37.1,88,No,Yes,Yes,10,1
+P1072,31,Female,Asthma,Mild,Emergency,120,86,86,12,36.7,97,No,No,No,1,0
+P1073,78,Male,COPD,Severe,Emergency,150,82,92,18,36.9,91,No,No,No,11,1
+P1074,65,Male,Diabetes,Moderate,Emergency,131,87,98,17,36.2,96,No,No,No,6,1
+P1075,66,Female,Diabetes,Mild,Scheduled,126,75,69,18,36.7,98,No,Yes,Yes,3,0
+P1076,84,Male,Pneumonia,Severe,Emergency,125,81,86,14,37.2,91,No,No,No,12,1
+P1077,56,Male,Heart Disease,Severe,Emergency,134,85,117,20,37.6,91,No,No,Yes,10,1
+P1078,43,Male,Appendicitis,Moderate,Scheduled,111,82,69,22,37.2,92,No,No,No,3,0
+P1079,43,Male,Diabetes,Moderate,Emergency,111,75,94,18,36.6,96,No,No,Yes,5,0
+P1080,18,Male,Asthma,Severe,Emergency,123,71,90,20,37.0,90,No,No,No,9,1
+P1081,43,Male,Pneumonia,Moderate,Scheduled,91,92,98,20,37.0,94,No,No,Yes,12,1
+P1082,76,Female,Asthma,Severe,Scheduled,120,80,90,16,36.3,91,No,No,Yes,8,1
+P1083,74,Female,Heart Disease,Mild,Scheduled,139,77,73,22,37.6,98,No,No,Yes,6,1
+P1084,18,Male,COPD,Moderate,Scheduled,118,58,68,16,37.3,91,No,No,Yes,9,1
+P1085,59,Female,Pneumonia,Moderate,Emergency,140,70,86,18,37.1,94,No,No,Yes,9,1
+P1086,67,Female,Gastroenteritis,Moderate,Emergency,150,92,72,19,37.1,96,No,No,No,6,1
+P1087,80,Female,Asthma,Moderate,Scheduled,134,68,93,18,37.0,95,No,No,No,4,0
+P1088,36,Male,Diabetes,Moderate,Scheduled,135,66,82,18,36.0,95,No,No,No,7,1
+P1089,39,Female,Asthma,Mild,Scheduled,95,80,84,20,37.3,97,No,No,No,1,0
+P1090,49,Female,Asthma,Mild,Scheduled,141,88,103,14,36.6,99,No,No,No,2,0
+P1091,49,Female,Kidney Disease,Moderate,Scheduled,126,81,74,16,36.7,94,No,No,No,8,1
+P1092,40,Male,Diabetes,Mild,Emergency,133,74,84,17,36.1,97,No,No,No,5,0
+P1093,69,Female,Kidney Disease,Moderate,Emergency,123,76,74,16,37.8,96,Yes,Yes,No,10,1
+P1094,57,Male,Heart Disease,Moderate,Scheduled,104,74,87,22,37.0,93,No,No,No,6,1
+P1095,74,Male,Kidney Disease,Mild,Scheduled,110,90,90,20,37.2,96,No,No,No,1,0
+P1096,45,Male,Kidney Disease,Severe,Scheduled,125,74,98,22,36.9,94,No,No,No,11,1
+P1097,23,Female,Diabetes,Moderate,Emergency,111,93,106,20,36.4,94,No,No,No,5,0
+P1098,42,Male,Appendicitis,Severe,Scheduled,121,72,90,19,37.4,89,No,No,No,7,1
+P1099,56,Male,Kidney Disease,Moderate,Emergency,138,90,91,14,36.9,96,No,No,No,9,1
+P1100,53,Female,Heart Disease,Severe,Emergency,140,80,92,18,37.5,90,No,Yes,No,11,1
+P1101,18,Female,Diabetes,Moderate,Scheduled,125,77,81,18,37.1,95,No,No,No,7,1
+P1102,74,Female,Diabetes,Mild,Scheduled,139,73,87,10,37.1,98,Yes,Yes,Yes,7,1
+P1103,55,Male,COPD,Moderate,Scheduled,149,70,84,17,37.0,92,No,No,No,8,1
+P1104,67,Female,Pneumonia,Moderate,Scheduled,143,81,87,14,37.7,94,No,No,No,4,0
+P1105,85,Female,Heart Disease,Moderate,Scheduled,121,70,85,20,36.5,96,No,No,No,6,1
+P1106,36,Female,Kidney Disease,Severe,Emergency,154,76,106,17,37.6,91,No,No,No,11,1
+P1107,43,Male,Gastroenteritis,Moderate,Scheduled,113,77,93,21,38.0,95,No,No,No,2,0
+P1108,46,Male,Appendicitis,Moderate,Scheduled,101,87,98,19,37.1,93,No,Yes,No,3,0
+P1109,77,Male,Diabetes,Moderate,Emergency,135,83,71,16,36.8,92,Yes,No,Yes,9,1
+P1110,28,Male,Kidney Disease,Moderate,Emergency,122,89,75,12,37.8,96,No,No,No,8,1
+P1111,37,Male,Heart Disease,Moderate,Scheduled,121,83,65,23,37.4,94,No,Yes,Yes,10,1
+P1112,39,Female,Diabetes,Moderate,Emergency,122,92,88,25,37.1,97,No,Yes,No,4,0
+P1113,65,Male,Heart Disease,Severe,Emergency,148,88,100,20,37.2,88,No,Yes,No,7,1
+P1114,59,Male,Diabetes,Moderate,Emergency,136,94,87,17,36.7,93,No,No,No,8,1
+P1115,88,Male,Kidney Disease,Mild,Scheduled,121,64,68,12,36.9,97,No,No,Yes,7,1
+P1116,67,Female,Appendicitis,Mild,Scheduled,109,91,68,12,36.6,97,No,No,Yes,4,0
+P1117,53,Female,Pneumonia,Severe,Emergency,105,84,105,19,37.6,88,No,No,No,12,1
+P1118,51,Female,Gastroenteritis,Mild,Emergency,107,78,77,13,36.1,96,Yes,No,No,3,0
+P1119,56,Male,Asthma,Moderate,Scheduled,117,75,87,22,36.3,97,No,No,Yes,7,1
+P1120,51,Male,Diabetes,Moderate,Emergency,130,75,96,12,36.7,93,No,No,Yes,7,1
+P1121,55,Male,Asthma,Severe,Scheduled,149,77,90,21,37.0,90,No,No,No,10,1
+P1122,41,Male,Diabetes,Mild,Scheduled,105,74,78,18,36.7,98,Yes,No,No,1,0
+P1123,40,Female,Pneumonia,Moderate,Emergency,115,77,80,13,38.2,96,No,No,No,7,1
+P1124,55,Male,Pneumonia,Mild,Scheduled,134,87,65,15,36.8,94,No,No,No,2,0
+P1125,79,Male,Heart Disease,Severe,Emergency,160,79,82,21,37.9,88,No,Yes,Yes,11,1
+P1126,40,Female,Diabetes,Moderate,Scheduled,118,74,84,16,37.4,97,No,No,No,4,0
+P1127,43,Female,Diabetes,Mild,Scheduled,126,74,78,16,36.9,95,Yes,No,Yes,2,0
+P1128,29,Female,Kidney Disease,Severe,Scheduled,112,79,108,18,37.2,93,No,No,Yes,7,1
+P1129,59,Female,Heart Disease,Mild,Scheduled,110,81,87,17,36.4,99,No,No,No,3,0
+P1130,41,Male,Diabetes,Severe,Emergency,121,83,111,19,37.9,94,No,No,No,11,1
+P1131,48,Male,Kidney Disease,Mild,Scheduled,129,75,69,19,37.6,97,No,No,No,3,0
+P1132,38,Female,Kidney Disease,Moderate,Emergency,118,81,84,14,37.7,91,No,No,No,9,1
+P1133,48,Male,Pneumonia,Severe,Emergency,127,68,99,28,38.0,90,No,No,No,8,1
+P1134,77,Female,Heart Disease,Moderate,Scheduled,109,70,80,20,37.2,96,No,No,No,6,1
+P1135,67,Female,Gastroenteritis,Mild,Scheduled,122,89,69,17,37.3,97,No,No,No,2,0
+P1136,76,Male,COPD,Moderate,Emergency,98,67,92,18,36.5,88,Yes,No,Yes,9,1
+P1137,18,Male,Pneumonia,Moderate,Scheduled,99,89,78,18,37.0,92,No,No,No,5,0
+P1138,59,Male,Pneumonia,Moderate,Emergency,136,91,74,14,36.8,91,No,No,No,5,0
+P1139,34,Male,Diabetes,Mild,Scheduled,95,89,95,21,36.4,96,No,No,Yes,3,0
+P1140,68,Female,Diabetes,Moderate,Scheduled,134,61,82,11,37.2,97,Yes,No,Yes,3,0
+P1141,42,Female,Asthma,Moderate,Scheduled,137,83,83,19,37.4,90,No,No,Yes,5,0
+P1142,30,Male,Asthma,Severe,Scheduled,125,92,106,19,37.0,93,No,No,Yes,6,1
+P1143,57,Female,Gastroenteritis,Mild,Scheduled,110,62,71,9,36.7,97,No,No,No,1,0
+P1144,65,Male,Pneumonia,Moderate,Emergency,108,76,76,12,36.9,91,No,No,No,6,1
+P1145,51,Male,Pneumonia,Moderate,Scheduled,137,89,76,18,36.5,92,Yes,No,No,5,0
+P1146,28,Male,Gastroenteritis,Moderate,Scheduled,108,79,80,11,36.7,93,No,No,No,6,1
+P1147,30,Female,Diabetes,Mild,Scheduled,129,67,64,17,36.8,97,Yes,No,Yes,6,1
+P1148,57,Female,Gastroenteritis,Moderate,Scheduled,120,75,79,19,36.6,95,No,No,No,3,0
+P1149,40,Male,Gastroenteritis,Moderate,Scheduled,126,84,87,20,36.5,92,No,No,No,2,0
+P1150,40,Male,Appendicitis,Mild,Emergency,107,59,81,14,37.1,95,No,No,Yes,1,0
+P1151,31,Female,COPD,Severe,Emergency,102,87,102,18,36.8,87,No,No,No,12,1
+P1152,35,Male,COPD,Severe,Emergency,133,73,92,20,36.2,89,No,No,No,10,1
+P1153,45,Female,Appendicitis,Mild,Scheduled,97,74,87,12,35.9,98,No,No,No,3,0
+P1154,25,Female,Diabetes,Moderate,Emergency,146,54,70,23,37.0,95,Yes,No,Yes,12,1
+P1155,65,Female,Diabetes,Moderate,Emergency,122,74,84,18,36.3,94,Yes,Yes,Yes,10,1
+P1156,44,Female,Pneumonia,Moderate,Emergency,136,92,99,18,37.2,93,No,No,Yes,6,1
+P1157,18,Female,Asthma,Mild,Emergency,127,73,80,15,36.8,96,No,No,Yes,5,0
+P1158,48,Male,COPD,Moderate,Scheduled,139,83,96,21,37.3,89,No,Yes,No,7,1
+P1159,51,Female,Gastroenteritis,Mild,Emergency,135,92,68,17,37.3,98,No,Yes,Yes,5,0
+P1160,42,Female,Pneumonia,Moderate,Emergency,133,75,127,22,36.7,93,No,Yes,No,8,1
+P1161,35,Male,Diabetes,Moderate,Scheduled,119,90,83,19,37.2,97,Yes,No,No,9,1
+P1162,33,Male,Diabetes,Mild,Emergency,132,62,71,12,35.8,97,Yes,No,No,6,1
+P1163,37,Female,Asthma,Severe,Emergency,114,70,111,22,36.4,94,No,No,Yes,7,1
+P1164,78,Male,Gastroenteritis,Moderate,Scheduled,135,84,101,21,35.4,96,No,No,Yes,5,0
+P1165,42,Female,Pneumonia,Severe,Scheduled,144,80,92,13,37.9,89,Yes,No,Yes,11,1
+P1166,53,Female,Heart Disease,Mild,Scheduled,140,72,70,18,37.2,99,No,No,No,5,0
+P1167,88,Male,Pneumonia,Moderate,Scheduled,120,75,95,20,37.4,90,No,No,No,6,1
+P1168,30,Female,Asthma,Severe,Emergency,88,77,88,21,36.9,94,No,No,Yes,10,1
+P1169,34,Female,Pneumonia,Moderate,Scheduled,127,66,81,16,36.8,90,Yes,No,Yes,4,0
+P1170,38,Male,Appendicitis,Mild,Emergency,125,78,67,19,36.1,97,Yes,No,No,5,0
+P1171,32,Male,COPD,Severe,Emergency,139,81,97,23,37.6,91,No,Yes,No,10,1
+P1172,59,Female,Asthma,Moderate,Scheduled,88,85,87,14,37.1,95,No,No,No,5,0
+P1173,95,Male,Pneumonia,Moderate,Emergency,142,68,92,21,37.0,94,No,Yes,Yes,10,1
+P1174,39,Female,Kidney Disease,Moderate,Scheduled,120,66,98,18,36.4,92,No,No,No,6,1
+P1175,69,Female,Asthma,Moderate,Emergency,131,82,74,21,37.4,95,No,No,No,3,0
+P1176,49,Female,Diabetes,Mild,Scheduled,121,90,101,11,37.1,100,No,Yes,No,1,0
+P1177,84,Male,COPD,Moderate,Emergency,131,89,60,13,36.8,89,No,No,Yes,11,1
+P1178,26,Female,Asthma,Moderate,Emergency,120,88,61,16,36.9,93,No,Yes,No,10,1
+P1179,62,Male,Heart Disease,Severe,Emergency,127,74,102,20,37.0,92,No,Yes,Yes,13,1
+P1180,73,Female,Pneumonia,Severe,Emergency,134,90,97,21,37.2,90,No,No,Yes,13,1
+P1181,34,Female,Heart Disease,Mild,Scheduled,94,82,76,17,36.6,97,No,Yes,Yes,10,1
+P1182,18,Male,Pneumonia,Mild,Scheduled,132,82,61,17,37.3,94,No,No,No,4,0
+P1183,18,Female,Asthma,Moderate,Scheduled,109,95,85,14,37.4,99,No,No,No,3,0
+P1184,64,Female,Heart Disease,Moderate,Emergency,122,79,79,16,36.8,96,No,Yes,Yes,14,1
+P1185,33,Female,Heart Disease,Severe,Emergency,105,87,99,16,38.1,92,No,Yes,No,11,1
+P1186,57,Male,Heart Disease,Moderate,Scheduled,131,87,83,14,37.3,94,No,No,No,6,1
+P1187,30,Female,Diabetes,Moderate,Emergency,112,79,90,16,37.0,96,No,No,Yes,7,1
+P1188,26,Male,Kidney Disease,Mild,Scheduled,118,76,76,12,35.5,98,No,No,No,4,0
+P1189,37,Female,Diabetes,Mild,Scheduled,91,84,93,12,36.3,100,No,No,No,4,0
+P1190,88,Male,Gastroenteritis,Moderate,Scheduled,110,50,86,19,36.6,96,No,Yes,Yes,7,1
+P1191,36,Male,Gastroenteritis,Mild,Scheduled,103,74,77,19,36.9,97,No,No,Yes,3,0
+P1192,45,Male,Asthma,Moderate,Scheduled,114,71,88,17,36.7,94,No,No,No,4,0
+P1193,28,Male,Diabetes,Severe,Emergency,143,74,86,16,36.5,93,No,No,No,9,1
+P1194,34,Male,Gastroenteritis,Mild,Emergency,132,76,76,14,37.0,97,No,No,No,4,0
+P1195,79,Female,Gastroenteritis,Mild,Scheduled,137,93,79,15,35.8,99,No,Yes,No,6,1
+P1196,52,Female,Pneumonia,Moderate,Emergency,139,78,71,19,37.1,92,No,No,No,7,1
+P1197,50,Male,Kidney Disease,Severe,Emergency,124,79,105,17,37.4,90,No,No,Yes,10,1
+P1198,39,Male,Pneumonia,Severe,Emergency,111,99,79,20,37.5,91,No,No,No,9,1
+P1199,42,Female,Diabetes,Mild,Emergency,115,65,64,10,36.8,100,No,No,No,4,0
+P1200,47,Male,Pneumonia,Moderate,Scheduled,123,101,93,17,37.5,93,No,No,No,6,1
+P1201,95,Female,Kidney Disease,Severe,Emergency,132,75,101,19,36.5,93,No,No,Yes,13,1
+P1202,38,Female,Gastroenteritis,Mild,Scheduled,123,95,74,15,37.6,98,No,No,No,1,0
+P1203,46,Male,Kidney Disease,Severe,Scheduled,112,74,98,18,36.9,96,No,No,Yes,6,1
+P1204,76,Male,Gastroenteritis,Mild,Emergency,138,73,94,16,36.8,99,No,Yes,Yes,6,1
+P1205,18,Male,Gastroenteritis,Mild,Scheduled,98,84,72,12,37.0,97,No,No,Yes,1,0
+P1206,73,Female,Appendicitis,Mild,Scheduled,129,89,74,16,37.3,99,No,Yes,No,4,0
+P1207,51,Male,Pneumonia,Mild,Emergency,131,75,88,16,36.8,92,No,No,No,4,0
+P1208,25,Male,Diabetes,Moderate,Emergency,138,85,80,18,37.6,96,No,No,No,2,0
+P1209,56,Female,Kidney Disease,Mild,Scheduled,111,93,75,17,36.8,95,No,No,No,9,1
+P1210,18,Female,Appendicitis,Moderate,Scheduled,130,95,95,18,37.0,96,Yes,No,No,6,1
+P1211,68,Male,Diabetes,Moderate,Scheduled,112,77,77,17,36.9,94,No,Yes,Yes,11,1
+P1212,26,Female,Gastroenteritis,Severe,Emergency,126,81,96,18,36.5,94,No,Yes,No,7,1
+P1213,18,Male,Pneumonia,Moderate,Emergency,122,75,88,17,37.5,93,No,No,No,6,1
+P1214,30,Male,Asthma,Mild,Emergency,128,63,87,15,37.2,100,No,No,No,5,0
+P1215,37,Female,COPD,Moderate,Scheduled,117,85,90,19,36.7,93,No,No,No,5,0
+P1216,57,Male,COPD,Moderate,Scheduled,132,88,65,18,37.3,91,No,No,No,5,0
+P1217,18,Male,Diabetes,Severe,Emergency,126,90,90,17,36.9,90,No,No,Yes,12,1
+P1218,33,Male,Diabetes,Moderate,Scheduled,107,91,89,21,36.9,94,No,No,No,7,1
+P1219,61,Female,Asthma,Moderate,Scheduled,128,92,81,18,36.1,94,No,No,Yes,3,0
+P1220,49,Male,Gastroenteritis,Mild,Emergency,129,84,80,18,37.5,99,No,No,Yes,4,0
+P1221,56,Male,Heart Disease,Severe,Emergency,118,75,83,21,37.0,92,No,Yes,No,13,1
+P1222,61,Male,Asthma,Severe,Emergency,110,81,75,22,36.8,91,No,Yes,No,7,1
+P1223,48,Female,Gastroenteritis,Moderate,Scheduled,127,79,82,19,36.9,96,No,No,No,2,0
+P1224,64,Female,Gastroenteritis,Moderate,Scheduled,146,77,79,21,37.0,92,No,Yes,No,4,0
+P1225,51,Male,Pneumonia,Mild,Emergency,123,83,68,14,36.1,96,No,No,No,3,0
+P1226,69,Male,Diabetes,Mild,Scheduled,134,84,77,16,36.8,98,No,Yes,No,5,0
+P1227,25,Male,Pneumonia,Mild,Scheduled,116,74,74,18,36.5,95,No,No,No,2,0
+P1228,64,Female,Pneumonia,Moderate,Emergency,118,84,101,15,37.7,93,No,No,No,10,1
+P1229,43,Female,Diabetes,Moderate,Scheduled,123,72,83,13,36.8,93,No,No,Yes,6,1
+P1230,32,Male,Heart Disease,Moderate,Scheduled,117,72,80,18,37.1,96,No,No,Yes,7,1
+P1231,32,Male,Heart Disease,Severe,Scheduled,129,95,71,24,37.5,93,No,Yes,Yes,12,1
+P1232,69,Male,COPD,Severe,Emergency,124,76,110,19,36.5,91,No,No,Yes,13,1
+P1233,46,Male,Pneumonia,Severe,Scheduled,113,68,96,18,37.7,87,No,No,No,9,1
+P1234,51,Female,Gastroenteritis,Severe,Emergency,138,80,107,15,36.8,89,No,No,No,6,1
+P1235,57,Female,Kidney Disease,Moderate,Scheduled,122,86,94,15,37.4,94,No,No,No,8,1
+P1236,57,Female,Pneumonia,Mild,Scheduled,116,92,69,17,37.1,96,Yes,No,No,6,1
+P1237,54,Female,Pneumonia,Severe,Emergency,98,76,112,19,37.1,91,No,No,No,8,1
+P1238,41,Female,Asthma,Moderate,Emergency,113,69,105,14,36.9,94,No,Yes,No,3,0
+P1239,87,Male,Asthma,Moderate,Emergency,122,80,102,15,37.2,96,No,Yes,No,9,1
+P1240,70,Male,Heart Disease,Moderate,Emergency,129,88,88,19,38.0,96,No,Yes,No,10,1
+P1241,75,Female,Diabetes,Mild,Scheduled,148,77,84,15,37.1,100,No,No,No,1,0
+P1242,57,Female,Heart Disease,Moderate,Emergency,120,70,81,20,37.1,93,No,No,No,8,1
+P1243,18,Male,Pneumonia,Severe,Emergency,120,83,89,14,38.0,89,Yes,No,Yes,9,1
+P1244,65,Male,Pneumonia,Moderate,Emergency,121,86,66,18,37.5,95,Yes,No,No,8,1
+P1245,87,Female,Diabetes,Severe,Scheduled,120,85,105,16,37.4,94,No,No,Yes,8,1
+P1246,44,Male,Heart Disease,Moderate,Emergency,116,80,86,19,36.3,97,No,Yes,No,10,1
+P1247,55,Male,Pneumonia,Severe,Emergency,131,75,96,18,38.3,89,No,No,Yes,10,1
+P1248,56,Female,Gastroenteritis,Moderate,Scheduled,159,93,88,18,36.6,96,No,Yes,No,1,0
+P1249,43,Male,COPD,Moderate,Emergency,123,86,82,19,38.1,95,Yes,No,Yes,10,1
+P1250,41,Male,COPD,Moderate,Emergency,105,82,94,22,36.4,93,No,No,No,6,1
+P1251,29,Male,Diabetes,Moderate,Emergency,112,73,85,16,36.3,96,No,No,No,6,1
+P1252,77,Female,Pneumonia,Severe,Scheduled,129,80,118,24,37.7,88,No,No,Yes,9,1
+P1253,46,Male,Diabetes,Severe,Scheduled,129,64,111,16,36.6,90,Yes,No,No,7,1
+P1254,52,Female,Pneumonia,Moderate,Scheduled,129,80,91,18,37.8,93,No,Yes,No,8,1
+P1255,33,Male,Pneumonia,Mild,Scheduled,108,62,90,16,37.1,94,No,No,No,7,1
+P1256,21,Female,Gastroenteritis,Moderate,Emergency,139,64,72,20,37.6,93,No,No,Yes,5,0
+P1257,42,Female,Pneumonia,Moderate,Emergency,131,83,88,18,37.8,93,No,No,No,9,1
+P1258,47,Female,COPD,Moderate,Scheduled,128,85,76,18,37.4,91,No,No,Yes,9,1
+P1259,29,Female,Heart Disease,Moderate,Scheduled,133,92,49,15,36.5,95,No,No,No,3,0
+P1260,59,Female,Appendicitis,Moderate,Scheduled,130,77,71,15,36.9,96,Yes,No,No,6,1
+P1261,51,Female,Diabetes,Severe,Emergency,129,76,95,22,37.4,93,Yes,No,No,9,1
+P1262,55,Female,Heart Disease,Severe,Emergency,124,75,107,15,36.4,90,No,Yes,No,10,1
+P1263,18,Male,Kidney Disease,Mild,Emergency,110,76,70,14,36.4,97,No,No,No,7,1
+P1264,49,Female,Diabetes,Severe,Emergency,137,79,108,16,37.2,91,Yes,No,No,9,1
+P1265,61,Male,Pneumonia,Moderate,Scheduled,128,60,108,17,37.0,91,No,Yes,No,8,1
+P1266,67,Male,COPD,Moderate,Scheduled,136,76,76,15,37.5,94,No,No,No,10,1
+P1267,65,Male,COPD,Moderate,Scheduled,106,72,64,19,36.8,90,No,Yes,No,8,1
+P1268,52,Female,Heart Disease,Moderate,Scheduled,121,86,73,14,37.3,95,No,No,No,6,1
+P1269,33,Male,Asthma,Mild,Scheduled,118,78,93,19,36.7,98,No,No,No,1,0
+P1270,65,Female,Pneumonia,Moderate,Scheduled,118,59,78,15,37.7,92,No,Yes,Yes,8,1
+P1271,38,Male,Pneumonia,Severe,Scheduled,131,77,84,18,37.5,89,No,No,No,11,1
+P1272,33,Female,Kidney Disease,Moderate,Scheduled,125,80,101,23,37.2,96,Yes,No,No,8,1
+P1273,84,Female,Heart Disease,Mild,Scheduled,93,74,69,16,37.2,98,No,No,No,6,1
+P1274,84,Male,Appendicitis,Severe,Emergency,113,68,104,17,37.2,90,No,Yes,Yes,12,1
+P1275,69,Male,Pneumonia,Mild,Scheduled,114,71,85,16,36.7,97,Yes,No,No,3,0
+P1276,52,Female,Heart Disease,Severe,Emergency,117,76,94,17,37.0,96,No,Yes,No,12,1
+P1277,28,Male,Diabetes,Moderate,Emergency,140,81,63,18,37.5,97,No,No,No,5,0
+P1278,37,Male,Asthma,Moderate,Emergency,125,81,71,17,37.0,97,No,No,No,6,1
+P1279,61,Female,Kidney Disease,Severe,Emergency,106,62,85,19,37.3,91,No,No,Yes,14,1
+P1280,64,Female,Heart Disease,Severe,Emergency,129,96,101,14,37.2,91,No,Yes,Yes,12,1
+P1281,41,Female,Diabetes,Mild,Scheduled,130,88,77,16,37.0,96,No,No,No,6,1
+P1282,18,Female,Pneumonia,Moderate,Emergency,135,66,98,18,37.1,93,No,No,No,6,1
+P1283,28,Female,Heart Disease,Mild,Emergency,116,79,71,16,36.3,95,No,No,No,5,0
+P1284,23,Female,Gastroenteritis,Mild,Emergency,114,71,80,16,36.3,98,No,No,Yes,3,0
+P1285,51,Male,COPD,Moderate,Emergency,127,64,87,19,36.9,91,No,No,No,10,1
+P1286,29,Male,Appendicitis,Mild,Emergency,144,77,76,13,37.0,93,No,No,No,5,0
+P1287,25,Female,COPD,Moderate,Emergency,127,102,88,16,36.4,95,No,No,No,9,1
+P1288,32,Female,Asthma,Mild,Scheduled,107,81,67,19,36.5,96,No,Yes,Yes,6,1
+P1289,64,Female,Kidney Disease,Mild,Emergency,144,73,81,16,36.9,98,Yes,No,No,5,0
+P1290,32,Male,Kidney Disease,Moderate,Emergency,121,81,82,17,38.0,96,No,No,No,7,1
+P1291,18,Male,COPD,Moderate,Scheduled,108,88,104,21,36.3,91,Yes,No,No,8,1
+P1292,67,Male,Kidney Disease,Moderate,Scheduled,118,82,94,20,36.8,98,No,No,No,5,0
+P1293,72,Female,Appendicitis,Mild,Emergency,124,70,67,18,36.6,99,No,No,No,8,1
+P1294,80,Female,Heart Disease,Severe,Emergency,130,66,99,13,36.8,92,No,Yes,No,15,1
+P1295,57,Female,Appendicitis,Mild,Scheduled,126,78,73,17,37.2,97,No,No,No,1,0
+P1296,42,Male,Diabetes,Mild,Emergency,98,95,82,10,37.2,99,Yes,Yes,Yes,5,0
+P1297,42,Female,Pneumonia,Mild,Emergency,126,84,65,14,37.4,98,No,No,No,1,0
+P1298,70,Male,Pneumonia,Moderate,Emergency,123,89,66,18,36.8,92,No,Yes,Yes,8,1
+P1299,53,Female,COPD,Moderate,Scheduled,111,100,84,14,36.7,91,No,No,No,7,1
+P1300,25,Female,Appendicitis,Severe,Emergency,113,77,93,21,36.4,91,No,No,No,10,1
+P1301,55,Female,COPD,Severe,Emergency,123,68,75,20,36.7,88,No,No,No,8,1
+P1302,31,Male,Asthma,Moderate,Scheduled,134,108,90,20,36.6,92,No,No,No,2,0
+P1303,46,Female,Kidney Disease,Mild,Scheduled,116,86,82,15,36.5,96,Yes,No,No,8,1
+P1304,54,Male,Kidney Disease,Moderate,Emergency,117,66,83,17,37.0,96,No,No,Yes,9,1
+P1305,62,Male,COPD,Moderate,Emergency,127,92,83,14,36.6,91,Yes,Yes,Yes,11,1
+P1306,43,Male,Appendicitis,Moderate,Scheduled,129,60,76,12,36.7,96,No,No,No,6,1
+P1307,82,Male,Pneumonia,Severe,Emergency,135,73,90,21,37.6,91,No,No,Yes,14,1
+P1308,48,Female,Asthma,Mild,Emergency,101,78,78,19,37.1,99,No,No,No,1,0
+P1309,41,Female,Diabetes,Mild,Emergency,136,81,64,17,37.5,94,Yes,No,Yes,6,1
+P1310,53,Male,Heart Disease,Moderate,Emergency,140,88,75,21,36.3,95,No,No,No,7,1
+P1311,73,Male,Appendicitis,Moderate,Emergency,108,72,107,17,37.0,95,No,Yes,No,8,1
+P1312,48,Male,Gastroenteritis,Severe,Emergency,115,69,73,19,37.4,91,No,No,No,7,1
+P1313,18,Male,Diabetes,Moderate,Emergency,93,80,81,23,36.9,93,Yes,No,Yes,7,1
+P1314,42,Female,Heart Disease,Moderate,Emergency,136,88,86,14,37.0,96,No,Yes,No,8,1
+P1315,75,Female,Kidney Disease,Severe,Scheduled,146,80,107,17,37.1,94,Yes,Yes,Yes,13,1
+P1316,20,Female,Kidney Disease,Moderate,Emergency,114,86,67,17,36.7,93,No,No,No,7,1
+P1317,44,Female,Appendicitis,Moderate,Emergency,94,80,68,21,37.3,96,No,No,No,10,1
+P1318,53,Male,Gastroenteritis,Mild,Emergency,121,69,102,19,36.5,99,No,Yes,No,5,0
+P1319,48,Male,Diabetes,Mild,Emergency,109,86,71,14,37.0,99,Yes,No,No,5,0
+P1320,36,Male,Gastroenteritis,Mild,Scheduled,120,76,74,14,37.3,98,No,No,No,1,0
+P1321,44,Female,Heart Disease,Severe,Scheduled,130,81,108,19,36.4,92,No,Yes,No,6,1
+P1322,24,Female,Gastroenteritis,Mild,Scheduled,105,89,83,16,36.3,100,No,No,No,3,0
+P1323,64,Male,Kidney Disease,Severe,Emergency,101,82,101,16,37.9,88,No,Yes,Yes,16,1
+P1324,27,Male,COPD,Moderate,Scheduled,117,84,75,14,37.4,93,No,Yes,No,9,1
+P1325,46,Male,Heart Disease,Severe,Emergency,97,94,105,19,37.4,90,No,Yes,No,12,1
+P1326,46,Female,Asthma,Mild,Scheduled,133,75,85,21,36.5,95,No,No,No,3,0
+P1327,18,Female,Gastroenteritis,Mild,Scheduled,126,66,75,13,37.4,99,No,No,No,2,0
+P1328,40,Male,Pneumonia,Moderate,Scheduled,132,88,91,20,37.5,93,No,No,No,6,1
+P1329,44,Female,COPD,Mild,Scheduled,105,73,52,9,36.1,93,Yes,No,No,3,0
+P1330,37,Female,Asthma,Mild,Scheduled,120,77,75,20,37.3,96,No,No,Yes,2,0
+P1331,49,Female,Diabetes,Mild,Emergency,110,78,75,16,37.7,99,No,No,No,5,0
+P1332,61,Male,Pneumonia,Mild,Emergency,140,71,45,17,37.0,98,No,No,No,5,0
+P1333,51,Male,Asthma,Moderate,Scheduled,126,80,90,16,37.2,97,No,No,No,4,0
+P1334,65,Male,Diabetes,Moderate,Emergency,166,73,86,20,36.2,96,Yes,No,No,8,1
+P1335,84,Female,Diabetes,Moderate,Emergency,125,85,106,12,36.2,95,Yes,No,No,10,1
+P1336,58,Male,Pneumonia,Severe,Emergency,128,93,107,15,37.2,91,No,No,Yes,15,1
+P1337,51,Male,COPD,Mild,Scheduled,128,76,60,12,36.5,94,No,No,No,2,0
+P1338,44,Female,COPD,Severe,Emergency,113,81,105,23,36.4,91,No,No,Yes,10,1
+P1339,63,Female,Kidney Disease,Moderate,Emergency,122,90,91,21,36.3,93,Yes,Yes,Yes,7,1
+P1340,46,Male,Kidney Disease,Mild,Scheduled,119,85,70,10,37.0,98,No,No,No,5,0
+P1341,18,Female,COPD,Moderate,Scheduled,114,71,76,15,37.7,91,Yes,No,No,10,1
+P1342,54,Female,Gastroenteritis,Moderate,Scheduled,131,70,102,21,37.2,94,No,No,No,5,0
+P1343,58,Male,Gastroenteritis,Moderate,Emergency,114,84,91,19,36.6,97,No,Yes,No,6,1
+P1344,33,Male,Pneumonia,Mild,Scheduled,107,62,59,16,37.6,98,No,No,No,5,0
+P1345,27,Female,Pneumonia,Severe,Emergency,128,82,89,22,37.2,89,No,No,No,8,1
+P1346,58,Female,Heart Disease,Mild,Emergency,89,80,68,14,36.3,100,Yes,Yes,No,9,1
+P1347,32,Male,Appendicitis,Severe,Emergency,112,71,106,18,37.7,90,No,No,No,8,1
+P1348,52,Female,Asthma,Mild,Emergency,134,67,76,17,36.3,97,No,No,No,4,0
+P1349,56,Female,Pneumonia,Severe,Emergency,124,91,91,14,38.2,90,No,No,No,5,0
+P1350,95,Female,Asthma,Moderate,Emergency,142,89,76,17,37.3,94,No,No,No,11,1
+P1351,26,Male,Asthma,Severe,Emergency,115,105,99,25,37.0,95,No,Yes,No,7,1
+P1352,40,Female,Gastroenteritis,Moderate,Scheduled,121,76,70,21,37.5,95,No,No,No,6,1
+P1353,59,Male,Kidney Disease,Severe,Emergency,138,79,101,24,37.4,93,No,No,No,9,1
+P1354,66,Female,Pneumonia,Severe,Emergency,152,108,79,14,38.5,91,No,Yes,No,10,1
+P1355,70,Male,Pneumonia,Moderate,Emergency,119,74,91,23,37.3,89,No,No,No,7,1
+P1356,62,Female,Pneumonia,Mild,Emergency,152,72,60,16,37.6,91,No,Yes,Yes,9,1
+P1357,65,Male,Gastroenteritis,Mild,Scheduled,128,88,75,16,36.5,97,No,No,No,3,0
+P1358,30,Male,Heart Disease,Moderate,Scheduled,134,64,70,21,36.7,96,No,No,No,7,1
+P1359,54,Male,Gastroenteritis,Moderate,Emergency,126,82,118,19,35.8,96,Yes,No,No,5,0
+P1360,24,Male,Gastroenteritis,Mild,Scheduled,107,66,59,18,37.0,93,No,No,No,1,0
+P1361,19,Female,Gastroenteritis,Mild,Emergency,104,82,65,17,36.7,96,No,No,No,1,0
+P1362,55,Female,Asthma,Severe,Emergency,124,73,102,20,36.9,89,No,No,Yes,9,1
+P1363,50,Female,COPD,Mild,Scheduled,111,74,65,16,36.5,96,No,No,No,6,1
+P1364,36,Female,Heart Disease,Mild,Scheduled,118,77,77,21,35.9,97,No,Yes,No,5,0
+P1365,18,Male,Pneumonia,Severe,Scheduled,133,79,94,16,37.7,88,No,No,No,10,1
+P1366,40,Female,Kidney Disease,Severe,Emergency,123,65,87,18,37.5,94,No,No,Yes,9,1
+P1367,52,Male,Gastroenteritis,Moderate,Emergency,121,62,78,17,36.5,97,No,No,No,3,0
+P1368,66,Male,Kidney Disease,Mild,Scheduled,138,77,87,12,37.0,100,No,Yes,No,3,0
+P1369,60,Male,Gastroenteritis,Moderate,Emergency,118,76,96,15,37.2,96,No,No,No,5,0
+P1370,89,Female,Asthma,Moderate,Scheduled,126,77,84,13,36.6,94,No,No,Yes,6,1
+P1371,62,Female,Heart Disease,Moderate,Emergency,97,86,105,20,37.4,94,No,No,No,7,1
+P1372,57,Female,COPD,Moderate,Scheduled,120,85,52,14,37.3,93,No,No,Yes,7,1
+P1373,70,Female,Pneumonia,Moderate,Scheduled,138,68,93,24,38.3,94,No,No,No,6,1
+P1374,69,Male,Diabetes,Moderate,Emergency,130,72,83,24,37.3,96,No,No,No,6,1
+P1375,29,Male,COPD,Moderate,Scheduled,133,75,99,22,37.1,96,No,No,No,2,0
+P1376,53,Male,COPD,Severe,Emergency,128,89,86,23,37.0,89,No,No,No,12,1
+P1377,73,Female,Heart Disease,Moderate,Scheduled,118,88,77,17,37.5,96,No,Yes,No,10,1
+P1378,49,Male,Asthma,Mild,Scheduled,111,55,66,20,36.7,96,No,No,No,3,0
+P1379,39,Female,Appendicitis,Moderate,Scheduled,122,88,83,16,37.4,99,No,No,No,4,0
+P1380,42,Female,Heart Disease,Severe,Emergency,140,86,80,20,37.2,89,No,No,Yes,10,1
+P1381,18,Male,Diabetes,Mild,Scheduled,107,69,82,14,36.1,100,Yes,No,No,6,1
+P1382,30,Female,Pneumonia,Moderate,Scheduled,118,81,76,22,36.9,95,No,No,No,4,0
+P1383,30,Female,Pneumonia,Mild,Scheduled,94,73,94,10,36.8,94,No,No,Yes,6,1
+P1384,36,Male,Heart Disease,Moderate,Scheduled,118,70,67,19,37.1,91,No,Yes,No,8,1
+P1385,67,Female,Pneumonia,Moderate,Emergency,112,78,86,15,37.7,97,Yes,No,No,8,1
+P1386,47,Female,Asthma,Mild,Scheduled,117,61,107,15,36.8,95,No,No,No,1,0
+P1387,22,Female,Kidney Disease,Moderate,Emergency,118,67,91,16,38.0,95,No,No,No,9,1
+P1388,29,Male,Pneumonia,Moderate,Scheduled,125,97,52,20,36.7,95,No,No,No,8,1
+P1389,46,Male,Kidney Disease,Moderate,Emergency,92,79,55,19,37.5,96,No,No,No,3,0
+P1390,40,Female,Kidney Disease,Moderate,Scheduled,135,98,79,24,36.9,93,No,No,No,4,0
+P1391,36,Male,Pneumonia,Mild,Scheduled,108,67,97,16,37.1,93,No,No,No,5,0
+P1392,54,Female,Pneumonia,Severe,Emergency,135,81,77,24,37.1,93,No,No,No,13,1
+P1393,41,Female,Appendicitis,Severe,Emergency,123,59,97,20,37.0,92,No,No,No,6,1
+P1394,58,Female,Kidney Disease,Severe,Emergency,133,77,81,20,37.3,93,No,No,No,11,1
+P1395,53,Male,Asthma,Mild,Scheduled,131,72,88,14,37.1,96,No,No,No,3,0
+P1396,71,Male,COPD,Moderate,Scheduled,144,71,61,17,37.2,91,No,No,Yes,9,1
+P1397,35,Male,COPD,Moderate,Emergency,119,70,75,16,37.5,90,No,No,No,7,1
+P1398,59,Female,Gastroenteritis,Mild,Scheduled,140,77,66,14,37.4,99,No,No,Yes,3,0
+P1399,69,Male,Diabetes,Moderate,Emergency,128,89,89,14,37.5,98,No,No,No,8,1
+P1400,52,Male,Diabetes,Moderate,Scheduled,107,95,85,17,36.9,94,Yes,Yes,No,5,0
+P1401,37,Female,Appendicitis,Moderate,Scheduled,98,77,111,21,36.9,92,No,Yes,No,6,1
+P1402,61,Male,Asthma,Mild,Scheduled,99,73,69,13,36.7,99,No,Yes,No,6,1
+P1403,53,Female,Asthma,Mild,Emergency,146,73,71,16,36.5,99,No,No,Yes,2,0
+P1404,18,Male,Asthma,Mild,Scheduled,119,76,82,22,36.5,95,No,Yes,No,2,0
+P1405,51,Male,Diabetes,Mild,Scheduled,125,66,66,15,36.3,97,No,No,Yes,6,1
+P1406,65,Male,Kidney Disease,Severe,Scheduled,109,80,95,22,36.9,91,Yes,No,No,12,1
+P1407,34,Male,Heart Disease,Severe,Emergency,116,74,80,21,37.2,91,No,No,No,9,1
+P1408,36,Female,Asthma,Mild,Emergency,122,80,67,13,36.2,98,No,No,No,1,0
+P1409,18,Male,Kidney Disease,Moderate,Emergency,140,81,110,13,37.0,94,No,No,Yes,9,1
+P1410,48,Female,Pneumonia,Moderate,Emergency,125,86,89,18,37.6,91,No,No,No,6,1
+P1411,57,Female,Pneumonia,Severe,Scheduled,123,91,110,18,37.5,89,No,Yes,No,13,1
+P1412,36,Female,Diabetes,Moderate,Scheduled,128,83,106,14,37.3,95,No,No,Yes,6,1
+P1413,65,Male,Kidney Disease,Severe,Emergency,139,83,93,21,37.1,95,No,No,No,5,0
+P1414,43,Female,Pneumonia,Moderate,Emergency,118,89,62,17,37.5,91,No,No,No,7,1
+P1415,18,Female,Heart Disease,Severe,Emergency,132,84,70,22,37.8,94,No,No,No,9,1
+P1416,23,Male,Heart Disease,Moderate,Scheduled,129,70,77,20,36.7,95,No,No,No,5,0
+P1417,46,Female,Gastroenteritis,Mild,Emergency,139,78,93,17,36.7,100,No,No,Yes,2,0
+P1418,64,Male,Pneumonia,Moderate,Scheduled,116,65,96,22,37.5,91,Yes,No,Yes,9,1
+P1419,73,Female,Diabetes,Severe,Emergency,145,84,92,19,38.1,91,No,No,No,9,1
+P1420,51,Female,Heart Disease,Moderate,Scheduled,111,59,70,20,37.1,94,No,Yes,No,7,1
+P1421,38,Female,Asthma,Mild,Scheduled,120,84,58,17,37.4,97,No,No,No,4,0
+P1422,42,Male,Heart Disease,Severe,Emergency,110,64,111,20,37.2,91,No,No,No,12,1
+P1423,47,Female,Pneumonia,Mild,Scheduled,123,66,98,13,36.9,96,No,No,No,4,0
+P1424,43,Male,Pneumonia,Mild,Scheduled,105,66,89,16,36.8,98,No,No,No,5,0
+P1425,18,Female,COPD,Moderate,Scheduled,109,73,86,13,37.3,88,Yes,No,Yes,10,1
+P1426,18,Female,Pneumonia,Severe,Emergency,106,80,93,18,37.4,92,No,No,No,8,1
+P1427,45,Female,Kidney Disease,Moderate,Emergency,94,73,74,17,37.0,95,Yes,No,Yes,8,1
+P1428,30,Male,Asthma,Moderate,Scheduled,125,78,70,13,37.3,96,No,No,No,6,1
+P1429,77,Male,Asthma,Moderate,Emergency,106,65,100,14,37.6,95,Yes,Yes,No,8,1
+P1430,47,Male,Gastroenteritis,Severe,Emergency,126,70,107,20,36.9,90,No,No,Yes,9,1
+P1431,48,Male,Asthma,Mild,Scheduled,115,64,74,14,37.7,97,No,No,No,1,0
+P1432,55,Male,Asthma,Mild,Scheduled,132,73,74,15,37.6,100,No,No,Yes,5,0
+P1433,45,Female,Appendicitis,Severe,Emergency,135,98,88,18,37.0,91,No,Yes,No,9,1
+P1434,75,Female,Kidney Disease,Moderate,Emergency,111,68,82,19,36.7,94,No,Yes,Yes,9,1
+P1435,89,Male,Kidney Disease,Severe,Emergency,133,83,77,23,36.5,89,Yes,No,No,16,1
+P1436,18,Male,Pneumonia,Severe,Emergency,124,65,84,18,36.7,88,No,No,No,6,1
+P1437,41,Female,Appendicitis,Moderate,Emergency,102,85,97,15,36.1,95,Yes,No,Yes,6,1
+P1438,67,Female,Pneumonia,Moderate,Scheduled,123,66,80,17,37.7,95,Yes,No,No,6,1
+P1439,31,Female,COPD,Moderate,Emergency,95,89,90,18,36.5,93,No,No,No,8,1
+P1440,52,Male,COPD,Mild,Scheduled,94,85,64,13,36.7,94,No,No,No,4,0
+P1441,91,Female,Heart Disease,Moderate,Scheduled,127,89,63,14,36.7,92,No,Yes,Yes,13,1
+P1442,59,Male,Asthma,Moderate,Emergency,132,78,94,14,37.3,97,No,No,No,5,0
+P1443,18,Female,Gastroenteritis,Mild,Emergency,109,84,76,15,36.9,98,No,No,Yes,7,1
+P1444,18,Male,Appendicitis,Mild,Emergency,124,85,94,14,36.9,98,No,No,Yes,5,0
+P1445,79,Female,Appendicitis,Moderate,Emergency,123,62,82,16,36.3,93,No,Yes,Yes,9,1
+P1446,67,Male,Diabetes,Moderate,Emergency,108,85,90,20,38.0,97,Yes,No,Yes,9,1
+P1447,66,Male,Pneumonia,Severe,Emergency,142,86,105,22,37.7,92,No,Yes,Yes,10,1
+P1448,48,Female,Appendicitis,Severe,Emergency,94,86,89,17,36.5,94,No,No,Yes,10,1
+P1449,95,Female,Pneumonia,Severe,Scheduled,139,97,101,23,37.2,92,No,No,Yes,7,1
+P1450,62,Male,Diabetes,Mild,Scheduled,111,77,98,13,36.7,97,No,Yes,No,5,0
+P1451,54,Female,Asthma,Mild,Scheduled,127,90,72,14,37.4,95,No,No,No,3,0
+P1452,41,Female,COPD,Severe,Emergency,98,76,107,19,38.0,90,No,No,Yes,9,1
+P1453,38,Male,Heart Disease,Moderate,Emergency,115,74,84,23,36.9,94,No,Yes,No,8,1
+P1454,44,Male,Pneumonia,Moderate,Scheduled,143,62,68,16,36.8,92,No,No,No,5,0
+P1455,61,Male,COPD,Severe,Emergency,112,73,105,16,37.0,90,No,Yes,Yes,11,1
+P1456,23,Female,Pneumonia,Moderate,Scheduled,111,65,93,13,37.5,94,No,No,Yes,3,0
+P1457,45,Male,COPD,Mild,Emergency,123,86,69,13,37.1,96,No,No,No,5,0
+P1458,80,Female,COPD,Moderate,Emergency,113,74,101,18,36.5,88,No,Yes,Yes,12,1
+P1459,18,Female,Heart Disease,Moderate,Emergency,90,85,72,17,36.9,97,No,No,No,5,0
+P1460,66,Female,Asthma,Severe,Scheduled,132,91,91,17,37.8,91,No,Yes,No,9,1
+P1461,23,Male,Appendicitis,Moderate,Emergency,126,80,92,21,36.9,95,No,No,No,6,1
+P1462,42,Male,Heart Disease,Severe,Emergency,103,93,88,16,37.3,91,No,No,Yes,12,1
+P1463,56,Male,Heart Disease,Moderate,Emergency,128,92,110,16,36.4,93,No,No,Yes,7,1
+P1464,40,Male,Heart Disease,Mild,Scheduled,91,64,78,17,37.0,100,No,Yes,No,3,0
+P1465,18,Male,Kidney Disease,Mild,Scheduled,123,75,71,17,36.3,97,No,Yes,Yes,9,1
+P1466,48,Female,Gastroenteritis,Moderate,Scheduled,124,90,87,15,37.2,96,No,No,No,5,0
+P1467,45,Female,Diabetes,Moderate,Scheduled,132,97,86,14,37.1,95,Yes,No,No,5,0
+P1468,46,Female,Heart Disease,Moderate,Scheduled,124,87,102,22,37.6,97,No,Yes,No,5,0
+P1469,83,Male,Diabetes,Mild,Emergency,125,86,79,20,36.4,94,No,No,Yes,3,0
+P1470,61,Male,Appendicitis,Moderate,Emergency,103,82,72,20,37.3,97,No,No,Yes,6,1
+P1471,28,Female,COPD,Severe,Emergency,110,95,113,21,37.7,89,No,No,No,11,1
+P1472,39,Male,Heart Disease,Severe,Scheduled,115,93,99,23,37.1,92,No,No,Yes,7,1
+P1473,54,Female,Pneumonia,Moderate,Emergency,131,85,87,18,37.8,88,No,No,No,6,1
+P1474,30,Female,COPD,Severe,Scheduled,131,71,104,21,37.4,90,Yes,No,No,10,1
+P1475,30,Male,Kidney Disease,Moderate,Emergency,134,68,86,21,36.8,95,No,No,No,9,1
+P1476,34,Male,Diabetes,Mild,Scheduled,117,84,62,16,36.4,97,No,No,No,3,0
+P1477,50,Male,Diabetes,Moderate,Emergency,123,75,89,13,36.7,95,No,No,No,7,1
+P1478,35,Male,Kidney Disease,Moderate,Emergency,130,95,87,18,36.3,96,No,No,No,2,0
+P1479,95,Male,Pneumonia,Moderate,Emergency,113,88,64,15,37.1,92,Yes,No,No,9,1
+P1480,70,Female,Pneumonia,Severe,Scheduled,142,86,89,15,36.9,89,No,No,No,11,1
+P1481,53,Female,COPD,Moderate,Scheduled,133,83,80,17,36.2,95,No,No,No,4,0
+P1482,85,Male,Pneumonia,Severe,Scheduled,152,86,83,14,38.2,88,No,No,No,13,1
+P1483,69,Female,COPD,Severe,Emergency,121,79,74,20,37.9,87,No,Yes,Yes,8,1
+P1484,45,Male,Pneumonia,Moderate,Scheduled,128,76,86,14,37.0,93,Yes,No,Yes,7,1
+P1485,57,Female,Kidney Disease,Moderate,Scheduled,123,72,94,17,37.4,91,No,No,No,6,1
+P1486,46,Male,COPD,Mild,Scheduled,122,78,74,14,36.7,98,Yes,No,No,3,0
+P1487,60,Male,Pneumonia,Moderate,Scheduled,125,65,87,17,37.2,94,Yes,No,Yes,7,1
+P1488,49,Male,Heart Disease,Moderate,Emergency,137,92,72,17,37.3,97,No,No,Yes,7,1
+P1489,18,Female,Asthma,Moderate,Scheduled,99,91,91,20,36.8,92,Yes,No,No,4,0
+P1490,67,Female,Pneumonia,Moderate,Scheduled,122,79,75,19,36.7,91,No,No,Yes,9,1
+P1491,49,Female,Kidney Disease,Mild,Emergency,112,77,82,14,37.1,98,No,No,No,4,0
+P1492,95,Female,Appendicitis,Mild,Emergency,121,73,95,16,36.5,100,No,No,Yes,9,1
+P1493,43,Female,Kidney Disease,Severe,Emergency,119,76,101,21,36.5,88,No,No,Yes,11,1
+P1494,50,Female,Pneumonia,Moderate,Scheduled,130,80,94,20,37.4,92,No,No,No,2,0
+P1495,57,Female,Asthma,Severe,Emergency,106,71,78,17,37.7,89,No,No,Yes,9,1
+P1496,18,Male,Heart Disease,Severe,Emergency,126,91,91,22,37.7,91,No,No,Yes,12,1
+P1497,40,Male,Kidney Disease,Severe,Emergency,113,79,89,16,37.4,90,No,No,No,12,1
+P1498,44,Male,Appendicitis,Severe,Emergency,138,83,113,22,37.1,91,No,No,No,8,1
+P1499,62,Male,Heart Disease,Moderate,Scheduled,115,71,87,19,36.6,95,Yes,Yes,No,9,1
+P1500,36,Male,Diabetes,Severe,Emergency,141,85,106,24,37.5,92,No,No,No,8,1
+P1501,29,Female,Diabetes,Mild,Emergency,95,71,52,10,36.6,99,No,No,Yes,5,0
+P1502,79,Female,Asthma,Severe,Emergency,154,77,102,20,37.4,95,No,No,Yes,6,1
+P1503,45,Male,Asthma,Moderate,Scheduled,108,70,79,20,36.9,94,No,No,No,5,0
+P1504,51,Male,Heart Disease,Severe,Emergency,128,69,101,21,37.2,89,No,No,No,9,1
+P1505,72,Male,Pneumonia,Moderate,Scheduled,101,88,84,13,37.5,90,No,Yes,No,7,1
+P1506,50,Male,Diabetes,Moderate,Scheduled,116,74,74,21,36.9,94,No,No,Yes,7,1
+P1507,39,Male,Appendicitis,Severe,Emergency,145,67,81,21,37.7,93,No,No,No,9,1
+P1508,65,Male,Gastroenteritis,Mild,Scheduled,137,78,95,18,37.5,99,No,No,No,4,0
+P1509,21,Male,Pneumonia,Moderate,Scheduled,116,92,76,13,37.6,93,Yes,No,No,5,0
+P1510,59,Female,Pneumonia,Moderate,Emergency,134,87,93,16,38.0,89,No,Yes,Yes,7,1
+P1511,57,Female,Heart Disease,Severe,Scheduled,125,67,70,17,37.2,92,No,Yes,Yes,10,1
+P1512,52,Female,Diabetes,Mild,Scheduled,131,78,73,13,36.8,95,No,Yes,No,3,0
+P1513,39,Male,Diabetes,Severe,Emergency,125,68,92,20,36.7,90,No,No,Yes,10,1
+P1514,43,Male,Kidney Disease,Moderate,Emergency,101,70,93,20,36.7,93,No,No,No,5,0
+P1515,64,Male,COPD,Severe,Emergency,128,76,86,21,37.1,89,No,Yes,Yes,11,1
+P1516,21,Female,Pneumonia,Severe,Scheduled,116,93,100,25,37.5,87,No,No,Yes,10,1
+P1517,34,Male,Asthma,Severe,Emergency,111,83,86,22,36.7,93,No,No,Yes,10,1
+P1518,31,Male,Gastroenteritis,Mild,Emergency,158,91,70,12,36.9,100,No,No,Yes,5,0
+P1519,33,Male,Pneumonia,Moderate,Scheduled,122,58,77,15,37.1,94,No,No,No,6,1
+P1520,30,Female,COPD,Moderate,Scheduled,125,91,96,17,36.9,91,No,No,Yes,7,1
+P1521,61,Male,Gastroenteritis,Moderate,Scheduled,115,89,88,22,36.8,98,No,No,No,1,0
+P1522,44,Male,Diabetes,Moderate,Scheduled,115,86,79,17,37.6,94,Yes,No,Yes,8,1
+P1523,68,Male,COPD,Moderate,Emergency,119,70,92,19,36.4,92,Yes,Yes,No,9,1
+P1524,66,Male,Pneumonia,Mild,Scheduled,136,74,71,14,37.0,96,Yes,No,Yes,3,0
+P1525,27,Male,Kidney Disease,Severe,Scheduled,141,97,95,21,37.0,93,No,No,No,8,1
+P1526,30,Male,Gastroenteritis,Mild,Emergency,101,83,65,10,36.4,96,No,No,No,4,0
+P1527,67,Male,Kidney Disease,Moderate,Emergency,123,70,64,14,37.2,93,Yes,Yes,Yes,11,1
+P1528,78,Female,Diabetes,Severe,Emergency,131,81,104,18,37.3,89,Yes,Yes,No,12,1
+P1529,77,Female,Heart Disease,Severe,Emergency,136,88,74,15,36.8,90,No,Yes,No,10,1
+P1530,65,Male,Heart Disease,Severe,Emergency,135,88,81,18,37.2,94,No,Yes,Yes,14,1
+P1531,68,Male,Pneumonia,Severe,Emergency,137,72,100,16,37.4,87,No,Yes,No,13,1
+P1532,40,Female,Pneumonia,Moderate,Scheduled,131,77,68,13,36.9,92,No,No,No,7,1
+P1533,46,Male,Gastroenteritis,Mild,Emergency,120,79,68,15,36.8,98,No,No,No,6,1
+P1534,52,Male,Gastroenteritis,Mild,Emergency,129,78,86,16,37.1,100,No,No,Yes,4,0
+P1535,64,Male,Pneumonia,Severe,Emergency,132,86,100,20,37.0,89,No,No,Yes,13,1
+P1536,18,Male,Diabetes,Moderate,Emergency,114,78,75,17,36.8,96,Yes,Yes,Yes,11,1
+P1537,40,Female,Diabetes,Moderate,Emergency,125,74,82,16,37.7,94,Yes,No,Yes,3,0
+P1538,71,Male,Gastroenteritis,Mild,Scheduled,111,62,61,10,36.9,98,No,Yes,No,1,0
+P1539,39,Male,Diabetes,Mild,Scheduled,136,66,74,16,36.3,98,No,No,Yes,6,1
+P1540,60,Male,Heart Disease,Mild,Emergency,114,72,71,12,37.1,98,No,Yes,No,3,0
+P1541,54,Female,Heart Disease,Severe,Emergency,114,69,84,24,37.4,93,No,Yes,No,10,1
+P1542,18,Female,COPD,Mild,Scheduled,122,86,57,14,36.8,94,No,No,No,2,0
+P1543,42,Female,Diabetes,Mild,Emergency,112,87,67,18,36.9,98,Yes,No,No,4,0
+P1544,77,Male,Pneumonia,Moderate,Emergency,112,82,81,19,38.1,94,No,No,No,11,1
+P1545,18,Male,Diabetes,Mild,Scheduled,130,75,79,16,36.1,97,No,Yes,No,1,0
+P1546,41,Male,Diabetes,Moderate,Scheduled,134,85,96,16,36.6,98,No,No,No,6,1
+P1547,55,Female,Pneumonia,Moderate,Emergency,114,60,103,20,36.8,92,No,No,No,8,1
+P1548,54,Female,Kidney Disease,Moderate,Emergency,124,76,82,18,37.0,96,No,No,Yes,7,1
+P1549,18,Female,Asthma,Moderate,Scheduled,114,86,93,18,36.6,94,No,No,No,1,0
+P1550,45,Female,Pneumonia,Mild,Scheduled,119,80,84,17,37.3,95,No,No,Yes,3,0
+P1551,50,Male,Diabetes,Mild,Scheduled,130,79,74,16,36.6,98,No,No,Yes,3,0
+P1552,41,Female,COPD,Moderate,Emergency,108,81,74,15,36.1,91,No,No,No,8,1
+P1553,67,Female,Kidney Disease,Severe,Emergency,123,74,97,17,37.2,92,Yes,Yes,No,9,1
+P1554,44,Male,Heart Disease,Moderate,Emergency,129,73,60,19,36.4,93,No,No,No,6,1
+P1555,62,Female,COPD,Severe,Emergency,115,78,109,27,38.6,91,No,No,Yes,12,1
+P1556,71,Male,Asthma,Mild,Scheduled,139,65,86,12,37.3,94,No,No,Yes,3,0
+P1557,43,Male,COPD,Severe,Emergency,127,92,106,24,37.0,90,No,No,No,9,1
+P1558,52,Male,Pneumonia,Severe,Scheduled,127,82,101,17,38.4,88,No,No,No,7,1
+P1559,29,Female,Asthma,Moderate,Emergency,135,83,91,17,36.8,95,No,No,No,8,1
+P1560,44,Female,Pneumonia,Mild,Scheduled,131,77,72,16,37.5,97,No,Yes,No,7,1
+P1561,45,Female,Pneumonia,Moderate,Scheduled,144,81,51,19,36.9,94,No,No,No,4,0
+P1562,26,Female,COPD,Moderate,Scheduled,108,76,92,15,37.2,93,No,No,No,8,1
+P1563,74,Male,Kidney Disease,Moderate,Emergency,119,59,74,14,37.3,98,No,No,No,6,1
+P1564,35,Female,COPD,Moderate,Emergency,143,78,97,21,37.7,92,No,No,Yes,9,1
+P1565,36,Male,Heart Disease,Severe,Emergency,118,76,114,23,37.0,91,No,Yes,No,11,1
+P1566,52,Male,Heart Disease,Moderate,Emergency,131,67,89,14,35.9,93,No,No,No,6,1
+P1567,45,Male,Asthma,Moderate,Scheduled,148,82,91,14,36.6,97,No,No,No,5,0
+P1568,39,Female,Gastroenteritis,Mild,Scheduled,88,75,60,21,36.7,99,No,No,No,3,0
+P1569,48,Male,Pneumonia,Severe,Emergency,135,75,124,21,37.1,89,No,No,No,9,1
+P1570,18,Male,Heart Disease,Severe,Emergency,118,75,99,15,37.7,90,No,Yes,Yes,11,1
+P1571,18,Female,Asthma,Moderate,Emergency,108,78,69,17,36.4,92,No,No,No,5,0
+P1572,45,Female,Gastroenteritis,Moderate,Emergency,142,87,104,19,37.9,92,No,No,No,6,1
+P1573,40,Female,Pneumonia,Mild,Scheduled,117,95,55,19,37.7,95,No,No,No,1,0
+P1574,73,Female,Diabetes,Moderate,Emergency,123,83,80,20,36.9,95,No,No,No,5,0
+P1575,46,Female,Gastroenteritis,Mild,Emergency,106,60,65,17,36.8,96,No,No,No,1,0
+P1576,73,Female,Heart Disease,Moderate,Scheduled,108,81,95,16,37.2,93,No,No,No,8,1
+P1577,28,Male,Heart Disease,Severe,Emergency,93,73,89,16,36.5,92,No,No,No,9,1
+P1578,60,Female,Heart Disease,Severe,Emergency,114,83,94,19,37.5,90,No,Yes,Yes,12,1
+P1579,45,Female,Pneumonia,Moderate,Scheduled,107,74,84,23,37.0,94,No,Yes,No,7,1
+P1580,51,Female,Kidney Disease,Mild,Scheduled,114,74,69,11,36.6,98,No,No,No,1,0
+P1581,18,Female,Asthma,Severe,Emergency,127,84,91,22,37.4,93,No,Yes,No,9,1
+P1582,22,Male,Pneumonia,Moderate,Emergency,127,93,84,18,37.6,92,No,No,Yes,9,1
+P1583,36,Female,Asthma,Mild,Scheduled,129,80,66,16,36.5,96,No,No,No,1,0
+P1584,73,Male,Gastroenteritis,Moderate,Scheduled,96,73,85,19,37.2,98,No,No,No,2,0
+P1585,37,Male,Diabetes,Mild,Emergency,97,103,68,16,36.4,98,Yes,No,Yes,2,0
+P1586,21,Male,Kidney Disease,Moderate,Emergency,125,80,109,17,36.1,93,No,Yes,No,10,1
+P1587,54,Male,Heart Disease,Moderate,Emergency,121,95,93,17,36.5,98,Yes,No,No,7,1
+P1588,20,Male,Kidney Disease,Severe,Emergency,128,82,109,15,36.9,91,No,No,No,12,1
+P1589,29,Male,COPD,Severe,Emergency,111,73,105,19,36.8,92,No,No,No,10,1
+P1590,74,Male,COPD,Severe,Emergency,117,75,112,16,36.3,90,Yes,No,No,13,1
+P1591,58,Male,Heart Disease,Moderate,Scheduled,134,79,103,19,37.6,93,No,Yes,No,10,1
+P1592,45,Female,Heart Disease,Severe,Emergency,134,92,105,20,36.9,91,No,No,No,10,1
+P1593,36,Female,COPD,Severe,Emergency,110,85,103,18,37.2,87,No,No,No,10,1
+P1594,90,Female,Kidney Disease,Moderate,Scheduled,93,84,101,17,37.6,97,No,Yes,No,11,1
+P1595,69,Female,Pneumonia,Moderate,Scheduled,135,68,101,21,37.7,92,No,Yes,Yes,6,1
+P1596,33,Male,Kidney Disease,Severe,Emergency,130,70,79,16,36.6,89,No,No,No,12,1
+P1597,74,Female,Heart Disease,Moderate,Emergency,130,86,90,19,36.5,95,No,No,No,9,1
+P1598,77,Male,Asthma,Mild,Emergency,132,83,78,12,36.5,99,Yes,No,No,6,1
+P1599,44,Female,COPD,Severe,Emergency,141,73,89,20,37.2,88,No,No,Yes,10,1
+P1600,61,Female,Gastroenteritis,Moderate,Scheduled,117,81,93,21,36.9,94,Yes,No,Yes,2,0
+P1601,53,Male,Kidney Disease,Severe,Emergency,131,75,98,25,36.6,91,No,No,Yes,10,1
+P1602,21,Female,Diabetes,Moderate,Scheduled,111,76,93,15,37.3,96,No,No,No,5,0
+P1603,47,Male,Gastroenteritis,Severe,Emergency,131,69,100,24,37.5,91,No,No,No,6,1
+P1604,59,Male,COPD,Moderate,Emergency,123,71,60,18,37.2,92,No,No,No,10,1
+P1605,58,Female,Pneumonia,Moderate,Scheduled,128,84,64,20,36.7,92,Yes,No,Yes,9,1
+P1606,23,Male,COPD,Moderate,Scheduled,110,87,73,20,37.2,91,No,No,No,8,1
+P1607,58,Female,Diabetes,Severe,Emergency,135,83,101,20,37.4,90,Yes,No,Yes,12,1
+P1608,34,Male,Heart Disease,Severe,Scheduled,140,74,79,21,37.1,91,No,Yes,No,10,1
+P1609,43,Male,COPD,Severe,Emergency,140,79,103,20,36.9,91,No,No,No,12,1
+P1610,66,Male,COPD,Moderate,Scheduled,97,79,89,13,37.1,94,No,No,No,8,1
+P1611,87,Female,Asthma,Mild,Scheduled,136,81,70,10,36.2,98,Yes,No,No,6,1
+P1612,60,Male,Heart Disease,Moderate,Emergency,159,80,83,17,36.1,93,No,Yes,No,6,1
+P1613,43,Male,Kidney Disease,Mild,Emergency,158,74,63,14,36.3,97,No,No,No,1,0
+P1614,54,Male,Gastroenteritis,Moderate,Scheduled,147,95,83,13,36.9,96,No,No,No,5,0
+P1615,40,Female,Heart Disease,Moderate,Emergency,102,63,95,22,37.2,93,No,No,No,7,1
+P1616,57,Male,Asthma,Mild,Emergency,127,79,94,16,36.8,97,No,Yes,Yes,5,0
+P1617,59,Male,Diabetes,Moderate,Emergency,128,62,96,23,36.7,93,No,No,No,6,1
+P1618,62,Male,Appendicitis,Severe,Emergency,119,87,94,17,37.1,90,No,No,Yes,7,1
+P1619,74,Male,Pneumonia,Moderate,Scheduled,112,75,72,19,36.3,95,No,No,Yes,8,1
+P1620,59,Female,Appendicitis,Moderate,Emergency,115,78,78,19,36.6,94,Yes,Yes,No,7,1
+P1621,53,Male,Pneumonia,Severe,Emergency,120,80,97,22,37.1,91,Yes,No,Yes,10,1
+P1622,29,Male,Asthma,Mild,Scheduled,99,76,91,12,36.8,97,No,No,No,5,0
+P1623,87,Female,Heart Disease,Severe,Emergency,143,83,98,21,37.4,94,No,Yes,Yes,12,1
+P1624,18,Male,Heart Disease,Severe,Emergency,136,76,90,22,37.5,92,No,No,Yes,10,1
+P1625,40,Female,Heart Disease,Severe,Emergency,120,93,99,23,37.0,94,No,No,No,8,1
+P1626,19,Male,Gastroenteritis,Mild,Scheduled,140,73,76,11,36.8,100,No,No,No,5,0
+P1627,38,Male,Heart Disease,Severe,Emergency,117,73,87,24,37.4,90,No,Yes,No,14,1
+P1628,36,Female,Kidney Disease,Severe,Scheduled,155,73,91,12,37.9,92,No,No,Yes,12,1
+P1629,71,Male,Pneumonia,Moderate,Scheduled,124,78,108,17,37.2,92,No,No,No,7,1
+P1630,55,Male,Diabetes,Mild,Scheduled,146,71,81,10,37.5,97,Yes,No,Yes,7,1
+P1631,67,Male,Appendicitis,Moderate,Emergency,125,69,89,20,37.7,94,No,No,No,8,1
+P1632,31,Female,Kidney Disease,Severe,Emergency,112,85,98,17,36.9,96,No,No,No,8,1
+P1633,18,Female,Diabetes,Moderate,Scheduled,124,79,68,13,37.7,93,No,No,No,5,0
+P1634,24,Male,Diabetes,Moderate,Emergency,118,80,89,16,37.2,94,No,No,Yes,7,1
+P1635,53,Male,Pneumonia,Moderate,Scheduled,150,79,79,17,37.0,95,No,No,No,4,0
+P1636,47,Male,Gastroenteritis,Mild,Emergency,133,79,69,11,37.7,97,No,No,No,2,0
+P1637,65,Female,Diabetes,Moderate,Emergency,126,79,79,17,36.8,97,Yes,Yes,Yes,8,1
+P1638,65,Male,Heart Disease,Moderate,Emergency,108,82,65,14,37.3,99,No,Yes,No,8,1
+P1639,44,Female,Asthma,Mild,Scheduled,108,80,71,15,36.6,98,No,No,No,1,0
+P1640,31,Male,Pneumonia,Moderate,Scheduled,112,66,86,19,37.3,95,No,No,No,4,0
+P1641,69,Female,Appendicitis,Mild,Scheduled,111,80,73,20,36.9,97,No,No,No,1,0
+P1642,35,Male,Diabetes,Severe,Emergency,115,92,86,21,37.6,90,Yes,No,No,7,1
+P1643,34,Male,Diabetes,Moderate,Emergency,143,74,95,17,36.7,95,Yes,No,No,6,1
+P1644,57,Female,Pneumonia,Severe,Emergency,133,80,105,21,37.2,87,No,No,No,11,1
+P1645,18,Male,Pneumonia,Severe,Emergency,119,100,106,19,37.1,88,Yes,Yes,No,11,1
+P1646,29,Female,Diabetes,Mild,Scheduled,126,77,80,18,37.4,99,No,Yes,No,1,0
+P1647,78,Male,Appendicitis,Mild,Scheduled,121,79,93,16,37.0,98,No,No,Yes,4,0
+P1648,62,Female,Appendicitis,Severe,Emergency,122,88,99,18,37.5,89,Yes,Yes,No,12,1
+P1649,18,Male,Appendicitis,Moderate,Scheduled,120,87,82,17,37.3,94,Yes,Yes,No,5,0
+P1650,76,Female,Asthma,Severe,Scheduled,136,69,80,18,37.3,91,No,Yes,No,7,1
+P1651,48,Female,Diabetes,Mild,Emergency,125,82,65,14,36.6,96,No,No,No,3,0
+P1652,49,Female,Heart Disease,Moderate,Emergency,105,76,96,21,37.2,92,No,No,No,10,1
+P1653,74,Male,Kidney Disease,Severe,Emergency,113,85,99,15,36.4,88,No,No,No,14,1
+P1654,33,Female,Asthma,Moderate,Scheduled,115,82,69,13,37.1,95,No,No,Yes,5,0
+P1655,38,Male,Appendicitis,Moderate,Scheduled,134,83,92,13,36.5,95,No,No,No,7,1
+P1656,30,Male,COPD,Severe,Emergency,121,78,110,20,37.6,90,No,No,No,10,1
+P1657,18,Male,Pneumonia,Mild,Scheduled,94,83,55,14,37.8,94,No,No,No,8,1
+P1658,37,Male,Pneumonia,Severe,Emergency,137,78,97,19,36.9,90,No,No,Yes,8,1
+P1659,71,Female,Appendicitis,Mild,Emergency,138,67,90,15,36.4,96,No,No,No,2,0
+P1660,46,Female,Asthma,Mild,Scheduled,127,75,86,14,37.1,95,No,No,No,2,0
+P1661,82,Female,Pneumonia,Moderate,Scheduled,123,71,81,18,37.6,95,No,No,No,4,0
+P1662,86,Male,Asthma,Moderate,Emergency,146,75,108,15,36.9,96,No,No,Yes,5,0
+P1663,62,Male,COPD,Moderate,Emergency,128,87,88,14,37.3,93,No,Yes,Yes,10,1
+P1664,26,Female,COPD,Severe,Emergency,113,78,108,21,37.4,89,Yes,No,Yes,12,1
+P1665,36,Male,Asthma,Mild,Scheduled,128,82,75,16,37.4,96,Yes,No,No,4,0
+P1666,52,Female,COPD,Severe,Emergency,122,94,108,17,36.8,90,No,Yes,Yes,10,1
+P1667,37,Male,Diabetes,Severe,Scheduled,143,78,99,21,36.1,90,No,Yes,No,11,1
+P1668,59,Male,Diabetes,Severe,Scheduled,154,76,101,23,37.4,92,No,No,No,11,1
+P1669,68,Female,COPD,Severe,Emergency,134,90,80,19,37.2,89,No,No,No,8,1
+P1670,61,Female,Pneumonia,Mild,Emergency,120,86,75,15,37.9,94,Yes,No,No,6,1
+P1671,42,Female,Heart Disease,Moderate,Scheduled,107,76,88,13,37.3,95,No,No,No,6,1
+P1672,49,Female,Pneumonia,Moderate,Scheduled,108,77,67,19,37.4,91,No,No,No,7,1
+P1673,70,Male,Kidney Disease,Severe,Emergency,163,92,95,16,37.2,92,Yes,No,Yes,11,1
+P1674,38,Male,Diabetes,Moderate,Scheduled,125,85,101,23,37.2,95,Yes,No,No,7,1
+P1675,18,Female,COPD,Moderate,Emergency,117,80,88,14,37.1,91,No,No,No,9,1
+P1676,60,Male,Pneumonia,Severe,Emergency,151,74,93,19,37.0,91,No,No,Yes,11,1
+P1677,88,Female,Pneumonia,Moderate,Scheduled,128,74,88,18,37.9,95,No,No,Yes,9,1
+P1678,50,Male,Diabetes,Moderate,Emergency,111,90,81,18,36.8,94,No,No,No,6,1
+P1679,30,Male,Asthma,Mild,Scheduled,114,91,69,13,37.0,97,No,No,No,1,0
+P1680,22,Male,COPD,Moderate,Emergency,110,63,82,22,36.3,91,No,No,No,8,1
+P1681,48,Female,Appendicitis,Moderate,Scheduled,118,73,93,16,37.0,95,No,No,Yes,8,1
+P1682,62,Male,Pneumonia,Moderate,Emergency,127,85,88,14,37.4,93,No,No,No,6,1
+P1683,55,Female,Heart Disease,Moderate,Emergency,152,68,85,14,37.4,93,No,No,Yes,11,1
+P1684,41,Female,Kidney Disease,Mild,Emergency,133,87,84,15,37.1,97,No,No,No,3,0
+P1685,42,Male,Gastroenteritis,Moderate,Emergency,124,74,87,15,36.7,92,No,No,Yes,6,1
+P1686,78,Female,Heart Disease,Severe,Emergency,116,80,102,25,36.0,92,No,No,Yes,12,1
+P1687,89,Male,Gastroenteritis,Mild,Scheduled,144,89,96,21,37.0,93,No,Yes,Yes,6,1
+P1688,46,Male,Pneumonia,Severe,Emergency,105,84,88,19,38.1,91,No,No,No,11,1
+P1689,32,Male,Diabetes,Mild,Emergency,113,80,69,14,37.2,97,No,No,No,5,0
+P1690,54,Female,Asthma,Mild,Scheduled,126,92,54,18,36.7,97,No,No,No,2,0
+P1691,51,Female,Diabetes,Moderate,Emergency,102,78,90,16,37.5,95,No,No,No,2,0
+P1692,56,Male,COPD,Moderate,Emergency,125,68,77,14,37.0,94,No,No,Yes,6,1
+P1693,21,Female,Kidney Disease,Moderate,Emergency,102,80,91,19,37.2,96,No,No,Yes,7,1
+P1694,51,Male,Asthma,Mild,Scheduled,110,70,77,15,36.8,95,No,No,No,2,0
+P1695,52,Female,Diabetes,Moderate,Emergency,118,79,93,15,37.9,95,No,No,No,10,1
+P1696,18,Female,Kidney Disease,Mild,Emergency,112,74,63,13,36.3,98,No,No,No,3,0
+P1697,48,Female,Diabetes,Mild,Emergency,118,58,65,13,37.1,98,No,No,No,4,0
+P1698,50,Female,COPD,Severe,Emergency,119,73,92,15,37.9,90,No,No,No,10,1
+P1699,23,Male,COPD,Severe,Emergency,120,69,94,25,37.4,89,No,No,No,10,1
+P1700,65,Female,Diabetes,Moderate,Emergency,109,69,78,19,37.4,93,Yes,No,No,14,1
+P1701,47,Male,Gastroenteritis,Mild,Scheduled,131,77,63,16,36.4,100,No,No,No,1,0
+P1702,53,Female,Kidney Disease,Mild,Scheduled,109,74,68,16,36.2,99,No,No,No,4,0
+P1703,30,Male,Pneumonia,Mild,Scheduled,118,68,71,14,37.0,95,No,No,No,4,0
+P1704,82,Female,Pneumonia,Moderate,Emergency,112,75,79,22,36.8,91,No,No,No,9,1
+P1705,61,Male,Gastroenteritis,Mild,Scheduled,125,78,58,15,37.2,100,No,No,No,1,0
+P1706,83,Male,Diabetes,Mild,Scheduled,132,70,62,13,37.1,98,No,No,No,8,1
+P1707,18,Male,Diabetes,Mild,Scheduled,148,70,89,20,37.2,100,No,No,No,3,0
+P1708,46,Male,Diabetes,Moderate,Emergency,110,68,90,12,37.2,95,Yes,No,No,12,1
+P1709,18,Male,Kidney Disease,Moderate,Scheduled,120,90,82,15,37.4,94,No,No,No,6,1
+P1710,70,Female,Pneumonia,Mild,Scheduled,173,66,78,15,37.2,98,No,No,Yes,4,0
+P1711,18,Male,Gastroenteritis,Mild,Scheduled,112,83,57,15,36.6,96,No,No,No,1,0
+P1712,38,Female,Diabetes,Mild,Emergency,126,78,87,11,37.2,95,Yes,No,No,3,0
+P1713,50,Female,Heart Disease,Moderate,Emergency,138,68,92,15,36.7,95,No,No,No,6,1
+P1714,29,Female,COPD,Severe,Scheduled,112,76,92,20,36.8,87,No,No,No,10,1
+P1715,56,Male,Heart Disease,Moderate,Scheduled,119,63,89,14,36.9,93,No,No,No,7,1
+P1716,61,Male,Kidney Disease,Mild,Scheduled,135,60,78,13,36.7,95,No,No,No,2,0
+P1717,23,Male,Pneumonia,Moderate,Emergency,118,75,96,16,37.5,90,No,No,No,7,1
+P1718,46,Male,Pneumonia,Moderate,Emergency,91,80,49,20,37.1,94,No,No,No,7,1
+P1719,71,Female,COPD,Moderate,Scheduled,143,81,78,16,36.1,95,No,No,No,6,1
+P1720,61,Female,COPD,Moderate,Emergency,145,72,102,16,37.2,93,No,Yes,Yes,9,1
+P1721,44,Female,Heart Disease,Moderate,Emergency,116,78,89,12,36.9,94,No,No,No,8,1
+P1722,41,Male,Gastroenteritis,Severe,Scheduled,116,77,74,16,37.5,89,No,No,No,9,1
+P1723,53,Male,Asthma,Mild,Emergency,113,94,86,15,36.9,96,No,No,No,2,0
+P1724,44,Female,Kidney Disease,Mild,Scheduled,116,79,89,16,37.6,100,No,No,No,6,1
+P1725,46,Female,Pneumonia,Moderate,Scheduled,117,85,88,13,37.5,91,No,No,Yes,8,1
+P1726,31,Male,Gastroenteritis,Moderate,Emergency,126,76,68,18,36.5,92,No,No,No,2,0
+P1727,59,Male,Gastroenteritis,Mild,Scheduled,106,66,74,13,37.0,97,No,No,No,1,0
+P1728,44,Male,Diabetes,Severe,Emergency,120,67,104,16,37.1,94,No,No,No,5,0
+P1729,44,Female,Heart Disease,Moderate,Scheduled,143,94,69,18,37.2,94,No,Yes,No,5,0
+P1730,49,Female,Appendicitis,Moderate,Scheduled,125,80,86,23,36.4,96,No,No,No,7,1
+P1731,18,Female,Diabetes,Mild,Scheduled,123,66,67,14,37.9,96,No,No,Yes,4,0
+P1732,34,Male,Asthma,Mild,Scheduled,145,79,104,16,36.5,96,No,Yes,Yes,7,1
+P1733,59,Male,Kidney Disease,Severe,Emergency,133,76,90,17,37.3,90,Yes,No,No,12,1
+P1734,50,Male,Diabetes,Moderate,Scheduled,130,56,62,18,37.3,95,No,No,No,6,1
+P1735,58,Female,COPD,Moderate,Scheduled,119,91,87,13,37.0,89,No,No,Yes,4,0
+P1736,41,Male,Heart Disease,Moderate,Emergency,148,85,100,19,37.2,95,Yes,Yes,No,9,1
+P1737,71,Female,Kidney Disease,Severe,Scheduled,144,69,93,15,37.3,93,Yes,No,No,10,1
+P1738,47,Male,Appendicitis,Moderate,Scheduled,98,89,95,18,36.7,94,No,No,No,5,0
+P1739,18,Male,Pneumonia,Moderate,Emergency,117,89,74,23,38.0,96,No,Yes,No,7,1
+P1740,56,Male,Appendicitis,Moderate,Scheduled,140,80,92,12,36.2,95,No,No,No,4,0
+P1741,56,Female,Gastroenteritis,Mild,Scheduled,116,64,80,15,36.2,99,No,No,Yes,3,0
+P1742,41,Male,Kidney Disease,Moderate,Emergency,121,82,90,21,36.7,97,No,No,No,7,1
+P1743,59,Male,Pneumonia,Severe,Scheduled,140,90,109,19,36.5,91,No,Yes,No,8,1
+P1744,49,Male,Asthma,Mild,Scheduled,127,78,87,18,37.3,95,No,No,No,4,0
+P1745,42,Male,Asthma,Moderate,Emergency,127,70,91,17,37.8,95,No,No,No,3,0
+P1746,86,Male,Diabetes,Moderate,Emergency,134,72,71,18,37.2,93,Yes,No,Yes,9,1
+P1747,69,Female,Gastroenteritis,Mild,Emergency,119,94,88,17,37.1,100,No,No,No,1,0
+P1748,49,Female,Diabetes,Severe,Emergency,123,79,98,21,36.9,91,Yes,No,No,6,1
+P1749,57,Female,Pneumonia,Moderate,Scheduled,103,93,106,16,37.8,95,No,No,No,2,0
+P1750,61,Female,Diabetes,Moderate,Scheduled,139,89,70,13,36.5,93,No,Yes,Yes,7,1
+P1751,42,Male,COPD,Moderate,Scheduled,123,81,107,16,37.1,92,No,No,No,7,1
+P1752,63,Male,Gastroenteritis,Moderate,Emergency,112,92,81,15,36.5,95,No,No,No,4,0
+P1753,39,Female,Kidney Disease,Severe,Scheduled,122,77,101,20,37.6,89,No,No,Yes,8,1
+P1754,18,Male,Diabetes,Mild,Emergency,112,69,71,20,37.1,96,No,No,No,4,0
+P1755,43,Female,Diabetes,Moderate,Scheduled,99,64,79,18,36.8,91,No,No,No,7,1
+P1756,55,Male,Asthma,Moderate,Scheduled,126,74,80,19,37.0,94,No,No,No,7,1
+P1757,45,Female,Pneumonia,Moderate,Emergency,116,76,78,21,37.9,92,No,No,No,5,0
+P1758,18,Male,COPD,Severe,Emergency,139,65,103,17,36.5,88,No,No,No,11,1
+P1759,18,Male,Diabetes,Moderate,Emergency,116,87,94,17,37.1,92,Yes,No,No,9,1
+P1760,55,Female,Appendicitis,Moderate,Scheduled,134,72,68,21,36.8,95,No,No,No,3,0
+P1761,58,Male,Asthma,Moderate,Emergency,144,91,67,16,36.5,95,No,Yes,No,4,0
+P1762,45,Male,Gastroenteritis,Mild,Scheduled,124,60,79,12,36.5,99,No,Yes,No,4,0
+P1763,78,Male,Pneumonia,Moderate,Emergency,116,76,81,12,37.8,97,No,No,Yes,10,1
+P1764,67,Male,COPD,Moderate,Emergency,117,93,86,15,36.7,92,No,No,No,9,1
+P1765,61,Female,Diabetes,Moderate,Emergency,97,72,100,14,36.5,97,No,Yes,Yes,12,1
+P1766,54,Female,Pneumonia,Severe,Emergency,113,82,99,21,38.0,90,No,No,Yes,13,1
+P1767,60,Male,Gastroenteritis,Moderate,Scheduled,103,85,97,19,37.1,92,No,No,No,5,0
+P1768,45,Male,Gastroenteritis,Mild,Scheduled,118,93,83,16,37.1,99,No,No,No,2,0
+P1769,36,Female,Asthma,Severe,Emergency,149,70,72,22,36.3,93,No,No,No,10,1
+P1770,54,Female,Appendicitis,Mild,Scheduled,131,78,83,17,36.6,98,No,No,No,1,0
+P1771,26,Male,Gastroenteritis,Mild,Scheduled,114,76,71,15,37.5,96,No,No,No,2,0
+P1772,42,Female,Diabetes,Moderate,Emergency,131,74,77,15,37.6,92,No,No,No,6,1
+P1773,52,Female,Pneumonia,Mild,Scheduled,107,82,80,14,37.1,97,No,No,Yes,5,0
+P1774,42,Female,Kidney Disease,Moderate,Scheduled,125,79,89,20,36.4,95,No,No,No,5,0
+P1775,48,Male,Pneumonia,Severe,Emergency,128,81,112,20,37.5,89,No,No,Yes,13,1
+P1776,54,Male,Heart Disease,Moderate,Emergency,137,74,88,12,37.5,94,No,Yes,No,9,1
+P1777,53,Male,Gastroenteritis,Mild,Scheduled,108,93,55,17,37.0,98,No,No,No,1,0
+P1778,69,Male,Gastroenteritis,Moderate,Emergency,108,79,107,14,37.4,96,No,No,No,5,0
+P1779,18,Male,Gastroenteritis,Moderate,Emergency,124,86,71,18,38.1,93,Yes,Yes,No,6,1
+P1780,64,Male,COPD,Moderate,Scheduled,110,87,94,16,37.4,92,No,Yes,Yes,11,1
+P1781,42,Male,Asthma,Severe,Emergency,102,72,96,20,36.7,93,No,No,No,6,1
+P1782,41,Female,Heart Disease,Severe,Emergency,140,81,88,17,36.7,92,No,No,No,9,1
+P1783,87,Male,Pneumonia,Mild,Scheduled,112,76,51,14,37.6,95,No,Yes,No,2,0
+P1784,60,Male,Gastroenteritis,Mild,Emergency,132,79,45,10,37.1,97,No,No,No,4,0
+P1785,83,Male,Diabetes,Severe,Scheduled,136,79,73,23,37.2,88,Yes,No,Yes,10,1
+P1786,33,Male,Pneumonia,Severe,Emergency,126,84,109,21,36.7,89,Yes,No,No,9,1
+P1787,54,Male,Heart Disease,Severe,Emergency,127,78,81,13,37.8,91,No,No,Yes,12,1
+P1788,45,Male,Asthma,Severe,Scheduled,124,83,104,18,35.8,89,Yes,No,No,9,1
+P1789,42,Female,Gastroenteritis,Mild,Emergency,119,62,71,19,37.1,97,No,No,No,5,0
+P1790,64,Female,Gastroenteritis,Severe,Emergency,118,81,100,22,36.4,90,No,No,Yes,7,1
+P1791,45,Male,COPD,Moderate,Scheduled,124,81,82,13,37.2,90,No,No,No,8,1
+P1792,70,Male,Gastroenteritis,Mild,Scheduled,130,77,92,14,36.3,96,No,No,No,4,0
+P1793,36,Female,Pneumonia,Moderate,Emergency,131,82,85,16,37.0,93,No,No,No,6,1
+P1794,18,Male,COPD,Moderate,Emergency,125,73,100,16,37.1,92,Yes,No,No,6,1
+P1795,47,Female,Diabetes,Moderate,Emergency,113,83,79,25,36.7,96,Yes,No,No,7,1
+P1796,26,Male,Kidney Disease,Moderate,Emergency,107,73,73,19,36.7,94,No,No,No,4,0
+P1797,61,Female,Pneumonia,Severe,Emergency,155,71,94,15,37.7,88,No,No,No,10,1
+P1798,18,Male,Asthma,Moderate,Scheduled,121,69,89,17,37.1,95,No,No,No,3,0
+P1799,55,Female,Kidney Disease,Mild,Emergency,107,90,90,14,36.9,98,No,No,No,5,0
+P1800,27,Female,Diabetes,Moderate,Emergency,103,79,98,20,36.6,95,No,No,Yes,6,1
+P1801,68,Female,Asthma,Mild,Scheduled,124,77,78,20,37.1,99,Yes,No,No,3,0
+P1802,42,Male,Diabetes,Severe,Emergency,135,66,84,18,36.4,90,No,No,Yes,10,1
+P1803,29,Male,Asthma,Moderate,Scheduled,122,72,82,19,36.9,93,No,No,No,4,0
+P1804,73,Male,Appendicitis,Moderate,Scheduled,128,79,93,18,36.8,95,No,No,Yes,7,1
+P1805,40,Male,Gastroenteritis,Moderate,Scheduled,118,82,98,16,36.2,95,No,No,No,5,0
+P1806,75,Female,COPD,Moderate,Scheduled,137,96,79,18,37.5,91,No,Yes,No,8,1
+P1807,44,Male,Asthma,Moderate,Scheduled,132,76,69,16,36.8,99,No,No,No,5,0
+P1808,70,Female,COPD,Severe,Scheduled,133,70,107,22,37.4,88,No,Yes,Yes,13,1
+P1809,74,Female,COPD,Mild,Scheduled,142,91,87,15,37.2,97,No,Yes,Yes,7,1
+P1810,28,Male,Diabetes,Moderate,Emergency,106,78,71,17,36.7,95,No,No,No,4,0
+P1811,35,Female,Diabetes,Moderate,Emergency,134,82,77,22,37.2,92,Yes,No,No,9,1
+P1812,87,Female,Diabetes,Mild,Scheduled,105,77,59,15,37.2,98,Yes,Yes,No,4,0
+P1813,55,Male,Asthma,Moderate,Emergency,128,65,97,18,36.9,93,No,Yes,No,10,1
+P1814,95,Female,Appendicitis,Moderate,Emergency,119,79,104,19,36.9,95,No,No,Yes,11,1
+P1815,32,Male,Appendicitis,Severe,Emergency,120,80,104,16,37.1,95,No,No,No,8,1
+P1816,56,Female,Kidney Disease,Moderate,Emergency,127,81,80,16,36.9,97,No,No,No,3,0
+P1817,69,Male,Pneumonia,Moderate,Emergency,132,66,110,17,37.6,91,No,No,No,7,1
+P1818,79,Female,Asthma,Moderate,Scheduled,108,68,74,18,37.2,95,No,No,No,9,1
+P1819,49,Female,Heart Disease,Severe,Emergency,140,79,93,18,37.5,89,No,Yes,No,11,1
+P1820,39,Male,Heart Disease,Moderate,Scheduled,128,68,98,21,36.6,96,Yes,Yes,No,10,1
+P1821,42,Male,Diabetes,Mild,Emergency,102,75,71,18,36.8,94,No,No,Yes,4,0
+P1822,47,Male,Kidney Disease,Moderate,Scheduled,155,88,99,15,36.9,93,No,No,No,6,1
+P1823,67,Female,Appendicitis,Moderate,Emergency,110,79,70,16,37.2,97,No,No,No,8,1
+P1824,61,Male,Heart Disease,Mild,Scheduled,107,95,82,19,36.1,98,No,Yes,No,8,1
+P1825,66,Female,Pneumonia,Severe,Emergency,142,88,103,18,38.5,85,No,Yes,Yes,11,1
+P1826,73,Female,Pneumonia,Mild,Scheduled,121,81,47,17,37.4,94,No,No,No,4,0
+P1827,55,Male,Kidney Disease,Moderate,Emergency,144,74,92,8,36.8,97,No,No,No,8,1
+P1828,49,Female,Heart Disease,Moderate,Scheduled,126,94,92,14,36.9,96,Yes,Yes,No,6,1
+P1829,42,Female,Heart Disease,Moderate,Emergency,115,91,86,23,37.8,96,No,Yes,No,9,1
+P1830,18,Female,Pneumonia,Mild,Scheduled,116,76,74,10,37.2,100,Yes,No,No,6,1
+P1831,43,Male,Appendicitis,Moderate,Emergency,112,81,70,19,37.1,95,No,No,No,5,0
+P1832,48,Female,Diabetes,Moderate,Emergency,118,80,85,16,38.4,95,No,No,Yes,7,1
+P1833,27,Male,Gastroenteritis,Mild,Scheduled,121,82,79,15,37.1,97,No,No,No,1,0
+P1834,63,Female,Diabetes,Mild,Scheduled,104,73,75,18,37.3,98,No,Yes,Yes,4,0
+P1835,66,Female,Asthma,Mild,Scheduled,115,80,92,15,36.5,97,Yes,Yes,No,5,0
+P1836,32,Male,Kidney Disease,Severe,Emergency,124,75,89,20,37.2,89,No,No,No,9,1
+P1837,57,Male,Kidney Disease,Severe,Emergency,121,69,104,20,37.8,91,No,No,Yes,9,1
+P1838,49,Male,COPD,Severe,Emergency,107,89,109,19,36.5,90,No,Yes,No,10,1
+P1839,50,Female,Diabetes,Moderate,Scheduled,113,79,72,17,37.4,96,No,No,No,3,0
+P1840,47,Male,Heart Disease,Mild,Scheduled,138,77,79,17,36.4,96,No,No,No,6,1
+P1841,18,Male,Diabetes,Mild,Scheduled,109,64,67,15,36.5,100,No,No,No,1,0
+P1842,32,Male,Asthma,Mild,Emergency,88,64,84,18,36.6,100,No,No,No,5,0
+P1843,45,Female,Asthma,Moderate,Emergency,132,75,77,22,37.3,95,No,No,No,5,0
+P1844,46,Male,Gastroenteritis,Mild,Scheduled,133,82,67,15,36.4,97,No,No,No,2,0
+P1845,44,Female,Diabetes,Severe,Emergency,138,73,106,15,37.4,92,No,No,No,10,1
+P1846,58,Female,Kidney Disease,Moderate,Scheduled,107,66,85,18,37.3,95,No,No,No,6,1
+P1847,62,Female,Heart Disease,Mild,Emergency,127,76,64,15,36.5,99,No,Yes,Yes,6,1
+P1848,42,Female,Pneumonia,Mild,Scheduled,139,80,72,12,36.4,96,No,No,No,6,1
+P1849,29,Male,COPD,Moderate,Scheduled,117,85,76,16,36.8,91,No,No,No,4,0
+P1850,23,Male,Heart Disease,Severe,Emergency,111,75,107,24,37.6,91,No,Yes,No,9,1
+P1851,70,Male,Pneumonia,Mild,Emergency,137,77,83,15,36.1,96,Yes,Yes,No,5,0
+P1852,58,Male,Kidney Disease,Severe,Scheduled,152,74,90,17,36.8,92,No,No,No,8,1
+P1853,55,Male,COPD,Severe,Emergency,114,68,85,15,37.2,90,No,No,Yes,8,1
+P1854,40,Female,Gastroenteritis,Mild,Scheduled,101,73,83,15,36.5,98,No,No,No,2,0
+P1855,65,Female,Kidney Disease,Moderate,Emergency,137,83,79,18,36.3,96,No,No,No,7,1
+P1856,64,Male,Diabetes,Severe,Emergency,106,76,119,17,36.6,88,No,Yes,Yes,13,1
+P1857,37,Male,Heart Disease,Moderate,Scheduled,116,68,81,12,36.4,96,No,No,No,4,0
+P1858,61,Male,Pneumonia,Moderate,Scheduled,114,76,56,19,38.4,92,No,Yes,Yes,7,1
+P1859,53,Female,Pneumonia,Moderate,Scheduled,120,81,93,14,37.2,93,No,No,Yes,10,1
+P1860,71,Female,Heart Disease,Moderate,Scheduled,135,78,88,19,36.5,97,No,Yes,Yes,9,1
+P1861,58,Male,Asthma,Severe,Emergency,143,76,93,20,37.6,90,No,No,No,6,1
+P1862,63,Male,COPD,Moderate,Scheduled,124,73,81,16,36.9,94,No,No,No,5,0
+P1863,36,Female,COPD,Mild,Emergency,97,77,72,14,37.5,94,Yes,No,No,7,1
+P1864,33,Female,Appendicitis,Moderate,Emergency,120,82,80,15,36.5,95,No,No,No,6,1
+P1865,44,Female,Diabetes,Moderate,Emergency,112,78,75,23,37.3,92,No,No,No,7,1
+P1866,21,Female,Diabetes,Severe,Emergency,132,87,90,15,36.9,92,No,No,No,12,1
+P1867,56,Male,Pneumonia,Moderate,Emergency,119,83,77,13,37.0,92,No,No,No,8,1
+P1868,43,Female,Appendicitis,Severe,Scheduled,130,81,89,22,36.6,94,No,No,No,8,1
+P1869,59,Female,Diabetes,Mild,Scheduled,123,76,64,17,37.0,97,No,No,No,2,0
+P1870,76,Male,Appendicitis,Moderate,Scheduled,106,81,100,17,37.2,95,No,Yes,No,4,0
+P1871,32,Female,Pneumonia,Moderate,Emergency,129,76,89,11,37.6,94,No,Yes,No,5,0
+P1872,64,Female,Pneumonia,Mild,Scheduled,125,71,76,12,38.4,98,No,No,Yes,8,1
+P1873,51,Female,Heart Disease,Severe,Emergency,136,79,107,18,37.4,89,No,No,Yes,10,1
+P1874,48,Female,Heart Disease,Moderate,Scheduled,123,80,67,18,37.3,96,No,No,No,6,1
+P1875,50,Male,Heart Disease,Moderate,Emergency,122,87,83,14,36.9,92,Yes,Yes,No,9,1
+P1876,63,Male,Pneumonia,Mild,Scheduled,138,59,79,11,36.7,97,Yes,Yes,Yes,11,1
+P1877,49,Female,Asthma,Mild,Scheduled,133,81,66,11,36.6,99,No,No,Yes,3,0
+P1878,56,Female,Diabetes,Mild,Emergency,119,71,75,14,36.7,98,No,No,Yes,7,1
+P1879,18,Female,Asthma,Moderate,Scheduled,115,86,102,13,37.6,94,No,No,No,5,0
+P1880,23,Male,Heart Disease,Moderate,Scheduled,106,76,94,15,36.5,98,No,No,No,4,0
+P1881,39,Female,Gastroenteritis,Mild,Scheduled,104,79,69,18,37.0,98,No,No,Yes,2,0
+P1882,55,Female,Gastroenteritis,Moderate,Emergency,118,97,99,19,36.9,99,No,Yes,No,4,0
+P1883,73,Female,Diabetes,Severe,Emergency,127,87,92,16,37.2,92,No,Yes,No,10,1
+P1884,34,Male,Heart Disease,Mild,Emergency,150,89,73,12,36.6,97,No,No,No,6,1
+P1885,54,Male,Appendicitis,Moderate,Emergency,130,84,90,16,37.2,93,No,No,Yes,9,1
+P1886,73,Male,COPD,Moderate,Scheduled,135,95,81,21,36.7,95,No,No,Yes,8,1
+P1887,32,Male,COPD,Moderate,Scheduled,146,81,89,16,37.2,96,No,No,Yes,7,1
+P1888,49,Male,Diabetes,Moderate,Scheduled,125,66,96,21,36.5,96,No,No,No,5,0
+P1889,47,Male,Pneumonia,Severe,Emergency,122,80,103,18,37.6,88,Yes,No,No,11,1
+P1890,58,Female,Heart Disease,Severe,Emergency,130,64,95,21,37.6,92,No,No,Yes,7,1
+P1891,44,Female,Diabetes,Severe,Emergency,123,90,101,23,36.9,93,Yes,No,No,8,1
+P1892,38,Male,Appendicitis,Moderate,Emergency,121,76,77,11,37.1,96,No,No,No,5,0
+P1893,18,Female,Pneumonia,Mild,Scheduled,134,69,77,22,37.4,96,No,No,No,9,1
+P1894,47,Male,Appendicitis,Mild,Scheduled,123,82,71,14,36.9,99,No,No,No,5,0
+P1895,59,Male,COPD,Moderate,Emergency,137,87,78,16,36.5,90,No,No,Yes,6,1
+P1896,24,Male,Kidney Disease,Moderate,Scheduled,140,81,85,18,36.8,94,No,No,No,7,1
+P1897,51,Male,Kidney Disease,Moderate,Scheduled,114,75,79,19,37.5,92,No,No,Yes,9,1
+P1898,67,Male,Heart Disease,Mild,Scheduled,94,85,60,17,37.0,98,No,Yes,Yes,6,1
+P1899,38,Female,Appendicitis,Severe,Emergency,142,93,98,20,37.1,90,Yes,No,No,8,1
+P1900,55,Female,Gastroenteritis,Mild,Scheduled,124,78,74,13,37.5,97,No,No,No,1,0
+P1901,61,Female,Gastroenteritis,Mild,Scheduled,121,78,56,20,37.1,98,No,Yes,No,1,0
+P1902,51,Male,Heart Disease,Severe,Emergency,141,74,84,19,37.1,89,No,Yes,No,10,1
+P1903,52,Male,Gastroenteritis,Moderate,Scheduled,144,73,97,22,36.5,98,No,No,No,5,0
+P1904,58,Male,Diabetes,Severe,Emergency,116,81,102,23,36.9,94,No,No,No,9,1
+P1905,77,Female,Kidney Disease,Mild,Scheduled,94,88,61,12,36.4,100,No,No,Yes,9,1
+P1906,66,Female,Diabetes,Mild,Scheduled,124,79,83,13,37.1,97,Yes,Yes,No,4,0
+P1907,40,Female,Diabetes,Severe,Scheduled,128,74,90,18,36.7,91,No,No,Yes,9,1
+P1908,46,Female,Gastroenteritis,Mild,Scheduled,102,82,87,14,36.8,98,No,No,No,1,0
+P1909,22,Male,Kidney Disease,Severe,Emergency,118,74,99,20,37.9,89,No,No,No,12,1
+P1910,63,Male,COPD,Moderate,Emergency,132,83,87,18,37.4,93,No,No,No,7,1
+P1911,24,Male,COPD,Severe,Emergency,111,87,86,17,36.7,91,No,No,Yes,11,1
+P1912,43,Female,COPD,Moderate,Scheduled,111,78,106,19,37.0,94,No,No,No,3,0
+P1913,63,Female,Diabetes,Mild,Scheduled,112,81,82,17,36.8,99,No,Yes,No,1,0
+P1914,41,Male,Gastroenteritis,Mild,Emergency,115,74,74,25,37.4,99,Yes,No,Yes,7,1
+P1915,47,Female,Gastroenteritis,Mild,Emergency,151,89,76,17,36.6,95,No,No,No,2,0
+P1916,59,Male,Diabetes,Moderate,Scheduled,110,84,84,13,37.6,96,No,No,No,6,1
+P1917,36,Female,Diabetes,Mild,Scheduled,114,69,77,13,36.4,99,Yes,No,No,7,1
+P1918,78,Male,Gastroenteritis,Moderate,Scheduled,125,74,66,15,37.0,94,No,Yes,Yes,6,1
+P1919,32,Female,Pneumonia,Moderate,Emergency,147,67,90,10,37.5,90,No,No,No,12,1
+P1920,63,Female,Pneumonia,Severe,Emergency,120,80,98,18,37.0,90,No,No,Yes,11,1
+P1921,55,Male,Pneumonia,Mild,Scheduled,108,88,78,17,37.4,94,No,No,No,2,0
+P1922,31,Male,COPD,Severe,Emergency,117,87,93,15,38.0,89,No,Yes,No,13,1
+P1923,73,Male,Pneumonia,Severe,Emergency,119,77,107,14,36.7,87,No,Yes,Yes,10,1
+P1924,48,Male,Appendicitis,Moderate,Emergency,115,61,96,17,36.8,95,Yes,No,No,7,1
+P1925,33,Male,COPD,Severe,Emergency,145,90,115,24,37.1,88,No,No,No,6,1
+P1926,54,Male,Pneumonia,Severe,Emergency,104,89,87,21,38.1,91,No,No,Yes,9,1
+P1927,82,Female,Pneumonia,Mild,Scheduled,85,66,53,14,37.5,96,Yes,No,Yes,4,0
+P1928,58,Female,COPD,Moderate,Emergency,115,78,79,20,36.7,90,No,No,No,7,1
+P1929,70,Female,Asthma,Mild,Emergency,132,79,76,12,36.6,98,No,No,No,4,0
+P1930,57,Male,COPD,Moderate,Emergency,138,63,89,15,36.0,92,No,No,Yes,9,1
+P1931,67,Female,Pneumonia,Moderate,Scheduled,158,84,97,18,37.0,93,No,Yes,Yes,6,1
+P1932,85,Female,Diabetes,Mild,Emergency,112,80,86,8,36.6,97,No,No,Yes,5,0
+P1933,45,Female,Kidney Disease,Moderate,Scheduled,116,92,85,16,36.7,93,No,No,Yes,6,1
+P1934,53,Male,Appendicitis,Moderate,Scheduled,107,74,76,16,36.5,94,No,No,No,4,0
+P1935,28,Female,Pneumonia,Mild,Emergency,112,51,88,17,36.6,96,No,No,No,6,1
+P1936,68,Male,Appendicitis,Moderate,Emergency,130,84,99,15,36.2,95,No,No,Yes,6,1
+P1937,18,Female,COPD,Moderate,Emergency,133,59,91,18,36.2,90,No,No,No,9,1
+P1938,61,Male,Pneumonia,Moderate,Emergency,107,78,89,19,37.6,90,No,Yes,Yes,10,1
+P1939,39,Female,Pneumonia,Severe,Scheduled,131,77,89,22,37.7,87,No,Yes,No,13,1
+P1940,49,Female,Appendicitis,Mild,Emergency,112,87,89,17,36.9,98,No,No,No,1,0
+P1941,73,Female,COPD,Severe,Scheduled,126,80,101,19,37.9,87,Yes,Yes,No,11,1
+P1942,60,Male,Heart Disease,Moderate,Emergency,131,78,95,22,36.8,93,No,Yes,No,6,1
+P1943,73,Male,Heart Disease,Severe,Emergency,96,92,84,21,37.0,90,No,Yes,No,13,1
+P1944,88,Female,Kidney Disease,Severe,Emergency,141,79,93,22,37.0,91,No,No,No,11,1
+P1945,33,Male,Pneumonia,Mild,Scheduled,105,86,71,13,37.4,96,No,No,Yes,2,0
+P1946,50,Female,Pneumonia,Severe,Scheduled,128,91,95,24,37.6,89,No,No,No,8,1
+P1947,52,Female,Diabetes,Moderate,Emergency,121,57,82,15,37.4,95,No,No,No,3,0
+P1948,91,Male,Appendicitis,Severe,Emergency,129,85,92,23,36.8,91,No,No,Yes,10,1
+P1949,44,Male,Diabetes,Moderate,Emergency,95,82,89,15,36.2,95,No,No,No,4,0
+P1950,30,Female,Kidney Disease,Moderate,Emergency,123,83,87,16,37.2,94,No,Yes,No,7,1
+P1951,40,Female,Pneumonia,Moderate,Emergency,95,73,99,16,36.7,91,No,No,No,8,1
+P1952,31,Female,COPD,Moderate,Emergency,108,78,93,19,36.7,93,No,No,Yes,6,1
+P1953,44,Male,Asthma,Mild,Scheduled,141,78,66,12,36.2,99,No,Yes,No,2,0
+P1954,53,Female,Appendicitis,Mild,Emergency,107,81,72,15,37.3,97,Yes,No,Yes,4,0
+P1955,57,Female,Pneumonia,Moderate,Emergency,106,80,83,22,37.9,93,No,No,No,2,0
+P1956,75,Male,Appendicitis,Moderate,Emergency,112,74,74,11,36.5,94,No,Yes,No,7,1
+P1957,34,Male,Diabetes,Moderate,Emergency,124,92,90,20,36.5,92,Yes,No,Yes,9,1
+P1958,36,Female,Heart Disease,Mild,Scheduled,99,76,80,18,37.6,99,Yes,Yes,No,7,1
+P1959,57,Male,Gastroenteritis,Moderate,Scheduled,104,67,79,16,36.8,94,No,No,No,2,0
+P1960,51,Female,Asthma,Moderate,Emergency,106,72,77,17,35.8,99,No,No,No,7,1
+P1961,26,Male,Pneumonia,Severe,Emergency,131,72,89,17,37.7,91,No,No,No,3,0
+P1962,44,Male,Pneumonia,Severe,Emergency,128,90,104,19,38.0,89,Yes,No,No,11,1
+P1963,27,Female,Gastroenteritis,Moderate,Emergency,112,61,83,17,37.1,96,No,No,No,3,0
+P1964,58,Female,Heart Disease,Severe,Emergency,119,75,112,18,36.6,90,No,No,No,11,1
+P1965,40,Female,Gastroenteritis,Mild,Scheduled,111,82,77,15,37.2,100,No,Yes,No,1,0
+P1966,58,Male,Heart Disease,Mild,Emergency,122,76,91,13,37.2,98,No,Yes,Yes,5,0
+P1967,18,Male,Pneumonia,Severe,Scheduled,117,76,115,22,37.2,88,No,Yes,No,7,1
+P1968,66,Female,Diabetes,Mild,Scheduled,116,80,75,10,36.3,98,No,No,No,4,0
+P1969,18,Male,Heart Disease,Severe,Emergency,124,79,100,22,37.3,92,No,Yes,No,8,1
+P1970,76,Male,Pneumonia,Severe,Emergency,139,65,101,13,37.4,89,Yes,No,Yes,11,1
+P1971,60,Male,COPD,Moderate,Emergency,116,78,88,20,37.9,94,No,No,No,5,0
+P1972,47,Female,COPD,Mild,Emergency,133,58,85,13,36.8,93,No,No,No,4,0
+P1973,46,Female,Gastroenteritis,Severe,Scheduled,132,72,97,19,36.9,93,Yes,No,No,6,1
+P1974,65,Female,Gastroenteritis,Moderate,Scheduled,127,69,71,16,36.9,93,Yes,Yes,No,5,0
+P1975,18,Female,Asthma,Mild,Emergency,110,84,81,13,37.6,97,No,No,No,5,0
+P1976,37,Male,Diabetes,Severe,Emergency,122,83,71,18,37.3,90,No,No,No,7,1
+P1977,53,Female,Asthma,Severe,Emergency,117,94,69,17,37.5,95,No,No,No,6,1
+P1978,29,Female,Pneumonia,Moderate,Emergency,127,79,72,17,37.3,95,No,No,No,3,0
+P1979,43,Male,Asthma,Moderate,Emergency,132,89,72,14,37.0,96,Yes,No,No,7,1
+P1980,95,Female,Gastroenteritis,Moderate,Emergency,118,73,84,17,37.3,95,No,Yes,Yes,5,0
+P1981,40,Male,Gastroenteritis,Moderate,Scheduled,146,91,94,19,37.1,95,No,No,Yes,2,0
+P1982,62,Male,Pneumonia,Severe,Scheduled,144,91,113,20,38.3,88,No,No,No,11,1
+P1983,50,Female,Asthma,Mild,Emergency,118,63,76,17,37.2,97,No,No,No,1,0
+P1984,50,Female,COPD,Severe,Emergency,110,57,89,19,37.5,92,No,No,Yes,13,1
+P1985,18,Female,Pneumonia,Moderate,Emergency,115,69,78,17,37.3,94,No,No,No,7,1
+P1986,54,Male,Asthma,Mild,Scheduled,117,82,71,18,37.1,96,No,No,No,1,0
+P1987,24,Male,COPD,Moderate,Scheduled,93,82,86,18,36.9,92,No,No,No,6,1
+P1988,18,Female,Kidney Disease,Moderate,Scheduled,106,75,87,14,37.3,95,No,No,No,9,1
+P1989,95,Female,Asthma,Severe,Emergency,152,73,80,18,37.1,94,No,No,No,8,1
+P1990,18,Female,Pneumonia,Severe,Emergency,128,83,96,14,37.7,90,No,Yes,No,10,1
+P1991,27,Female,COPD,Severe,Emergency,128,80,85,18,37.3,86,No,No,Yes,11,1
+P1992,20,Male,Diabetes,Moderate,Scheduled,122,66,62,16,37.0,95,Yes,No,No,5,0
+P1993,45,Female,Asthma,Severe,Emergency,121,73,101,20,36.4,93,Yes,No,No,5,0
+P1994,44,Male,Appendicitis,Severe,Emergency,138,89,91,17,37.4,92,No,Yes,No,8,1
+P1995,63,Female,Asthma,Mild,Scheduled,130,77,71,17,36.6,96,No,No,No,5,0
+P1996,46,Female,Kidney Disease,Severe,Scheduled,103,75,102,15,36.9,90,No,No,No,9,1
+P1997,95,Male,COPD,Severe,Emergency,123,77,97,15,37.6,93,No,Yes,No,12,1
+P1998,66,Male,Heart Disease,Mild,Emergency,127,75,75,13,37.1,97,No,No,Yes,7,1
+P1999,18,Female,Heart Disease,Mild,Scheduled,115,78,83,16,36.9,97,No,No,No,4,0
+P2000,57,Male,Pneumonia,Moderate,Scheduled,128,95,99,18,37.1,92,No,No,Yes,6,1

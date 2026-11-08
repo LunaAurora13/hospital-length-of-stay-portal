@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Records - Hospital Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Custom styled scrollbars for effortless navigation */
+        .table-responsive::-webkit-scrollbar {
+            height: 10px;
+            width: 8px;
+        }
+        .table-responsive::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        .table-responsive::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 5px;
+        }
+        .table-responsive::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Fixed height container showing roughly 7 rows */
+        .table-container-wrapper {
+            max-height: 420px; /* Exactly tuned for ~7 patient rows plus header */
+            overflow-y: auto;
+            overflow-x: auto;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Hospital Portal</h2>
+        <a href="/">Dashboard</a>
+        <a href="/patients" class="active">Patient Records</a>
+        <a href="/search">Search Patient</a>
+        <a href="/predict">Predict Stay</a>
+        <a href="/performance">Model Performance</a>
+    </div>
+
+    <div class="main-content">
+        <h1>Patient Records Directory (All 17 Columns)</h1>
+        <p class="subtitle">Complete clinical database of all 2,000 registered patient admissions.</p>
+
+        <div class="card" style="padding: 0; overflow: hidden; border: 1px solid #e2e8f0;">
+            <div class="table-responsive table-container-wrapper">
+                <table style="width: 100%; border-collapse: collapse; text-align: left; white-space: nowrap;">
+                    <thead style="background: #f8fafc; position: sticky; top: 0; border-bottom: 2px solid #cbd5e1; z-index: 10;">
+                        <tr>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Patient ID</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Age</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Gender</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Disease</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Severity</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Admission Type</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Systolic BP</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Diastolic BP</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Heart Rate</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Respiratory Rate</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Temperature</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Oxygen Saturation</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Diabetes</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Hypertension</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Previous Hospitalization</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Length of Stay (Days)</th>
+                            <th style="padding: 14px 16px; color: #1e293b; font-weight: 700; font-size: 13px; background: #f8fafc;">Long Stay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for p in patients %}
+                        <tr style="border-bottom: 1px solid #f1f5f9; transition: background 0.1s;" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='white'">
+                            <td style="padding: 12px 16px; font-weight: 600; color: #0284c7; font-size: 13px;">{{ p.Patient_ID }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Age }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Gender }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Disease }}</td>
+                            <td style="padding: 12px 16px; font-size: 13px;">
+                                <span style="padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: 500;
+                                    {% if p.Severity == 'Severe' %}background: #fee2e2; color: #b91c1c;
+                                    {% elif p.Severity == 'Moderate' %}background: #fef3c7; color: #b45309;
+                                    {% else %}background: #d1fae5; color: #047857;{% endif %}">
+                                    {{ p.Severity }}
+                                </span>
+                            </td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Admission_Type }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Systolic_BP }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Diastolic_BP }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Heart_Rate }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Respiratory_Rate }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Temperature }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Oxygen_Saturation }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Diabetes }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Hypertension }}</td>
+                            <td style="padding: 12px 16px; color: #334155; font-size: 13px;">{{ p.Previous_Hospitalization }}</td>
+                            <td style="padding: 12px 16px; font-weight: 600; color: #0f172a; font-size: 13px;">{{ p.Length_of_Stay_Days }}</td>
+                            <td style="padding: 12px 16px; font-weight: 600; font-size: 13px; color: {% if p.Long_Stay == 1 %}#d97706{% else %}#059669{% endif %};">{{ p.Long_Stay }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

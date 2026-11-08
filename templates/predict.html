@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict Stay & Clinical Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Hospital Portal</h2>
+        <a href="/">Dashboard</a>
+        <a href="/patients">Patient Records</a>
+        <a href="/search">Search Patient</a>
+        <a href="/predict" class="active">Predict Stay</a>
+        <a href="/performance">Model Performance</a>
+    </div>
+
+    <div class="main-content">
+        <h1>Instant Patient Simulation & Clinical Reasoning</h1>
+        <p class="subtitle">Complete patient history, vital signs, and AI length-of-stay evaluation.</p>
+
+        <!-- Simulation Grid -->
+        <div style="display: grid; grid-template-columns: 1fr 1.6fr; gap: 25px; align-items: start; margin-bottom: 30px;">
+            <!-- Input Card -->
+            <div class="card">
+                <h3 style="margin-bottom: 15px;">Simulation Input</h3>
+                <form method="POST">
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; font-weight: 600; margin-bottom: 8px; color: #475569; font-size: 14px;">Patient ID:</label>
+                        <input type="text" name="patient_id" placeholder="e.g. P0001" required>
+                    </div>
+                    <button type="submit" class="btn-submit" style="width: 100%;">Run AI Simulation</button>
+                </form>
+
+                {% if error %}
+                <div style="margin-top: 20px; background: #fee2e2; color: #b91c1c; padding: 12px; border-radius: 8px; border-left: 4px solid #ef4444; font-size: 14px;">
+                    {{ error }}
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Output & Metrics Card -->
+            <div class="card">
+                <h3 style="margin-bottom: 15px;">Model Evaluation & Confidence Output</h3>
+
+                {% if prediction %}
+                <div style="background: #f0fdf4; border-left: 5px solid #10b981; padding: 18px; border-radius: 12px; margin-bottom: 20px;">
+                    <h2 style="margin: 0; color: #065f46; font-size: 22px;">{{ prediction }}</h2>
+                    <p style="margin: 6px 0 0 0; color: #047857; font-size: 14px;">Prediction Confidence: <strong>{{ probability }}%</strong></p>
+                </div>
+
+                <!-- Model Core Metrics Grid -->
+                <h4 style="color: #334155; font-size: 15px; margin: 20px 0 10px 0;">Global Validation Metrics (Full 2,000 Dataset)</h4>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 20px;">
+                    <div style="background: #f8fafc; padding: 12px; border-radius: 10px; border: 1px solid #e2e8f0; text-align: center;">
+                        <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600;">PRECISION</span>
+                        <strong style="color: #0284c7; font-size: 16px;">{{ precision }}%</strong>
+                    </div>
+                    <div style="background: #f8fafc; padding: 12px; border-radius: 10px; border: 1px solid #e2e8f0; text-align: center;">
+                        <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600;">RECALL</span>
+                        <strong style="color: #8b5cf6; font-size: 16px;">{{ recall }}%</strong>
+                    </div>
+                    <div style="background: #f8fafc; padding: 12px; border-radius: 10px; border: 1px solid #e2e8f0; text-align: center;">
+                        <span style="display: block; font-size: 11px; color: #64748b; font-weight: 600;">F1-SCORE</span>
+                        <strong style="color: #ec4899; font-size: 16px;">{{ f1 }}%</strong>
+                    </div>
+                </div>
+
+                <!-- Detailed Clinical Reasoning Explanation -->
+                <div style="background: #f8fafc; padding: 16px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <h4 style="margin: 0 0 8px 0; color: #1e293b; font-size: 14px;">Clinical Reasoning & Safety Assessment</h4>
+                    <p style="margin: 0; color: #475569; font-size: 13px; line-height: 1.6;">
+                        The model evaluated this case with <strong>{{ probability }}% confidence</strong>. For Patient <strong>{{ patient.Patient_ID }}</strong> (Age: {{ patient.Age }}, Disease: {{ patient.Disease }}, Severity: {{ patient.Severity }}),
+                        active comorbidity indicators (Diabetes: <strong>{{ patient.Diabetes }}</strong>, Hypertension: <strong>{{ patient.Hypertension }}</strong>, Previous Hospitalizations: <strong>{{ patient.Previous_Hospitalization }}</strong>)
+                        and hemodynamic vitals (Systolic BP: {{ patient.Systolic_BP }} mmHg, Diastolic BP: {{ patient.Diastolic_BP }} mmHg, Oxygen Saturation: {{ patient.Oxygen_Saturation }}%) are factored in.
+                        Clinical note: Pre-operative management of elevated comorbidity risks is critical before scheduling invasive procedures to prevent surgical complications.
+                    </p>
+                </div>
+                {% else %}
+                <p style="color: #64748b; text-align: center; margin: 40px 0; font-size: 14px;">Enter a Patient ID on the left to run the evaluation model and inspect the complete clinical history profile.</p>
+                {% endif %}
+
+                {% if patient %}
+                <div style="margin-top: 25px;">
+                    <h4 style="color: #334155; font-size: 15px; margin-bottom: 10px;">Complete Patient Clinical Profile (All 17 Columns) for {{ patient.Patient_ID }}:</h4>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Patient ID:</strong> {{ patient.Patient_ID }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Age:</strong> {{ patient.Age }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Gender:</strong> {{ patient.Gender }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Disease:</strong> {{ patient.Disease }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Severity:</strong> {{ patient.Severity }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Admission Type:</strong> {{ patient.Admission_Type }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Systolic BP:</strong> {{ patient.Systolic_BP }} mmHg</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Diastolic BP:</strong> {{ patient.Diastolic_BP }} mmHg</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Heart Rate:</strong> {{ patient.Heart_Rate }} bpm</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Respiratory Rate:</strong> {{ patient.Respiratory_Rate }} /min</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Temperature:</strong> {{ patient.Temperature }} °F</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Oxygen Saturation:</strong> {{ patient.Oxygen_Saturation }}%</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Diabetes:</strong> {{ patient.Diabetes }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Hypertension:</strong> {{ patient.Hypertension }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Previous Hospitalization:</strong> {{ patient.Previous_Hospitalization }}</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Length of Stay:</strong> {{ patient.Length_of_Stay_Days }} Days</div>
+                        <div style="background: #f8fafc; padding: 10px; border-radius: 8px; font-size: 13px; border: 1px solid #e2e8f0;"><strong>Long Stay Flag:</strong> {{ patient.Long_Stay }}</div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Saved History Log Table -->
+        <div class="card" style="padding: 24px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 15px;">
+                <h3 style="margin: 0; font-size: 18px;">Saved Prediction History Log ({{ history | length }} Patients)</h3>
+                {% if history %}
+                <a href="/clear_history" style="background: #fee2e2; color: #b91c1c; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 600;">Clear History</a>
+                {% endif %}
+            </div>
+
+            {% if history %}
+            <div style="max-height: 350px; overflow-y: auto;">
+                <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                    <thead style="background: #f8fafc; position: sticky; top: 0; border-bottom: 2px solid #e2e8f0;">
+                        <tr>
+                            <th style="padding: 12px; color: #475569; font-size: 13px;">Time</th>
+                            <th style="padding: 12px; color: #475569; font-size: 13px;">Patient ID</th>
+                            <th style="padding: 12px; color: #475569; font-size: 13px;">Age</th>
+                            <th style="padding: 12px; color: #475569; font-size: 13px;">Disease</th>
+                            <th style="padding: 12px; color: #475569; font-size: 13px;">Severity</th>
+                            <th style="padding: 12px; color: #475569; font-size: 13px;">Prediction</th>
+                            <th style="padding: 12px; color: #475569; font-size: 13px;">Confidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in history %}
+                        <tr style="border-bottom: 1px solid #f1f5f9;">
+                            <td style="padding: 12px; color: #64748b; font-size: 13px;">{{ item.Time }}</td>
+                            <td style="padding: 12px; font-weight: 600; color: #0284c7; font-size: 13px;">{{ item.Patient_ID }}</td>
+                            <td style="padding: 12px; color: #334155; font-size: 13px;">{{ item.Age }}</td>
+                            <td style="padding: 12px; color: #334155; font-size: 13px;">{{ item.Disease }}</td>
+                            <td style="padding: 12px; font-size: 13px;">{{ item.Severity }}</td>
+                            <td style="padding: 12px; font-weight: 600; color: #0f172a; font-size: 13px;">{{ item.Prediction }}</td>
+                            <td style="padding: 12px; color: #0284c7; font-weight: 600; font-size: 13px;">{{ item.Probability }}%</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <p style="color: #64748b; text-align: center; margin: 25px 0; font-size: 14px;">No prediction history logged yet.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

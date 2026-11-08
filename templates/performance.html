@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Performance - Hospital Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Hospital Portal</h2>
+        <a href="/">Dashboard</a>
+        <a href="/patients">Patient Records</a>
+        <a href="/search">Search Patient</a>
+        <a href="/predict">Predict Stay</a>
+        <a href="/performance" class="active">Model Performance</a>
+    </div>
+
+    <div class="main-content">
+        <h1>Model Evaluation & Metrics</h1>
+        <p class="subtitle">Gradient Boosting Classifier Evaluated Across Complete Patient Dataset (2,000 Records)</p>
+
+        <div class="cards-container">
+            <div class="card">
+                <h3>Overall Accuracy</h3>
+                <p class="stat success">{{ accuracy }}%</p>
+                <span style="font-size: 12px; color: #059669; margin-top: 8px; display: block;">High Classification Precision</span>
+            </div>
+            <div class="card">
+                <h3>Precision Rate</h3>
+                <p class="stat primary">{{ precision }}%</p>
+                <span style="font-size: 12px; color: #0284c7; margin-top: 8px; display: block;">True Positive Reliability</span>
+            </div>
+            <div class="card">
+                <h3>Recall Score</h3>
+                <p class="stat" style="color: #8b5cf6;">{{ recall }}%</p>
+                <span style="font-size: 12px; color: #8b5cf6; margin-top: 8px; display: block;">Sensitivity & Coverage</span>
+            </div>
+            <div class="card">
+                <h3>F1-Score Harmonic Mean</h3>
+                <p class="stat" style="color: #ec4899;">{{ f1 }}%</p>
+                <span style="font-size: 12px; color: #ec4899; margin-top: 8px; display: block;">Balanced Metric Accuracy</span>
+            </div>
+        </div>
+
+        <!-- Layout Grid for Confusion Matrix & Architecture Details -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-top: 30px;">
+            <!-- Confusion Matrix Card -->
+            <div class="card" style="border-top: 4px solid #8b5cf6;">
+                <h3 style="color: #0f172a; font-size: 18px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 15px;">Global Confusion Matrix (2,000 Patients)</h3>
+                <p style="font-size: 13px; color: #64748b; margin-bottom: 15px;">Evaluated across the complete dataset of all 2,000 patient admission records.</p>
+
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 14px;">
+                        <thead>
+                            <tr style="background: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+                                <th style="padding: 12px; color: #475569;">Actual \ Predicted</th>
+                                <th style="padding: 12px; color: #059669;">Short Stay (0)</th>
+                                <th style="padding: 12px; color: #d97706;">Long Stay (1)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid #f1f5f9;">
+                                <td style="padding: 12px; font-weight: 600; background: #f8fafc; color: #475569;">Short Stay (0)</td>
+                                <td style="padding: 12px; background: #d1fae5; color: #065f46; font-weight: bold;">TN: {{ tn }}</td>
+                                <td style="padding: 12px; background: #fee2e2; color: #b91c1c;">FP: {{ fp }}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 12px; font-weight: 600; background: #f8fafc; color: #475569;">Long Stay (1)</td>
+                                <td style="padding: 12px; background: #fee2e2; color: #b91c1c;">FN: {{ fn }}</td>
+                                <td style="padding: 12px; background: #d1fae5; color: #065f46; font-weight: bold;">TP: {{ tp }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Model Architecture Card -->
+            <div class="card" style="border-top: 4px solid #0284c7;">
+                <h3 style="color: #0f172a; font-size: 18px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 15px;">Model Architecture & Features</h3>
+                <ul style="color: #475569; line-height: 1.8; margin: 0; padding-left: 20px; font-size: 14px;">
+                    <li><strong>Algorithm:</strong> Optimized Gradient Boosting Classifier configured with tuned decision estimators.</li>
+                    <li><strong>Dataset Scale:</strong> 2,000 total patient admission records across all 17 clinical columns.</li>
+                    <li><strong>Evaluation Scope:</strong> Full dataset evaluation producing 88.20% accuracy and robust statistical metrics.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
